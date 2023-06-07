@@ -6,7 +6,7 @@ const PreViewer = ({changeBack, cards, sortCards, dragStartHandler, dragLeaveHan
     return (
         <Wrapper change={changeBack}>
             {cards.sort(sortCards).map(card => {
-                if (card.id < 9) {
+                if (card?.id < 9 && card?.id !== undefined) {
                     return (
                         <Cell 
                         onDragStart={(e) => dragStartHandler(e, card)} 
@@ -14,9 +14,9 @@ const PreViewer = ({changeBack, cards, sortCards, dragStartHandler, dragLeaveHan
                         onDragEnd={(e) => dragEndHandler(e)}
                         onDragOver={(e) => dragOverHandler(e)}
                         onDrop={(e) => dropHandler(e, card)}
-                        key={card.id}
+                        key={card?.id}
                         draggable={true}>
-                            <CellImg w={card.w} h={card.h} src={card.src} />
+                            <CellImg w={card?.w} h={card?.h} src={card?.src} />
                         </Cell>
                     )
                 }

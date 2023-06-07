@@ -28,14 +28,14 @@ export const CellImg = styled.img`
 export const Btn = styled.button`
     position: absolute;
     bottom: 0;
-    right: 46.8%;
+    right: 48%;
     margin: 0.2vw;
-    width: 6vw;
-    height: 4vh;
+    width: 2.8vw;
+    height: 2.8vw;
     background: black;
     color: white;
-    border-radius: 5px;
-    margin-bottom: 1vh;
+    border-radius: 50%;
+    // margin-bottom: 1vh;
     font-size: 26px;
     ${props => props.btnback && `
         background: white;
