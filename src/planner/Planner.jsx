@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Wrapper } from './styled';
+import { LeftCloser, RightCloser, Wrapper } from './styled';
 import InstaGrid from '../components/insta-grid/InstaGrid';
 import PreViewer from '../components/pre-viewer/PreViewer';
 import Referencer from '../components/referencer/Referencer';
@@ -10,6 +10,8 @@ const Planner = () => {
     const [changeBack, setChangeBack] = useState(false)
     const [openCard, setOpenCard] = useState(null)
     const [openModal, setOpenModal] = useState(false)
+    const [showPrev, setShowPrev] = useState(true)
+    const [showRef, setShowRef] = useState(true)
 
     const [cards, setCards] = useState([])
 
@@ -30,16 +32,16 @@ const Planner = () => {
         e.stopPropagation()
         e.preventDefault()
 
-        if (currentCard.id === 23 && card.id === 24) {
+        if (currentCard.id === 30 && card.id === 31) {
             setCards(cards.reverse().map(c => {
-                if (c.id > 11 && c.id < 24) {
-                    for (let i = 23; i > 12; i--) {
+                if (c.id > 19 && c.id < 31) {
+                    for (let i = 30; i > 19; i--) {
 
-                        if (c.id === i && c.id !== 12) {
+                        if (c.id === i && c.id !== 19) {
                             localStorage.setItem(String(c.id), JSON.stringify({...c, src: cards.find(p => p.id === i - 1).src, w: cards.find(p => p.id === i - 1).w, h: cards.find(p => p.id === i - 1).h}))
                             return {...c, src: cards.find(p => p.id === i - 1).src, w: cards.find(p => p.id === i - 1).w, h: cards.find(p => p.id === i - 1).h}
                         } 
-                        if (c.id === 12) {
+                        if (c.id === 19) {
                             localStorage.setItem(String(c.id), JSON.stringify({...c, src: ''}))
                             return {...c, src: ''}
                         }
@@ -48,7 +50,7 @@ const Planner = () => {
                 return c
             }))
 
-        } else if (currentCard.id !== 23 && card.id === 24) {
+        } else if (currentCard.id !== 30 && card.id === 31) {
             setCards(cards.map(c => { return c }))
         } else {
             setCards(cards.map(c => {
@@ -83,7 +85,7 @@ const Planner = () => {
         if (JSON.parse(localStorage.getItem('1') !== null)) {
             console.log(JSON.parse(localStorage.getItem('1')))
             const reternArr = []
-            for (let i = 1; i < 25; i++) {
+            for (let i = 1; i < 32; i++) {
                 reternArr.push(JSON.parse(localStorage.getItem(i)))
             }
             setCards(reternArr)
@@ -94,7 +96,7 @@ const Planner = () => {
     
             const newArr = []
     
-            for (let i = 1; i < 25; i++) {
+            for (let i = 1; i < 32; i++) {
                 newArr.push(JSON.parse(localStorage.getItem(i)))
             }
             setCards(newArr)
@@ -105,10 +107,13 @@ const Planner = () => {
 
         const newArr = []
 
-        for (let i = 1; i < 25; i++) {
+        setCurrentcard(myCards.find(card => card.id === 23))
+
+        for (let i = 1; i < 32; i++) {
             newArr.push(JSON.parse(localStorage.getItem(i)))
         }
         setCards(newArr)
+
     }, [])
 
     localStorage.clear()
@@ -119,7 +124,7 @@ const Planner = () => {
             <Modal openCard={openCard} setOpenModal={setOpenModal} cards={cards} setCards={setCards} />
         :
         <>
-            <PreViewer
+                <PreViewer
                 cards={cards}
                 sortCards={sortCards}
                 dragStartHandler={dragStartHandler}
@@ -127,8 +132,9 @@ const Planner = () => {
                 dragOverHandler={dragOverHandler}
                 dragEndHandler={dragEndHandler}
                 dropHandler={dropHandler}
-                changeBack={changeBack}
+                showPrev={showPrev}
                 />
+                <LeftCloser close={!showPrev} open={showPrev} onClick={() => setShowPrev(!showPrev)}>{showPrev ? `<` : `>`}</LeftCloser>
                 <InstaGrid
                 cards={cards}
                 sortCards={sortCards}
@@ -141,7 +147,8 @@ const Planner = () => {
                 setChangeBack={setChangeBack}
                 handleOpen={handleOpen}
                 />
-                <Referencer changeBack={changeBack} />
+                <RightCloser click={!showRef} onClick={() => setShowRef(!showRef)}>{showRef ? `>` : `<`}</RightCloser>
+                <Referencer show={showRef} />
         </>
         }
         </Wrapper>

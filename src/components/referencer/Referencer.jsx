@@ -1,15 +1,15 @@
 import React from 'react';
 import { Cell, CellImg, Wrapper } from './styled';
 
-const Referencer = ({changeBack}) => {
+const Referencer = ({show}) => {
 
     return (
-        <Wrapper change={changeBack}>
-            <Cell>
-                <CellImg src={require('../../img/ref/3.jpg')} />
+        <Wrapper hidden={!show}>
+            <Cell hidden={!show}>
+                <CellImg closeW={!show} openW={show} src={require('../../img/ref/4.jpg')} />
             </Cell>
-            <Cell>
-                <CellImg src={require('../../img/ref/2.jpg')} />
+            <Cell  hidden={!show}>
+                <CellImg closeW={!show} openW={show} src={require('../../img/ref/2.jpg')} />
             </Cell>
         </Wrapper>
     );
