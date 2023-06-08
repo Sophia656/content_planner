@@ -35,6 +35,12 @@ const PreViewer = ({changeBack, cards, sortCards, dragStartHandler, dragLeaveHan
             }
         }))
     }
+
+    const handleUnhover = () => {
+        setMenuItems(menuItems.map(item => {
+            return {...item, hover: false}
+        }))
+    } 
     
     return (
         <>
@@ -48,6 +54,7 @@ const PreViewer = ({changeBack, cards, sortCards, dragStartHandler, dragLeaveHan
                     active={i.active} 
                     onClick={() => handleChoose(i.id)}
                     onMouseEnter={() => handleHover(i.id)}
+                    onMouseOut={() => handleUnhover()}
                     >
                         {i.name}
                     </MenuItem> 
