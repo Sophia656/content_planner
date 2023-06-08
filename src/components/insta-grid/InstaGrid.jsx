@@ -11,7 +11,7 @@ const InstaGrid = ({changeBack, setChangeBack, cards, sortCards, dragStartHandle
         <div>
             <PlannerWrap back={changeBack}>
                 {cards.sort(sortCards).map(card => {
-                    if (card?.id > 15 && card?.id < 31  && card?.id !== undefined) {
+                    if (card?.id > 60 && card?.id < 76  && card?.id !== undefined) {
                         return (
                             <Cell 
                             onDragStart={(e) => dragStartHandler(e, card)} 
@@ -30,7 +30,7 @@ const InstaGrid = ({changeBack, setChangeBack, cards, sortCards, dragStartHandle
             </PlannerWrap>
             <Btn btnback={changeBack} onClick={() => handleChangeBack()}>{changeBack ? '🌚️' : '🌝' }</Btn>
             {cards.map(card => {
-                if (card?.id === 31 && card?.id !== undefined) {
+                if (card?.id === 76 && card?.id !== undefined) {
                     return (
                         <Cell 
                         style={{width: '6vw', 

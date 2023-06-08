@@ -9,7 +9,7 @@ const Referencer = ({show}) => {
                 <CellImg closeW={!show} openW={show} src={require('../../img/ref/4.jpg')} />
             </Cell>
             <Cell  hidden={!show}>
-                <CellImg closeW={!show} openW={show} src={require('../../img/ref/2.jpg')} />
+                <CellImg closeW={!show} openW={show} src={require('../../img/ref/1.jpg')} />
             </Cell>
         </Wrapper>
     );

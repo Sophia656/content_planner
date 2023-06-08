@@ -32,16 +32,15 @@ const Planner = () => {
         e.stopPropagation()
         e.preventDefault()
 
-        if (currentCard.id === 30 && card.id === 31) {
+        if (currentCard.id === 75 && card.id === 76) {
             setCards(cards.reverse().map(c => {
-                if (c.id > 19 && c.id < 31) {
-                    for (let i = 30; i > 19; i--) {
-
-                        if (c.id === i && c.id !== 19) {
+                if (c.id > 63 && c.id < 76) {
+                    for (let i = 75; i > 63; i--) {
+                        if (c.id === i && c.id !== 64) {
                             localStorage.setItem(String(c.id), JSON.stringify({...c, src: cards.find(p => p.id === i - 1).src, w: cards.find(p => p.id === i - 1).w, h: cards.find(p => p.id === i - 1).h}))
                             return {...c, src: cards.find(p => p.id === i - 1).src, w: cards.find(p => p.id === i - 1).w, h: cards.find(p => p.id === i - 1).h}
                         } 
-                        if (c.id === 19) {
+                        if (c.id === 64) {
                             localStorage.setItem(String(c.id), JSON.stringify({...c, src: ''}))
                             return {...c, src: ''}
                         }
@@ -50,7 +49,7 @@ const Planner = () => {
                 return c
             }))
 
-        } else if (currentCard.id !== 30 && card.id === 31) {
+        } else if (currentCard.id !== 75 && card.id === 76) {
             setCards(cards.map(c => { return c }))
         } else {
             setCards(cards.map(c => {
@@ -85,7 +84,7 @@ const Planner = () => {
         if (JSON.parse(localStorage.getItem('1') !== null)) {
             console.log(JSON.parse(localStorage.getItem('1')))
             const reternArr = []
-            for (let i = 1; i < 32; i++) {
+            for (let i = 1; i < 77; i++) {
                 reternArr.push(JSON.parse(localStorage.getItem(i)))
             }
             setCards(reternArr)
@@ -96,7 +95,7 @@ const Planner = () => {
     
             const newArr = []
     
-            for (let i = 1; i < 32; i++) {
+            for (let i = 1; i < 77; i++) {
                 newArr.push(JSON.parse(localStorage.getItem(i)))
             }
             setCards(newArr)
@@ -109,7 +108,7 @@ const Planner = () => {
 
         setCurrentcard(myCards.find(card => card.id === 23))
 
-        for (let i = 1; i < 32; i++) {
+        for (let i = 1; i < 77; i++) {
             newArr.push(JSON.parse(localStorage.getItem(i)))
         }
         setCards(newArr)
@@ -133,6 +132,7 @@ const Planner = () => {
                 dragEndHandler={dragEndHandler}
                 dropHandler={dropHandler}
                 showPrev={showPrev}
+                changeBack={changeBack}
                 />
                 <LeftCloser close={!showPrev} open={showPrev} onClick={() => setShowPrev(!showPrev)}>{showPrev ? `<` : `>`}</LeftCloser>
                 <InstaGrid
