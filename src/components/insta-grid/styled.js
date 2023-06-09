@@ -4,29 +4,32 @@ export const PlannerWrap = styled.div`
     position: fixed;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(5, 1fr);
+    grid-template-rows: repeat(8, 1fr);
     gap: 0.1vw;
-    padding: 3vw 3.4vw;
-    width: 37vw;
-    height: 98vh;
-    border-radius: 5px;
-    // margin-left: -6vw;
+    padding: 3.2vw 1.9vw 3.2vw 1.8vw;
+    width: 31vw;
+    height: 92vh;
+    border-radius: 35px;
     background: white;
-    // position: relative;
-    top: 0.5%;
-    left: 31.7%;
+    top: 1%;
+    left: 35%;
     border: 1px solid black;
     transition-duration: 1.2s;
     transition-timing-function: easy-in;
     ${props => props.back && `
         background: black;
         border: 1px solid white;
+        box-shadow: 2px 2px 20px 7px rgba(255, 255, 255, 0.3);
     `}
+    // overflow: hidden;
+    // overflow: scroll;
+    // scrollbar-color: red orange;
+    // scrollbar-width: thin;
 `
 
 export const Cell = styled.div`
-    width: 10vw;
-    height: 10vw;
+    width: 9vw;
+    height: 9vw;
     background: ${props => props.img || 'lightgrey'};
     background-size: cover;
     position: relative;
@@ -45,18 +48,66 @@ export const Btn = styled.button`
     position: absolute;
     bottom: 0;
     right: 48%;
-    margin: 0.2vw;
-    width: 2.8vw;
-    height: 2.8vw;
+    padding-top: 2px;
+    margin-bottom: 2vh;
+    width: 2.2vw;
+    height: 2.2vw;
     background: black;
     color: white;
     cursor: pointer;
     border-radius: 50%;
     font-size: 26px;
+    box-shadow: 0px 0px 5px 4px rgba(0, 0, 0, 0.9);
     transition-duration: 1s;
     transition-timing-function: easy-in;
     ${props => props.btnback && `
         background: white;
         color: black;
+        box-shadow: 0px 0px 5px 4px rgba(255, 255, 255, 0.9);
     `}
+`
+
+export const Plus = styled.div`
+    position: absolute;
+    width: 3vw;
+    height: 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 80px;
+    color: white;
+`
+
+export const Line = styled.div`
+position: fixed;
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: repeat(8, 1fr);
+gap: 0.1vw;
+padding: 3.2vw 1.9vw 3.2vw 1.8vw;
+width: 31vw;
+height: 92vh;
+border-radius: 35px;
+background: transparent;
+top: 1%;
+left: 34.5%;
+border-left: 25px solid black;
+border-right: 25px solid black;
+border-bottom: 53px solid black;
+border-top: 1px solid black;
+box-shadow: 1px 10px 1px 1px rgba(0, 0, 0) inset;
+
+    // position: absolute;
+    // top: 1.2%;
+    // bottom: 0;
+    // right: 34.65%;
+    // width: 1.6vw;
+    // height: 91.5vh;
+    // background: black;
+    // border-radius: 0 55px 55px 0;
+    z-index: 300;
+    // &:nth-child(2) {
+    //     right: 63.7%;
+    //     border-radius: 55px 0 0 55px;
+    // }
 `

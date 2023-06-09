@@ -3,12 +3,17 @@ import styled from 'styled-components';
 export const Wrapper = styled.div`
     width: 100vw;
     height: 100vh;
+    overflow: hidden;
+    scroll: disabled;
     background: grey;
     display: flex;
     align-items: center;
     justify-content: space-between;
     position: relative;
     padding-bottom: 1vh;
+    -webkit-box-shadow: 0 0 50px 3px rgba(0, 0, 0, 0.4) inset;
+    -moz-box-shadow: 0 0 50px 3px rgba(0, 0, 0, 0.4) inset;
+    box-shadow: 0 0 50px 3px rgba(0, 0, 0, 0.4) inset;
 `
 
 export const RightCloser = styled.div`

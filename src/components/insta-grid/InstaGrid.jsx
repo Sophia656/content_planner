@@ -1,5 +1,5 @@
 import React from 'react';
-import { Btn, Cell, CellImg, PlannerWrap } from './styled';
+import { Btn, Cell, CellImg, Line, PlannerWrap, Plus } from './styled';
 
 const InstaGrid = ({changeBack, setChangeBack, cards, sortCards, dragStartHandler, dragLeaveHandler, dragOverHandler, dragEndHandler, dropHandler, handleOpen}) => {
     
@@ -9,6 +9,8 @@ const InstaGrid = ({changeBack, setChangeBack, cards, sortCards, dragStartHandle
 
     return (
         <div>
+            {/* <Line /> */}
+            {/* <Line /> */}
             <PlannerWrap back={changeBack}>
                 {cards.sort(sortCards).map(card => {
                     if (card?.id > 60 && card?.id < 76  && card?.id !== undefined) {
@@ -22,6 +24,7 @@ const InstaGrid = ({changeBack, setChangeBack, cards, sortCards, dragStartHandle
                             // onClick={() => handleOpen(card)}
                             key={card?.id}
                             draggable={true}>
+                                {card?.src === '' && <Plus>+</Plus>}
                                 <CellImg w={card?.w} h={card?.h} src={card?.src} />
                             </Cell>
                         )

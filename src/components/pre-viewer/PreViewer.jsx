@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Cell, CellImg, DragAndDrop, Menu, MenuItem, Wrapper } from './styled';
 
 const PreViewer = ({changeBack, cards, sortCards, dragStartHandler, dragLeaveHandler, dragOverHandler, dragEndHandler, dropHandler, showPrev}) => {
@@ -12,6 +12,18 @@ const PreViewer = ({changeBack, cards, sortCards, dragStartHandler, dragLeaveHan
 
     const [numOfLargestIdSelected, setNumOfLargestIdSelected] = useState(13)
     const [numOfSmallestIdSelected, setNumOfSmallestIdSelected] = useState(0)
+    
+
+    const [cellBorder, setCellBorder] = useState('')
+
+    useEffect(() => {
+        if (!changeBack) {
+            setCellBorder('1px solid black')
+        }
+        if (changeBack) {
+            setCellBorder('1px solid white')
+        }
+    }, [changeBack])
     
     const [drag, setDrag] = useState(false)
 
@@ -90,13 +102,16 @@ const PreViewer = ({changeBack, cards, sortCards, dragStartHandler, dragLeaveHan
                                 onDragOver={(e) => dragOverHandler(e)}
                                 onDrop={(e) => dropHandler(e, card)}
                                 key={card?.id}
+                                border={card?.src === '' && cellBorder}
                                 dragging={showPrev ? true : false}>
                                     {card?.src === '' && 
                                         <DragAndDrop
                                         onDragStart={(e) => handleDragStart(e)}
                                         onDragLeave={(e) => handleDragLeave(e)}
                                         onDragOver={(e) => handleDragStart(e)}
+                                        onDragEnd={(e) => handleDragLeave(e)}
                                         onDrop={(e) => onDropHandler(e)}
+                                        changeBack={changeBack}
                                         >
                                             {drag ? 'RELEASE THE FILE FOR DOWLOAD' : 'DRAG AND DROP FILE TO UPLOAD'}
                                         </DragAndDrop>

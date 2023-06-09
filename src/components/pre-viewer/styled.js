@@ -16,6 +16,7 @@ export const Wrapper = styled.div`
     background: white;
     transition-duration: 1.2s;
     transition-timing-function: easy-in;
+    box-shadow: 10px 1px 15px 1px rgba(0, 0, 0, 0.2);
     ${props => props.hidden && `
         width: 1vw;
     `}
@@ -93,7 +94,9 @@ export const Cell = styled.div`
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    border: 1px solid black;
+    transition-duration: 0.1s;
+        transition-timing-function: easy-in;
+    border: ${props => props.border || 'none'};
     opacity: 1;
     cursor: grab;
     position: relative;
@@ -108,6 +111,9 @@ export const Cell = styled.div`
         transition-timing-function: easy-out;
         opacity: 1;
     `}
+    // ${props => props.changeBack && `
+    //     border: 1px solid white;
+    // `}
 `
 
 export const CellImg = styled.img`
@@ -135,4 +141,8 @@ export const DragAndDrop = styled.div`
     height: 15vh;
     text-align: center;
     position: absolute;
+    color: black;
+    ${props => props.changeBack && `
+        color: white;
+    `}
 `
