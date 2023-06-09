@@ -42,6 +42,10 @@ export const CellImg = styled.img`
     width: ${props => props.w || 'inherit'};
     height: ${props => props.h || 'auto'};
     opacity: 1;
+    cursor: grab;
+    &:hover {
+        width: 50vw;
+    }
     ${props => props.closeW && `
         transition-duration: 0.1s;
         transition-timing-function: easy-out;

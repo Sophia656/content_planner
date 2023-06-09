@@ -94,9 +94,9 @@ export const Cell = styled.div`
     justify-content: center;
     overflow: hidden;
     border: 1px solid black;
-    // background: lightgrey;
     opacity: 1;
     cursor: grab;
+    position: relative;
     ${props => props.closeWindow && `
         transition-duration: 0.4s;
         transition-timing-function: easy-in;
@@ -125,4 +125,14 @@ export const CellImg = styled.img`
         transition-timing-function: easy-in;
         opacity: 1;
     `}
+`
+
+export const DragAndDrop = styled.div`
+    display; flex;
+    align-items: center;
+    justify-content: center;
+    width: 6vw;
+    height: 15vh;
+    text-align: center;
+    position: absolute;
 `

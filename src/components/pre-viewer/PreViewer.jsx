@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Cell, CellImg, Menu, MenuItem, Wrapper } from './styled';
+import { Cell, CellImg, DragAndDrop, Menu, MenuItem, Wrapper } from './styled';
 
 const PreViewer = ({changeBack, cards, sortCards, dragStartHandler, dragLeaveHandler, dragOverHandler, dragEndHandler, dropHandler, showPrev}) => {
     const [menuItems, setMenuItems] = useState([
@@ -12,6 +12,22 @@ const PreViewer = ({changeBack, cards, sortCards, dragStartHandler, dragLeaveHan
 
     const [numOfLargestIdSelected, setNumOfLargestIdSelected] = useState(13)
     const [numOfSmallestIdSelected, setNumOfSmallestIdSelected] = useState(0)
+    
+    const [drag, setDrag] = useState(false)
+
+    const handleDragStart = (e) => {
+        e.preventDefault()
+        setDrag(true)
+    }
+    const handleDragLeave = (e) => {
+        e.preventDefault()
+        setDrag(false)
+    }
+    const onDropHandler = (e) => {
+        e.preventDefault()
+        let files = [...e.dataTransfer.files]
+        console.log(files)
+    }
 
     const handleChoose = (id) => {
         setMenuItems(menuItems.map(item => {
@@ -23,7 +39,6 @@ const PreViewer = ({changeBack, cards, sortCards, dragStartHandler, dragLeaveHan
                 return {...item, active: false}
             }
         }))
-        console.log(numOfLargestIdSelected, numOfSmallestIdSelected)
     }
 
     const handleHover = (id) => {
@@ -40,7 +55,7 @@ const PreViewer = ({changeBack, cards, sortCards, dragStartHandler, dragLeaveHan
         setMenuItems(menuItems.map(item => {
             return {...item, hover: false}
         }))
-    } 
+    }
     
     return (
         <>
@@ -76,6 +91,16 @@ const PreViewer = ({changeBack, cards, sortCards, dragStartHandler, dragLeaveHan
                                 onDrop={(e) => dropHandler(e, card)}
                                 key={card?.id}
                                 dragging={showPrev ? true : false}>
+                                    {card?.src === '' && 
+                                        <DragAndDrop
+                                        onDragStart={(e) => handleDragStart(e)}
+                                        onDragLeave={(e) => handleDragLeave(e)}
+                                        onDragOver={(e) => handleDragStart(e)}
+                                        onDrop={(e) => onDropHandler(e)}
+                                        >
+                                            {drag ? 'RELEASE THE FILE FOR DOWLOAD' : 'DRAG AND DROP FILE TO UPLOAD'}
+                                        </DragAndDrop>
+                                    }
                                     <CellImg closeWindow={!showPrev} openWindow={showPrev} w={card?.w} h={card?.h} src={card?.src} />
                                 </Cell>
                             )

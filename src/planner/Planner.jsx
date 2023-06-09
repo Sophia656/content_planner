@@ -112,9 +112,8 @@ const Planner = () => {
             newArr.push(JSON.parse(localStorage.getItem(i)))
         }
         setCards(newArr)
-
     }, [])
-
+    console.log(cards)
     localStorage.clear()
     return (
         <Wrapper back={changeBack}>
