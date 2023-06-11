@@ -6,10 +6,10 @@ const Referencer = ({show}) => {
     return (
         <Wrapper hidden={!show}>
             <Cell hidden={!show}>
-                <CellImg closeW={!show} openW={show} src={require('../../img/ref/4.jpg')} />
+                <CellImg closeW={!show} openW={show} src={require('../../img/ref/3.jpg')} />
             </Cell>
             <Cell  hidden={!show}>
-                <CellImg closeW={!show} openW={show} src={require('../../img/ref/1.jpg')} />
+                <CellImg closeW={!show} openW={show} src={require('../../img/ref/2.jpg')} />
             </Cell>
         </Wrapper>
     );

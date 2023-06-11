@@ -10,8 +10,8 @@ export const myCards = [
     {id: 8, src: require('../img/prev/close_up/8.jpg'), w: 'auto', h: 'inherit', tags: ''},
     {id: 9, src: require('../img/prev/close_up/9.jpg'), w: '', h: '', text: '', tags: ''},
     {id: 10, src: require('../img/prev/close_up/10.jpg'), w: 'auto', h: 'inherit', text: '', tags: ''},
-    {id: 11, src: '', w: '', h: '', text: '', tags: ''},
-    {id: 12, src: '', w: '', h: '', text: '', tags: ''},
+    {id: 11, src: require('../img/prev/close_up/11.jpg'), w: '', h: '', text: '', tags: ''},
+    {id: 12, src: require('../img/prev/close_up/12.jpg'), w: '', h: '', text: '', tags: ''},
     
     // СРЕДНИЙ ПЛАН
     {id: 13, src: require('../img/prev/middle/1.jpg'), w: '', h: '', text: '', tags: ''},
@@ -21,9 +21,9 @@ export const myCards = [
     {id: 17, src: require('../img/prev/middle/5.jpg'), w: '', h: '', text: '', tags: ''},
     {id: 18, src: require('../img/prev/middle/6.jpg'), w: 'auto', h: 'inherit', text: '', tags: ''},
     {id: 19, src: require('../img/prev/middle/7.jpg'), w: '', h: '', text: '', tags: ''},
-    {id: 20, src: '', w: '', h: '', text: '', tags: ''},
-    {id: 21, src: '', w: '', h: '', text: '', tags: ''},
-    {id: 22, src: '', w: '', h: '', text: '', tags: ''},
+    {id: 20, src: require('../img/prev/middle/8.jpg'), w: '', h: '', text: '', tags: ''},
+    {id: 21, src: require('../img/prev/middle/9.jpg'), w: '', h: '', text: '', tags: ''},
+    {id: 22, src: require('../img/prev/middle/10.jpg'), w: '', h: '', text: '', tags: ''},
     {id: 23, src: '', w: '', h: '', text: '', tags: ''},
     {id: 24, src: '', w: '', h: '', text: '', tags: ''},
 
@@ -86,7 +86,24 @@ export const myCards = [
     {id: 73, src: require('../img/main/15.jpg'), w: '', h: '', text: '', tags: ''},
     {id: 74, src: require('../img/main/16.jpg'), w: '', h: '', text: '', tags: ''},
     {id: 75, src: require('../img/main/17.jpg'), w: '', h: '', text: '', tags: ''},
+
+
+    // {id: 73, src: require('../img/main/4.jpg'), w: '', h: '', text: '', tags: ''},
+    // {id: 74, src: require('../img/main/5.jpg'), w: '', h: '', text: '', tags: ''},
+    // {id: 75, src: require('../img/main/3.jpg'), w: 'auto', h: 'inherit', text: '', tags: ''},
+    // {id: 76, src: '', w: '', h: '', text: '', tags: ''},
+    // {id: 77, src: require('../img/main/7.jpg'), w: 'auto', h: 'inherit', text: '', tags: ''},
+    // {id: 78, src: require('../img/main/8.jpg'), w: '', h: '', text: '', tags: ''},
+    // {id: 79, src: require('../img/main/9.jpg'), w: '', h: '', text: '', tags: ''},
+    // {id: 80, src: require('../img/main/10.jpg'), w: 'auto', h: 'inherit', text: '', tags: ''},
+    // {id: 81, src: require('../img/main/11.jpg'), w: '', h: '', text: '', tags: ''},
+    // {id: 82, src: require('../img/main/12.jpg'), w: '', h: '', text: '', tags: ''},
+    // {id: 83, src: require('../img/main/13.jpg'), w: 'auto', h: 'inherit', text: '', tags: ''},
+    // {id: 84, src: require('../img/main/14.jpg'), w: 'auto', h: 'inherit', text: '', tags: ''},
+    // {id: 85, src: require('../img/main/15.jpg'), w: '', h: '', text: '', tags: ''},
+    // {id: 86, src: require('../img/main/16.jpg'), w: '', h: '', text: '', tags: ''},
+    // {id: 87, src: require('../img/main/17.jpg'), w: '', h: '', text: '', tags: ''},
     
     // КОРЗИНА
-    {id: 76, src: require('../img/backet.png'), w: '6vw', h: 'auto', text: '', tags: ''}
+    {id: 500, src: require('../img/backet.png'), w: '6vw', h: 'auto', text: '', tags: ''}
 ]

@@ -2,11 +2,6 @@ import styled from 'styled-components';
 
 export const PlannerWrap = styled.div`
     position: fixed;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(8, 1fr);
-    gap: 0.1vw;
-    padding: 3.2vw 1.9vw 3.2vw 1.8vw;
     width: 31vw;
     height: 92vh;
     border-radius: 35px;
@@ -16,15 +11,26 @@ export const PlannerWrap = styled.div`
     border: 1px solid black;
     transition-duration: 1.2s;
     transition-timing-function: easy-in;
+    box-shadow: 2px 2px 20px 7px rgba(0, 0, 0, 0.2);
     ${props => props.back && `
         background: black;
         border: 1px solid white;
         box-shadow: 2px 2px 20px 7px rgba(255, 255, 255, 0.3);
     `}
-    // overflow: hidden;
-    // overflow: scroll;
-    // scrollbar-color: red orange;
-    // scrollbar-width: thin;
+    overflow: scroll;
+`
+
+export const GridWrap = styled.div`
+    overflow: scroll;
+    min-height: 81.5vh;
+    max-height: 81.5vh;
+    width: inherit;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: ${props => props.gr || 'repeat(8, 1fr)'};
+    gap: 0.1vw;
+    padding: 0.5vw 1.9vw 0vw 1.8vw;
+    margin-top: 5vh;
 `
 
 export const Cell = styled.div`
@@ -110,4 +116,26 @@ box-shadow: 1px 10px 1px 1px rgba(0, 0, 0) inset;
     //     right: 63.7%;
     //     border-radius: 55px 0 0 55px;
     // }
+`
+
+export const BtnsForShiftBack = styled.div`
+    width: 2vw;
+    height: 5vh;
+    font-size: 60px;
+    position: absolute;
+    z-index: 300;
+    top: 48.5%;
+    left: 32%;
+    cursor: pointer;
+
+`
+export const BtnsForShiftForward = styled.div`
+    width: 2vw;
+    height: 5vh;
+    font-size: 60px;
+    position: absolute;
+    z-index: 300;
+    top: 48.5%;
+    right: 31.4%;
+    cursor: pointer;
 `

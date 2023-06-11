@@ -1,7 +1,18 @@
-import React from 'react';
-import { Btn, Cell, CellImg, Line, PlannerWrap, Plus } from './styled';
+import React, { useEffect } from 'react';
+import { Btn, BtnsForShiftBack, BtnsForShiftForward, BtnsForShifting, Cell, CellImg, GridWrap, PlannerWrap, Plus } from './styled';
 
-const InstaGrid = ({changeBack, setChangeBack, cards, sortCards, dragStartHandler, dragLeaveHandler, dragOverHandler, dragEndHandler, dropHandler, handleOpen}) => {
+const InstaGrid = ({changeBack, 
+    setChangeBack, 
+    cards, 
+    sortCards, 
+    dragStartHandler, 
+    dragLeaveHandler, 
+    dragOverHandler, 
+    dragEndHandler, 
+    dropHandler, 
+    handleOpen, 
+    counterMaxGridCards,
+    handlePressNext}) => {
     
     const handleChangeBack = () => {
         setChangeBack(!changeBack)
@@ -9,11 +20,11 @@ const InstaGrid = ({changeBack, setChangeBack, cards, sortCards, dragStartHandle
 
     return (
         <div>
-            {/* <Line /> */}
-            {/* <Line /> */}
+            <BtnsForShiftBack>{'<'}</BtnsForShiftBack>
             <PlannerWrap back={changeBack}>
+                <GridWrap>
                 {cards.sort(sortCards).map(card => {
-                    if (card?.id > 60 && card?.id < 76  && card?.id !== undefined) {
+                    if (card?.id > 60 && card?.id < counterMaxGridCards + 1  && card?.id !== undefined) {
                         return (
                             <Cell 
                             onDragStart={(e) => dragStartHandler(e, card)} 
@@ -30,10 +41,11 @@ const InstaGrid = ({changeBack, setChangeBack, cards, sortCards, dragStartHandle
                         )
                     }}
                 )}
+                </GridWrap>
             </PlannerWrap>
             <Btn btnback={changeBack} onClick={() => handleChangeBack()}>{changeBack ? '🌚️' : '🌝' }</Btn>
-            {cards.map(card => {
-                if (card?.id === 76 && card?.id !== undefined) {
+            {/* {cards.map(card => {
+                if (card?.id === 500 && card?.id !== undefined) {
                     return (
                         <Cell 
                         style={{width: '6vw', 
@@ -50,7 +62,8 @@ const InstaGrid = ({changeBack, setChangeBack, cards, sortCards, dragStartHandle
                         </Cell>
                     )
                 }
-            })}
+            })} */}
+            <BtnsForShiftForward onClick={() => handlePressNext()}>{'>'}</BtnsForShiftForward>
         </div>
     );
 };

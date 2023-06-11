@@ -14,6 +14,7 @@ export const Wrapper = styled.div`
     background: black;
     transition-duration: 1.2s;
     transition-timing-function: easy-out;
+    box-shadow: 1px 1px 15px 10px rgba(0, 0, 0, 0.2);
     ${props => props.hidden && `
         width: 1vw;
     `}
