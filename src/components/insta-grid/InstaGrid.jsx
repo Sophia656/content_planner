@@ -1,5 +1,6 @@
-import React, { useEffect } from 'react';
-import { Btn, BtnsForShiftBack, BtnsForShiftForward, BtnsForShifting, Cell, CellImg, GridWrap, PlannerWrap, Plus } from './styled';
+import React from 'react';
+import { BtnsForShiftBack, BtnsForShiftForward, Cell, CellImg, GridWrap, PlannerWrap, Plus } from './styled';
+import BtnForChangingBack from '../UI/button/BtnForChangingBack';
 
 const InstaGrid = ({changeBack, 
     setChangeBack, 
@@ -13,10 +14,6 @@ const InstaGrid = ({changeBack,
     handleOpen, 
     counterMaxGridCards,
     handlePressNext}) => {
-    
-    const handleChangeBack = () => {
-        setChangeBack(!changeBack)
-    }
 
     return (
         <div>
@@ -32,7 +29,7 @@ const InstaGrid = ({changeBack,
                             onDragEnd={(e) => dragEndHandler(e)}
                             onDragOver={(e) => dragOverHandler(e)}
                             onDrop={(e) => dropHandler(e, card)}
-                            // onClick={() => handleOpen(card)}
+                            onClick={() => handleOpen(card)}
                             key={card?.id}
                             draggable={true}>
                                 {card?.src === '' && <Plus>+</Plus>}
@@ -43,26 +40,7 @@ const InstaGrid = ({changeBack,
                 )}
                 </GridWrap>
             </PlannerWrap>
-            <Btn btnback={changeBack} onClick={() => handleChangeBack()}>{changeBack ? '🌚️' : '🌝' }</Btn>
-            {/* {cards.map(card => {
-                if (card?.id === 500 && card?.id !== undefined) {
-                    return (
-                        <Cell 
-                        style={{width: '6vw', 
-                        position: 'absolute', 
-                        bottom: '-2.5%',  
-                        right: 0,
-                        marginRight: '23vw', 
-                        background: 'transparent'}}
-                        onDragOver={(e) => dragOverHandler(e)}
-                        onDrop={(e) => dropHandler(e, card)}
-                        key={card?.id}
-                        draggable={false}>
-                            <CellImg w={card?.w} h={card?.h} src={card?.src} />
-                        </Cell>
-                    )
-                }
-            })} */}
+            <BtnForChangingBack changeBack={changeBack} setChangeBack={setChangeBack} />
             <BtnsForShiftForward onClick={() => handlePressNext()}>{'>'}</BtnsForShiftForward>
         </div>
     );

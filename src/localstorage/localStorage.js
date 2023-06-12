@@ -71,7 +71,7 @@ export const myCards = [
 
 
     // СЕТКА
-    {id: 61, src: require('../img/main/4.jpg'), w: '', h: '', text: '', tags: ''},
+    {id: 61, src: require('../img/main/4.jpg'), w: '', h: '', text: 'hello', tags: 'tags'},
     {id: 62, src: require('../img/main/5.jpg'), w: '', h: '', text: '', tags: ''},
     {id: 63, src: require('../img/main/3.jpg'), w: 'auto', h: 'inherit', text: '', tags: ''},
     {id: 64, src: '', w: '', h: '', text: '', tags: ''},

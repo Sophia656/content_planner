@@ -1,25 +1,47 @@
-import React, { useEffect, useRef, useState } from 'react';
-import { Closed, Description, ModalTable, Wrapper } from './styled';
+import React, { useEffect, useState } from 'react';
+import { Closed, Description, ImgWrap, ModalImg, ModalTable, Tags, Text, WindowForImg, Wrapper } from './styled';
+import BtnForChangingBack from '../UI/button/BtnForChangingBack';
 
-const Modal = ({openCard,  setOpenModal, cards, setCards}) => {
-    const [text, setText] = useState('')
-    
+const Modal = ({text, setText, tags, setTags, openCard, setOpenCard, setOpenModal, cards, setCards}) => {
+    const [changeModalBack, setChangeModalBack] = useState(false)
+
+    const handleKeyPress = (e) => {
+        if (e.keyCode === 32) {
+            e.preventDefault();
+            setTags(tags + ' #')
+        }
+        console.log(tags)
+    }
+
     useEffect(() => {
-        setCards(cards.map(card => {
-            if (card.id === openCard.id) {
-                localStorage.setItem(String(card.id), JSON.stringify({...card, text: text}))
-                return {...card, text: text}
-            }
-            return card
-        }))
-    }, [text])
-
+        window.addEventListener('keydown', handleKeyPress)
+    
+        return () => {
+          window.removeEventListener('keydown', handleKeyPress)
+        }
+    })
 
     return (
         <Wrapper>
-            <Closed onClick={() => setOpenModal(false)}>✖️</Closed>
+            <Closed onClick={() => setOpenModal(false)}>+</Closed>
             <ModalTable>
-                <Description type='text' value={text} onChange={e => setText(e.target.value)} />
+                <ImgWrap back={changeModalBack}>
+                    <WindowForImg h={openCard.w === 'auto' && 'auto'}>
+                        <ModalImg src={openCard?.src} />
+                    </WindowForImg>
+                    <BtnForChangingBack r='47%' changeBack={changeModalBack} setChangeBack={setChangeModalBack} />
+                </ImgWrap>
+                <Description>
+                    <Text 
+                    value={text} 
+                    onChange={e => setText(e.target.value)}
+                    placeholder='Enter text...' />
+                    <Tags 
+                    value={tags} 
+                    handleKeyPress={((e) => handleKeyPress(e))}
+                    onChange={e => setTags(e.target.value)}
+                    placeholder='Enter tags...' />
+                </Description>
             </ModalTable>
         </Wrapper>
     );

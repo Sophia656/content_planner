@@ -3,15 +3,15 @@ import { Cell, CellImg, DragAndDrop, Menu, MenuItem, Wrapper } from './styled';
 
 const PreViewer = ({changeBack, cards, sortCards, dragStartHandler, dragLeaveHandler, dragOverHandler, dragEndHandler, dropHandler, showPrev}) => {
     const [menuItems, setMenuItems] = useState([
-        {id: 1, name: 'CLOSE-UP', active: true, hover: false, largestId: 13, smallestId: 0},
-        {id: 2, name: 'MIDDLE', active: false, hover: false, largestId: 25, smallestId: 12},
+        {id: 1, name: 'CLOSE-UP', active: false, hover: false, largestId: 13, smallestId: 0},
+        {id: 2, name: 'MIDDLE', active: true, hover: false, largestId: 25, smallestId: 12},
         {id: 3, name: 'WIDE', active: false, hover: false, largestId: 37, smallestId: 24},
         {id: 4, name: 'PORTRAIT', active: false, hover: false, largestId: 49, smallestId: 36},
         {id: 5, name: 'ABSTRACT', active: false, hover: false, largestId: 61, smallestId: 48}
     ])
 
-    const [numOfLargestIdSelected, setNumOfLargestIdSelected] = useState(13)
-    const [numOfSmallestIdSelected, setNumOfSmallestIdSelected] = useState(0)
+    const [numOfLargestIdSelected, setNumOfLargestIdSelected] = useState(25)
+    const [numOfSmallestIdSelected, setNumOfSmallestIdSelected] = useState(12)
     
 
     const [cellBorder, setCellBorder] = useState('')
@@ -113,7 +113,7 @@ const PreViewer = ({changeBack, cards, sortCards, dragStartHandler, dragLeaveHan
                                         onDrop={(e) => onDropHandler(e)}
                                         changeBack={changeBack}
                                         >
-                                            {drag ? 'RELEASE THE FILE FOR DOWLOAD' : 'DRAG AND DROP FILE TO UPLOAD'}
+                                            {drag ? '' : ''}
                                         </DragAndDrop>
                                     }
                                     <CellImg closeWindow={!showPrev} openWindow={showPrev} w={card?.w} h={card?.h} src={card?.src} />
@@ -128,3 +128,6 @@ const PreViewer = ({changeBack, cards, sortCards, dragStartHandler, dragLeaveHan
 };
 
 export default PreViewer;
+
+
+// {drag ? 'RELEASE THE FILE FOR DOWLOAD' : 'DRAG AND DROP FILE TO UPLOAD'}

@@ -50,29 +50,6 @@ export const CellImg = styled.img`
     height: ${props => props.h || 'auto'};
 `
 
-export const Btn = styled.button`
-    position: absolute;
-    bottom: 0;
-    right: 48%;
-    padding-top: 2px;
-    margin-bottom: 2vh;
-    width: 2.2vw;
-    height: 2.2vw;
-    background: black;
-    color: white;
-    cursor: pointer;
-    border-radius: 50%;
-    font-size: 26px;
-    box-shadow: 0px 0px 5px 4px rgba(0, 0, 0, 0.9);
-    transition-duration: 1s;
-    transition-timing-function: easy-in;
-    ${props => props.btnback && `
-        background: white;
-        color: black;
-        box-shadow: 0px 0px 5px 4px rgba(255, 255, 255, 0.9);
-    `}
-`
-
 export const Plus = styled.div`
     position: absolute;
     width: 3vw;
@@ -85,37 +62,23 @@ export const Plus = styled.div`
 `
 
 export const Line = styled.div`
-position: fixed;
-display: grid;
-grid-template-columns: repeat(3, 1fr);
-grid-template-rows: repeat(8, 1fr);
-gap: 0.1vw;
-padding: 3.2vw 1.9vw 3.2vw 1.8vw;
-width: 31vw;
-height: 92vh;
-border-radius: 35px;
-background: transparent;
-top: 1%;
-left: 34.5%;
-border-left: 25px solid black;
-border-right: 25px solid black;
-border-bottom: 53px solid black;
-border-top: 1px solid black;
-box-shadow: 1px 10px 1px 1px rgba(0, 0, 0) inset;
-
-    // position: absolute;
-    // top: 1.2%;
-    // bottom: 0;
-    // right: 34.65%;
-    // width: 1.6vw;
-    // height: 91.5vh;
-    // background: black;
-    // border-radius: 0 55px 55px 0;
-    z-index: 300;
-    // &:nth-child(2) {
-    //     right: 63.7%;
-    //     border-radius: 55px 0 0 55px;
-    // }
+    position: fixed;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    gap: 0.1vw;
+    padding: 3.2vw 1.9vw 3.2vw 1.8vw;
+    width: 31vw;
+    height: 92vh;
+    border-radius: 35px;
+    background: transparent;
+    top: 1%;
+    left: 34.5%;
+    border-left: 25px solid black;
+    border-right: 25px solid black;
+    border-bottom: 53px solid black;
+    border-top: 1px solid black;
+    box-shadow: 1px 10px 1px 1px rgba(0, 0, 0) inset;
 `
 
 export const BtnsForShiftBack = styled.div`

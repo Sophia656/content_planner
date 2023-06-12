@@ -14,6 +14,8 @@ const Planner = () => {
     const [showRef, setShowRef] = useState(true)
     const [counterMaxGridCards, setCounterMaxGridCards] = useState(75)
     const defaultCard = {id: 64, src: '', w: '', h: '', text: '', tags: ''}
+    const [text, setText] = useState('')
+    const [tags, setTags] = useState('#')
 
     // const [btnNext, setBtnNext] = useState(false)
     // const [btnPrev, setBtnPrev] = useState(false)
@@ -86,7 +88,7 @@ const Planner = () => {
                 }
             }).filter(card => card.id > 64)
         newArr.push(...newLastCards) // 64 -
-        setCards(newArr)
+         setCards(newArr)
     }
 
     const sortCards = (a, b) => {
@@ -98,7 +100,8 @@ const Planner = () => {
     }
 
     const handleOpen = (card) => {
-        setOpenCard(JSON.parse(localStorage.getItem(String(card.id))))
+        // setOpenCard(JSON.parse(localStorage.getItem(String(card.id))))
+        setOpenCard(card)
         setOpenModal(true)
     }
 
@@ -137,6 +140,22 @@ const Planner = () => {
         setCards(newArr)
     }, [])
 
+    useEffect(() => {
+        if (!openModal) {
+            setText('')
+            setTags('#')
+        }
+    }, [openModal])
+
+    // useEffect(() => {
+    //     console.log('hi')
+    //     setCards(cards.map(card => {
+    //         if (card.id === openCard.id) {
+    //             return {...card, text: text, tags: tags}
+    //         }
+    //     }))
+    // }, [openCard, text, tags])
+
     // const handlePressPrev = () => {
         
     // }
@@ -146,7 +165,17 @@ const Planner = () => {
         <Wrapper back={changeBack}>
             {openModal
             ?
-            <Modal openCard={openCard} setOpenModal={setOpenModal} cards={cards} setCards={setCards} />
+            <Modal 
+            text={text}
+            setText={setText}
+            tags={tags}
+            setTags={setTags}
+            openCard={openCard} 
+            setOpenCard={setOpenCard}
+            setOpenModal={setOpenModal} 
+            cards={cards} 
+            setCards={setCards} 
+            />
         :
         <>
                 <PreViewer
