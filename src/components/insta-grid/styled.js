@@ -7,7 +7,7 @@ export const PlannerWrap = styled.div`
     border-radius: 35px;
     background: white;
     top: 1%;
-    left: 35%;
+    left: 34.75%;
     border: 10px solid black;
     transition-duration: 1.2s;
     transition-timing-function: easy-in;
@@ -27,7 +27,7 @@ export const GridWrap = styled.div`
     width: fit-content;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: ${props => props.gr || 'repeat(8, 1fr)'};
+    grid-template-rows: ${props => props.gr || 'repeat(10, 1fr)'};
     gap: 1px;
     padding: 0.5vw 0vw 0.5vw 0.08vw;
     margin-top: 5vh;

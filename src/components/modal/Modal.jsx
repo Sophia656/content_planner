@@ -10,7 +10,6 @@ const Modal = ({text, setText, tags, setTags, openCard, setOpenCard, setOpenModa
             e.preventDefault();
             setTags(tags + ' #')
         }
-        console.log(tags)
     }
 
     useEffect(() => {

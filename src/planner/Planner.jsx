@@ -12,16 +12,11 @@ const Planner = () => {
     const [openModal, setOpenModal] = useState(false)
     const [showPrev, setShowPrev] = useState(true)
     const [showRef, setShowRef] = useState(true)
-    const [counterMaxGridCards, setCounterMaxGridCards] = useState(75)
+    const [counterMaxGridCards, setCounterMaxGridCards] = useState(0)
     const defaultCard = {id: 64, src: '', w: '', h: '', text: '', tags: ''}
     const [text, setText] = useState('')
     const [tags, setTags] = useState('#')
-
-    // const [btnNext, setBtnNext] = useState(false)
-    // const [btnPrev, setBtnPrev] = useState(false)
-
     const [cards, setCards] = useState([])
-
     const [currentCard, setCurrentcard] = useState(null)
 
     const dragStartHandler = (e, card) => {
@@ -39,7 +34,7 @@ const Planner = () => {
         e.stopPropagation()
         e.preventDefault()
 
-        if (currentCard.id === counterMaxGridCards && card.id === 500) {
+        if (currentCard.id === counterMaxGridCards && card.id === counterMaxGridCards + 1) {
             setCards(cards.reverse().map(c => {
                 if (c.id > 63 && c.id < counterMaxGridCards + 1) {
                     for (let i = counterMaxGridCards; i > 63; i--) {
@@ -88,8 +83,14 @@ const Planner = () => {
                 }
             }).filter(card => card.id > 64)
         newArr.push(...newLastCards) // 64 -
-         setCards(newArr)
+        newArr.forEach(item => {
+            if (item.id > 63 && item.id < 500) {
+                localStorage.setItem(String(item?.id), JSON.stringify(item))
+            }
+        })
+        setCards(newArr)
     }
+    console.log(counterMaxGridCards)
 
     const sortCards = (a, b) => {
         if (a.id > b.id) {
@@ -100,67 +101,72 @@ const Planner = () => {
     }
 
     const handleOpen = (card) => {
-        // setOpenCard(JSON.parse(localStorage.getItem(String(card.id))))
+        setOpenCard(JSON.parse(localStorage.getItem(String(card.id))))
         setOpenCard(card)
         setOpenModal(true)
     }
 
+    function allStorage() {
+
+        var values = [],
+            keys = Object.keys(localStorage),
+            i = keys.length;
+    
+        while ( i-- ) {
+            values.push( JSON.parse(localStorage.getItem(keys[i]) ));
+        }
+    
+        return values;
+    }
 
     useEffect(() => {
         if (JSON.parse(localStorage.getItem('1') !== null)) {
-            console.log(JSON.parse(localStorage.getItem('1')))
-            const reternArr = []
-            for (let i = 1; i < counterMaxGridCards + 1; i++) {
-                reternArr.push(JSON.parse(localStorage.getItem(i)))
-            }
-            setCards(reternArr)
+            console.log('LOCARL STRAGE IS NOT EMPTY', allStorage())
+            setCounterMaxGridCards(allStorage().length)
+            setCards(allStorage())
         } else {
+            console.log('LOCARL STRAGE IS EMPTY', allStorage())
             myCards.map(card => {
                 localStorage.setItem(String(card?.id), JSON.stringify(card))
             })
-    
-            const newArr = []
-    
-            for (let i = 1; i < counterMaxGridCards + 1; i++) {
-                newArr.push(JSON.parse(localStorage.getItem(i)))
-            }
-            setCards(newArr)
+            setCounterMaxGridCards(myCards.length)
+            setCards(allStorage())
         }
-        myCards.map(card => {
-            localStorage.setItem(String(card?.id), JSON.stringify(card))
-        })
-
-        const newArr = []
-
-        setCurrentcard(myCards.find(card => card.id === 23))
-
-        for (let i = 1; i < counterMaxGridCards + 1; i++) {
-            newArr.push(JSON.parse(localStorage.getItem(i)))
-        }
-        setCards(newArr)
     }, [])
 
     useEffect(() => {
+        if (openModal) {
+            console.log('open')
+            setText(JSON.parse(localStorage.getItem(String(openCard?.id)))?.text)
+            setTags(JSON.parse(localStorage.getItem(String(openCard?.id)))?.tags)
+            // if (text) {
+                localStorage.setItem(String(openCard?.id), JSON.stringify({...openCard, text: text, tags: tags}))
+            // }
+            // if (tags) {
+                // localStorage.setItem(String(openCard?.id), JSON.stringify({...openCard, tags: tags}))
+            // }
+        }
         if (!openModal) {
+            console.log('close')
             setText('')
             setTags('#')
         }
     }, [openModal])
 
     // useEffect(() => {
-    //     console.log('hi')
-    //     setCards(cards.map(card => {
-    //         if (card.id === openCard.id) {
-    //             return {...card, text: text, tags: tags}
+    //     if (text) {
+    //             localStorage.setItem(String(openCard?.id), JSON.stringify({...openCard, text: text}))
     //         }
-    //     }))
-    // }, [openCard, text, tags])
+    //         if (tags) {
+    //             localStorage.setItem(String(openCard?.id), JSON.stringify({...openCard, tags: tags}))
+    //         }
+    // }, [text, tags])
 
     // const handlePressPrev = () => {
         
     // }
 
-    localStorage.clear()
+    // localStorage.clear()
     return (
         <Wrapper back={changeBack}>
             {openModal

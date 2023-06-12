@@ -15,6 +15,8 @@ const InstaGrid = ({changeBack,
     counterMaxGridCards,
     handlePressNext}) => {
 
+        console.log('IN GRID', cards, counterMaxGridCards)
+
     return (
         <div>
             <BtnsForShiftBack>{'<'}</BtnsForShiftBack>

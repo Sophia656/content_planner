@@ -71,7 +71,7 @@ export const myCards = [
 
 
     // СЕТКА
-    {id: 61, src: require('../img/main/4.jpg'), w: '', h: '', text: 'hello', tags: 'tags'},
+    {id: 61, src: require('../img/main/4.jpg'), w: '', h: '', text: '', tags: ''},
     {id: 62, src: require('../img/main/5.jpg'), w: '', h: '', text: '', tags: ''},
     {id: 63, src: require('../img/main/3.jpg'), w: 'auto', h: 'inherit', text: '', tags: ''},
     {id: 64, src: '', w: '', h: '', text: '', tags: ''},
@@ -103,7 +103,4 @@ export const myCards = [
     // {id: 85, src: require('../img/main/15.jpg'), w: '', h: '', text: '', tags: ''},
     // {id: 86, src: require('../img/main/16.jpg'), w: '', h: '', text: '', tags: ''},
     // {id: 87, src: require('../img/main/17.jpg'), w: '', h: '', text: '', tags: ''},
-    
-    // КОРЗИНА
-    {id: 500, src: require('../img/backet.png'), w: '6vw', h: 'auto', text: '', tags: ''}
 ]
