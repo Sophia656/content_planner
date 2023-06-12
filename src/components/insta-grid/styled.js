@@ -2,19 +2,19 @@ import styled from 'styled-components';
 
 export const PlannerWrap = styled.div`
     position: fixed;
-    width: 31vw;
+    width: 32vw;
     height: 92vh;
     border-radius: 35px;
     background: white;
     top: 1%;
     left: 35%;
-    border: 1px solid black;
+    border: 10px solid black;
     transition-duration: 1.2s;
     transition-timing-function: easy-in;
     box-shadow: 2px 2px 20px 7px rgba(0, 0, 0, 0.2);
     ${props => props.back && `
         background: black;
-        border: 1px solid white;
+        // border: 1px solid white;
         box-shadow: 2px 2px 20px 7px rgba(255, 255, 255, 0.3);
     `}
     overflow: scroll;
@@ -22,20 +22,20 @@ export const PlannerWrap = styled.div`
 
 export const GridWrap = styled.div`
     overflow: scroll;
-    min-height: 81.5vh;
-    max-height: 81.5vh;
-    width: inherit;
+    min-height: 79.5vh;
+    max-height: 79.5vh;
+    width: fit-content;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: ${props => props.gr || 'repeat(8, 1fr)'};
-    gap: 0.1vw;
-    padding: 0.5vw 1.9vw 0vw 1.8vw;
+    gap: 1px;
+    padding: 0.5vw 0vw 0.5vw 0.08vw;
     margin-top: 5vh;
 `
 
 export const Cell = styled.div`
-    width: 9vw;
-    height: 9vw;
+    width: 10.1vw;
+    height: 10.1vw;
     background: ${props => props.img || 'lightgrey'};
     background-size: cover;
     position: relative;
@@ -61,26 +61,6 @@ export const Plus = styled.div`
     color: white;
 `
 
-export const Line = styled.div`
-    position: fixed;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(8, 1fr);
-    gap: 0.1vw;
-    padding: 3.2vw 1.9vw 3.2vw 1.8vw;
-    width: 31vw;
-    height: 92vh;
-    border-radius: 35px;
-    background: transparent;
-    top: 1%;
-    left: 34.5%;
-    border-left: 25px solid black;
-    border-right: 25px solid black;
-    border-bottom: 53px solid black;
-    border-top: 1px solid black;
-    box-shadow: 1px 10px 1px 1px rgba(0, 0, 0) inset;
-`
-
 export const BtnsForShiftBack = styled.div`
     width: 2vw;
     height: 5vh;
@@ -99,6 +79,6 @@ export const BtnsForShiftForward = styled.div`
     position: absolute;
     z-index: 300;
     top: 48.5%;
-    right: 31.4%;
+    right: 30.6%;
     cursor: pointer;
 `

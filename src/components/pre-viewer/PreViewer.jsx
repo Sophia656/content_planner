@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Cell, CellImg, DragAndDrop, Menu, MenuItem, Wrapper } from './styled';
 
-const PreViewer = ({changeBack, cards, sortCards, dragStartHandler, dragLeaveHandler, dragOverHandler, dragEndHandler, dropHandler, showPrev}) => {
+const PreViewer = ({cards, sortCards, dragStartHandler, dragLeaveHandler, dragOverHandler, dragEndHandler, dropHandler, showPrev}) => {
     const [menuItems, setMenuItems] = useState([
         {id: 1, name: 'CLOSE-UP', active: false, hover: false, largestId: 13, smallestId: 0},
         {id: 2, name: 'MIDDLE', active: true, hover: false, largestId: 25, smallestId: 12},
@@ -12,18 +12,6 @@ const PreViewer = ({changeBack, cards, sortCards, dragStartHandler, dragLeaveHan
 
     const [numOfLargestIdSelected, setNumOfLargestIdSelected] = useState(25)
     const [numOfSmallestIdSelected, setNumOfSmallestIdSelected] = useState(12)
-    
-
-    const [cellBorder, setCellBorder] = useState('')
-
-    useEffect(() => {
-        if (!changeBack) {
-            setCellBorder('1px solid black')
-        }
-        if (changeBack) {
-            setCellBorder('1px solid white')
-        }
-    }, [changeBack])
     
     const [drag, setDrag] = useState(false)
 
@@ -87,7 +75,7 @@ const PreViewer = ({changeBack, cards, sortCards, dragStartHandler, dragLeaveHan
                     </MenuItem> 
                 )}
             </Menu>
-            <Wrapper hidden={!showPrev} changeBack={changeBack}>
+            <Wrapper hidden={!showPrev}>
             
                 {cards.sort(sortCards).map(card => {
                     if (card?.id < 61 && card?.id !== undefined) {
@@ -102,7 +90,7 @@ const PreViewer = ({changeBack, cards, sortCards, dragStartHandler, dragLeaveHan
                                 onDragOver={(e) => dragOverHandler(e)}
                                 onDrop={(e) => dropHandler(e, card)}
                                 key={card?.id}
-                                border={card?.src === '' && cellBorder}
+                                border={card?.src === '' && '1px solid rgba(255, 255, 255, 0.2)'}
                                 dragging={showPrev ? true : false}>
                                     {card?.src === '' && 
                                         <DragAndDrop
@@ -111,7 +99,6 @@ const PreViewer = ({changeBack, cards, sortCards, dragStartHandler, dragLeaveHan
                                         onDragOver={(e) => handleDragStart(e)}
                                         onDragEnd={(e) => handleDragLeave(e)}
                                         onDrop={(e) => onDropHandler(e)}
-                                        changeBack={changeBack}
                                         >
                                             {drag ? '' : ''}
                                         </DragAndDrop>
