@@ -1,13 +1,15 @@
 import styled from 'styled-components';
 
 export const Wrapper = styled.div`
+    overflow: scroll;
+    min-height: 96vh;
+    max-height: 96vh;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: repeat(6, 1fr);
     gap: 0.3vw;
     padding: 0.4vw;
     width: 20.5vw;
-    height: 92vh;
     border: 4px solid rgba(255, 255, 255, 0.7);
     border-radius: 5px;
     margin-right: 1vw;
@@ -22,15 +24,12 @@ export const Wrapper = styled.div`
 
 export const Cell = styled.div`
     width: 19vw;
-    height: auto;
+    height: 44.5vh;
     display: flex;
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    &:last-child {
-        border-top: 3px solid grey;
-        padding-top: 1vh;
-    }
+    margin: 1vh 0;
     transition-duration: 0.6s;
     transition-timing-function: easy-in;
     opacity: 1;
@@ -44,9 +43,6 @@ export const CellImg = styled.img`
     height: ${props => props.h || 'auto'};
     opacity: 1;
     cursor: grab;
-    &:hover {
-        width: 50vw;
-    }
     ${props => props.closeW && `
         transition-duration: 0.1s;
         transition-timing-function: easy-out;

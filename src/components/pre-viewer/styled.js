@@ -1,15 +1,17 @@
 import styled from 'styled-components';
 
 export const Wrapper = styled.div`
+    overflow: scroll;
+    min-height: 77.5vh;
+    max-height: 77.5vh;
     position: relative;
     opacity: 1;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(4, 1fr);
+    grid-template-rows: repeat(8, 1fr);
     gap: 0.1vw;
-    padding: 4vh 0.4vw;
+    padding: 1vh 0.4vw;
     width: 26vw;
-    height: 86vh;
     border-radius: 5px;
     margin-left: 1vw;
     background: black;
@@ -32,7 +34,7 @@ export const Menu = styled.div`
     align-items: center;
     justify-content: flex-start;
     z-index: 200;
-    margin-top: 1vh;
+    margin-top: 4vh;
     margin-left: 1vw;
     opacity: 1;
     transition-duration: 1.2s;

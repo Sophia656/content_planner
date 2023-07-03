@@ -13,17 +13,16 @@ const InstaGrid = ({changeBack,
     dropHandler, 
     handleOpen, 
     counterMaxGridCards,
-    handlePressNext}) => {
-
-        console.log('IN GRID', cards, counterMaxGridCards)
+    handlePressNext,
+    handlePressPrev}) => {
 
     return (
         <div>
-            <BtnsForShiftBack>{'<'}</BtnsForShiftBack>
+            <BtnsForShiftBack onClick={() => handlePressPrev()}>{'<'}</BtnsForShiftBack>
             <PlannerWrap back={changeBack}>
                 <GridWrap>
                 {cards.sort(sortCards).map(card => {
-                    if (card?.id > 60 && card?.id < counterMaxGridCards + 1  && card?.id !== undefined) {
+                    if (card?.id > 99 && card?.id < 500  && card?.id !== undefined) {
                         return (
                             <Cell 
                             onDragStart={(e) => dragStartHandler(e, card)} 

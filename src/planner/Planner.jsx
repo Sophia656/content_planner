@@ -10,10 +10,10 @@ const Planner = () => {
     const [changeBack, setChangeBack] = useState(true)
     const [openCard, setOpenCard] = useState(null)
     const [openModal, setOpenModal] = useState(false)
-    const [showPrev, setShowPrev] = useState(true)
-    const [showRef, setShowRef] = useState(true)
+    const [showPrev, setShowPrev] = useState(false)
+    const [showRef, setShowRef] = useState(false)
     const [counterMaxGridCards, setCounterMaxGridCards] = useState(0)
-    const defaultCard = {id: 64, src: '', w: '', h: '', text: '', tags: ''}
+    const defaultCard = {id: 103, src: '', w: '', h: '', text: '', tags: ''}
     const [text, setText] = useState('')
     const [tags, setTags] = useState('#')
     const [cards, setCards] = useState([])
@@ -36,13 +36,13 @@ const Planner = () => {
 
         if (currentCard.id === counterMaxGridCards && card.id === counterMaxGridCards + 1) {
             setCards(cards.reverse().map(c => {
-                if (c.id > 63 && c.id < counterMaxGridCards + 1) {
-                    for (let i = counterMaxGridCards; i > 63; i--) {
-                        if (c.id === i && c.id !== 64) {
+                if (c.id > 102 && c.id < counterMaxGridCards + 1) {
+                    for (let i = counterMaxGridCards; i > 102; i--) {
+                        if (c.id === i && c.id !== 103) {
                             localStorage.setItem(String(c.id), JSON.stringify({...c, src: cards.find(p => p.id === i - 1).src, w: cards.find(p => p.id === i - 1).w, h: cards.find(p => p.id === i - 1).h}))
                             return {...c, src: cards.find(p => p.id === i - 1).src, w: cards.find(p => p.id === i - 1).w, h: cards.find(p => p.id === i - 1).h}
                         } 
-                        if (c.id === 64) {
+                        if (c.id === 103) {
                             localStorage.setItem(String(c.id), JSON.stringify({...c, src: ''}))
                             return {...c, src: ''}
                         }
@@ -70,27 +70,47 @@ const Planner = () => {
     const handlePressNext = () => {
         setCounterMaxGridCards(counterMaxGridCards => counterMaxGridCards + 1)
         const newArr = []
-        newArr.push(...cards.filter(card => card.id < 61)) // 1 - 60
-        newArr.push(...cards.filter(card => card.id < 64 && card.id > 60)) // 61 - 63
-        newArr.push(defaultCard) // 64
+        newArr.push(...cards.filter(card => card.id < 100)) // 1 - 100 (prev)
+        newArr.push(...cards.filter(card => card.id < 103 && card.id > 99)) // 100 - 102 (grid, закреп)
+        newArr.push(defaultCard) // пустая
         const newLastCards = 
             cards.map(card => {
-                if (card.id > 63) {
+                if (card.id > 102) {
                     return {...card, id: ++card.id}
                 }
                 else {
                     return card
                 }
-            }).filter(card => card.id > 64)
-        newArr.push(...newLastCards) // 64 -
+            }).filter(card => card.id > 103)
+        newArr.push(...newLastCards) // остаток сдвигаем
         newArr.forEach(item => {
-            if (item.id > 63 && item.id < 500) {
+            if (item.id > 102 && item.id < 500) {
                 localStorage.setItem(String(item?.id), JSON.stringify(item))
             }
         })
         setCards(newArr)
     }
-    console.log(counterMaxGridCards)
+
+    const handlePressPrev = () => {
+        const newArr = []
+        newArr.push(...cards.filter(card => card.id < 103))
+        const newLastCards = cards.filter(card => card.id !== 103)
+            
+        newArr.push(...newLastCards.map(card => {
+            if (card.id > 103) {
+                return {...card, id: --card.id}
+            }
+            else {
+                return card
+            }
+        }).filter(card => card.id > 102))
+        newArr.forEach(item => {
+            if (item.id > 102 && item.id < 500) {
+                localStorage.setItem(String(item?.id), JSON.stringify(item))
+            }
+        })
+        setCards(newArr)
+    }
 
     const sortCards = (a, b) => {
         if (a.id > b.id) {
@@ -121,11 +141,9 @@ const Planner = () => {
 
     useEffect(() => {
         if (JSON.parse(localStorage.getItem('1') !== null)) {
-            console.log('LOCARL STRAGE IS NOT EMPTY', allStorage())
             setCounterMaxGridCards(allStorage().length)
             setCards(allStorage())
         } else {
-            console.log('LOCARL STRAGE IS EMPTY', allStorage())
             myCards.map(card => {
                 localStorage.setItem(String(card?.id), JSON.stringify(card))
             })
@@ -136,37 +154,17 @@ const Planner = () => {
 
     useEffect(() => {
         if (openModal) {
-            console.log('open')
             setText(JSON.parse(localStorage.getItem(String(openCard?.id)))?.text)
             setTags(JSON.parse(localStorage.getItem(String(openCard?.id)))?.tags)
-            // if (text) {
-                localStorage.setItem(String(openCard?.id), JSON.stringify({...openCard, text: text, tags: tags}))
-            // }
-            // if (tags) {
-                // localStorage.setItem(String(openCard?.id), JSON.stringify({...openCard, tags: tags}))
-            // }
+            localStorage.setItem(String(openCard?.id), JSON.stringify({...openCard, text: text, tags: tags}))
         }
         if (!openModal) {
-            console.log('close')
             setText('')
             setTags('#')
         }
     }, [openModal])
 
-    // useEffect(() => {
-    //     if (text) {
-    //             localStorage.setItem(String(openCard?.id), JSON.stringify({...openCard, text: text}))
-    //         }
-    //         if (tags) {
-    //             localStorage.setItem(String(openCard?.id), JSON.stringify({...openCard, tags: tags}))
-    //         }
-    // }, [text, tags])
-
-    // const handlePressPrev = () => {
-        
-    // }
-
-    // localStorage.clear()
+    localStorage.clear()
     return (
         <Wrapper back={changeBack}>
             {openModal
@@ -208,6 +206,7 @@ const Planner = () => {
                 setChangeBack={setChangeBack}
                 handleOpen={handleOpen}
                 handlePressNext={handlePressNext}
+                handlePressPrev={handlePressPrev}
                 counterMaxGridCards={counterMaxGridCards}
                 />
                 <RightCloser click={!showRef} onClick={() => setShowRef(!showRef)}>{showRef ? `>` : `<`}</RightCloser>
