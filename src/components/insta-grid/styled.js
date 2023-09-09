@@ -43,11 +43,24 @@ export const Cell = styled.div`
     align-items: center;
     justify-content: center;
     overflow: hidden;
+    position: relative;
 `
 
 export const CellImg = styled.img`
     width: ${props => props.w || 'inherit'};
     height: ${props => props.h || 'auto'};
+`
+
+export const CellEngagement = styled.div`
+    position: absolute;
+    top: 50;
+    letf: 50;
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 5vh;
+    text-align: center;
+    color: white;
+    background: rgba(0, 0, 0, 0.6);
 `
 
 export const Plus = styled.div`

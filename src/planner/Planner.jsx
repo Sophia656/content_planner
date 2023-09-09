@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from 'react';
-import { LeftCloser, RightCloser, Wrapper } from './styled';
+import { LeftCloser, RightCloser, StatisticsCloser, Wrapper } from './styled';
 import InstaGrid from '../components/insta-grid/InstaGrid';
 import PreViewer from '../components/pre-viewer/PreViewer';
 import Referencer from '../components/referencer/Referencer';
 import Modal from '../components/modal/Modal';
 import { myCards } from '../localstorage/localStorage';
+import Statistics from '../components/statistics/Statistics';
 
 const Planner = () => {
     const [changeBack, setChangeBack] = useState(true)
@@ -12,8 +13,9 @@ const Planner = () => {
     const [openModal, setOpenModal] = useState(false)
     const [showPrev, setShowPrev] = useState(false)
     const [showRef, setShowRef] = useState(false)
+    const [showStatistics, setShowStatistics] = useState(false)
     const [counterMaxGridCards, setCounterMaxGridCards] = useState(0)
-    const defaultCard = {id: 103, src: '', w: '', h: '', text: '', tags: ''}
+    const defaultCard = {id: 103, src: '', w: '', h: '', text: '', tags: '', engagement: ''}
     const [text, setText] = useState('')
     const [tags, setTags] = useState('#')
     const [cards, setCards] = useState([])
@@ -210,6 +212,8 @@ const Planner = () => {
                 counterMaxGridCards={counterMaxGridCards}
                 />
                 <RightCloser click={!showRef} onClick={() => setShowRef(!showRef)}>{showRef ? `>` : `<`}</RightCloser>
+                <Statistics  showStatistics={showStatistics} />
+                <StatisticsCloser click={!showStatistics} onClick={() => setShowStatistics(!showStatistics)}>{showStatistics ? `>` : `<`}</StatisticsCloser>
                 <Referencer show={showRef} />
         </>
         }
