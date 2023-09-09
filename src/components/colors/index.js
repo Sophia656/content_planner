@@ -1,0 +1,6 @@
+export const RED = '#fb2201b2'
+export const ORANGE = '#fb6501b2'
+export const ORANGE_YELLOW = '#fb9b01b2'
+export const YELLOW = '#fbc901b2'
+export const YELLOW_GREEN = '#c1fb01b2'
+export const GREEN = '#44fb01b2'

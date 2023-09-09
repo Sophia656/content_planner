@@ -212,7 +212,7 @@ const Planner = () => {
                 counterMaxGridCards={counterMaxGridCards}
                 />
                 <RightCloser click={!showRef} onClick={() => setShowRef(!showRef)}>{showRef ? `>` : `<`}</RightCloser>
-                <Statistics  showStatistics={showStatistics} />
+                <Statistics showStatistics={showStatistics} />
                 <StatisticsCloser click={!showStatistics} onClick={() => setShowStatistics(!showStatistics)}>{showStatistics ? `>` : `<`}</StatisticsCloser>
                 <Referencer show={showRef} />
         </>

@@ -21,6 +21,7 @@ export const Wrapper = styled.div`
     box-shadow: 10px 1px 15px 1px rgba(0, 0, 0, 0.2);
     ${props => props.hidden && `
         width: 1vw;
+        background: grey;
     `}
 `
 
