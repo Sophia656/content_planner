@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import { Cell, CellImg, DragAndDrop, Menu, MenuItem, Wrapper } from './styled';
 
 const PreViewer = ({cards, sortCards, dragStartHandler, dragLeaveHandler, dragOverHandler, dragEndHandler, dropHandler, showPrev}) => {

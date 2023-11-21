@@ -1,57 +1,129 @@
-import React from 'react';
-import { Btn, Cell, Wrapper } from './styled';
-import { RED, YELLOW, YELLOW_GREEN, GREEN, ORANGE, ORANGE_YELLOW} from '../colors/index'
+import React, { useState } from 'react';
+import { DataItemWrap, Desc, Wrapper } from './styled';
+import LineChart from '../UI/line-chart/LineChart';
+import { StatisticsData } from './data';
+
 const Statistics = ({showStatistics}) => {
+    const [mondayData, setMondayData] = useState({
+        labels: StatisticsData[0].time.map(i => i.time),
+        datasets: [
+            {
+            label: 'MONDAY',
+            data: StatisticsData[0].time.map(i => i.coverage),
+            backgroundColor: 'rgba(0, 0, 0, 0.7)',
+            borderRadius: 5
+            },
+        ],
+        options: {
+            color: 'black',
+        }
+    })
+
+    const [tuesdayData, setTuedayData] = useState({
+        labels: StatisticsData[1].time.map((i) => i.time),
+        datasets: [
+            {
+            label: 'TUESDAY',
+            data: StatisticsData[1].time.map((i) => i.coverage),
+            backgroundColor: 'rgba(0, 0, 0, 0.7)',
+            borderRadius: 5
+            },
+        ],
+        options: {
+            color: 'black',
+        }
+    })
+
+    const [wednesdayData, setWednesdayData] = useState({
+        labels: StatisticsData[2].time.map((i) => i.time),
+        datasets: [
+            {
+            label: 'WEDNESDAY',
+            data: StatisticsData[2].time.map((i) => i.coverage),
+            backgroundColor: 'rgba(0, 0, 0, 0.7)'
+            },
+        ],
+        options: {
+            color: 'black',
+        }
+    })
+
+    const [thursdayData, setThursdayData] = useState({
+        labels: StatisticsData[3].time.map((i) => i.time),
+        datasets: [
+            {
+            label: 'THURSDAY',
+            data: StatisticsData[3].time.map((i) => i.coverage),
+            backgroundColor: 'rgba(0, 0, 0, 0.7)'
+            },
+        ],
+        options: {
+            color: 'black',
+        }
+    })
+
+    const [fridayData, setFridayData] = useState({
+        labels: StatisticsData[4].time.map((i) => i.time),
+        datasets: [
+            {
+            label: 'FRIDAY',
+            data: StatisticsData[4].time.map((i) => i.coverage),
+            backgroundColor: 'rgba(0, 0, 0, 0.7)'
+            },
+        ],
+        options: {
+            color: 'black',
+        }
+    })
+    const [saturdayData, setSaturdayData] = useState({
+        labels: StatisticsData[5].time.map((i) => i.time),
+        datasets: [
+            {
+            label: 'SATURDAY',
+            data: StatisticsData[5].time.map((i) => i.coverage),
+            backgroundColor: 'rgba(0, 0, 0, 0.7)'
+            },
+        ]
+    })
+    const [sundayData, setSundayData] = useState({
+        labels: StatisticsData[6].time.map((i) => i.time),
+        datasets: [
+            {
+            label: 'SUNDAY',
+            data: StatisticsData[6].time.map((i) => i.coverage),
+            backgroundColor: 'rgba(0, 0, 0, 0.7)',
+            borderRadius: 5
+            },
+        ],
+        options: {
+            color: 'black',
+        }
+    })
+
     return (
         <Wrapper hidden={showStatistics}>
-            <Cell hidden={showStatistics}>DAY<br/>TIME</Cell>
-            <Cell hidden={showStatistics} back={RED}>11-13</Cell>
-            <Cell hidden={showStatistics} back={ORANGE}>13-15</Cell>
-            <Cell hidden={showStatistics} back={GREEN}>15-17</Cell>
-            <Cell hidden={showStatistics} back={YELLOW}>17-19</Cell>
-            <Cell hidden={showStatistics} back={YELLOW}>19+</Cell>
-            <Cell hidden={showStatistics} back={RED}>ПН<br/>19%</Cell>
-            <Cell hidden={showStatistics}>-</Cell>
-            <Cell hidden={showStatistics}>19%</Cell>
-            <Cell hidden={showStatistics}>19%</Cell>
-            <Cell hidden={showStatistics} back={GREEN}>25%</Cell>
-            <Cell hidden={showStatistics}>-</Cell>
-            <Cell hidden={showStatistics} back={ORANGE}>ВТ<br/>20%</Cell>
-            <Cell hidden={showStatistics}>15%</Cell>
-            <Cell hidden={showStatistics}>18%</Cell>
-            <Cell hidden={showStatistics}>22%</Cell>
-            <Cell hidden={showStatistics}>21%</Cell>
-            <Cell hidden={showStatistics} back={GREEN}>23%</Cell>
-            <Cell hidden={showStatistics} back={YELLOW}>СР<br/>24%</Cell>
-            <Cell hidden={showStatistics}>-</Cell>
-            <Cell hidden={showStatistics}>22%</Cell>
-            <Cell hidden={showStatistics}>25%</Cell>
-            <Cell hidden={showStatistics} back={GREEN}>27%</Cell>
-            <Cell hidden={showStatistics}>24%</Cell>
-            <Cell hidden={showStatistics} back={ORANGE_YELLOW}>ЧТ<br/>22%</Cell>
-            <Cell hidden={showStatistics}>16%</Cell>
-            <Cell hidden={showStatistics}>22%</Cell>
-            <Cell hidden={showStatistics} back={GREEN}>29%</Cell>
-            <Cell hidden={showStatistics}>13%</Cell>
-            <Cell hidden={showStatistics}>20%</Cell>
-            <Cell hidden={showStatistics} back={YELLOW}>ПТ<br/>24%</Cell>
-            <Cell hidden={showStatistics}>-</Cell>
-            <Cell hidden={showStatistics}>-</Cell>
-            <Cell hidden={showStatistics} back={GREEN}>26%</Cell>
-            <Cell hidden={showStatistics}>-</Cell>
-            <Cell hidden={showStatistics}>19%</Cell>
-            <Cell hidden={showStatistics} back={GREEN}>СБ<br/>30%</Cell>
-            <Cell hidden={showStatistics} back={GREEN}>31%</Cell>
-            <Cell hidden={showStatistics}>-</Cell>
-            <Cell hidden={showStatistics}>29%</Cell>
-            <Cell hidden={showStatistics}>-</Cell>
-            <Cell hidden={showStatistics}>30%</Cell>
-            <Cell hidden={showStatistics} back={YELLOW_GREEN}>ВС<br/>26%</Cell>
-            <Cell hidden={showStatistics}>-</Cell>
-            <Cell hidden={showStatistics}>26%</Cell>
-            <Cell hidden={showStatistics}>25%</Cell>
-            <Cell hidden={showStatistics} back={GREEN}>29%</Cell>
-            <Cell hidden={showStatistics}>24%</Cell>
+            <Desc hidden={showStatistics}><span>LAST UPDATE - </span>11.09.23</Desc>
+            <DataItemWrap>
+                <LineChart chartData={mondayData} dataOptions={mondayData.options} />
+            </DataItemWrap>
+            <DataItemWrap>
+                <LineChart chartData={tuesdayData} dataOptions={mondayData.options} />
+            </DataItemWrap>
+            <DataItemWrap>
+                <LineChart chartData={wednesdayData} dataOptions={mondayData.options} />
+            </DataItemWrap>
+            <DataItemWrap>
+                <LineChart chartData={thursdayData} dataOptions={mondayData.options} />
+            </DataItemWrap>
+            <DataItemWrap>
+                <LineChart chartData={fridayData} dataOptions={mondayData.options} />
+            </DataItemWrap>
+            <DataItemWrap>
+                <LineChart chartData={saturdayData} dataOptions={mondayData.options} />
+            </DataItemWrap>
+            <DataItemWrap>
+                <LineChart chartData={sundayData} dataOptions={mondayData.options} />
+            </DataItemWrap>
         </Wrapper>
     );
 };

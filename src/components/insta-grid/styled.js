@@ -14,7 +14,6 @@ export const PlannerWrap = styled.div`
     box-shadow: 2px 2px 20px 7px rgba(0, 0, 0, 0.2);
     ${props => props.back && `
         background: black;
-        // border: 1px solid white;
         box-shadow: 2px 2px 20px 7px rgba(255, 255, 255, 0.3);
     `}
     overflow: scroll;
@@ -55,9 +54,10 @@ export const CellEngagement = styled.div`
     position: absolute;
     top: 50;
     letf: 50;
-    font-size: 2rem;
+    font-size: 1.3rem;
     font-weight: bold;
-    line-height: 5vh;
+    line-height: 3.5vh;
+    width: 7vw;
     text-align: center;
     color: white;
     background: rgba(0, 0, 0, 0.6);
@@ -94,4 +94,56 @@ export const BtnsForShiftForward = styled.div`
     top: 48.5%;
     right: 30.6%;
     cursor: pointer;
+`
+
+export const ShowCurrentStatisticsBtn = styled.div`
+    text-align: center;
+    font-size: 0.8rem;
+    display: flex;
+    line-height: 1.5vh;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    width: 6vw;
+    height: 5.5vh;
+    background: rgba(255, 255, 255, 0.8);
+    border: 2px solid black;
+    position: absolute;
+    border-radius: 5px;
+    left: 38%;
+    top 93.8%;
+    transition-duration: 1.15s;
+    transition-timing-function: easy-in;
+    -webkit-box-shadow: 0 0 50px 3px rgba(0, 0, 0, 0.4) inset;
+    -moz-box-shadow: 0 0 50px 3px rgba(0, 0, 0, 0.4) inset;
+    box-shadow: 0 0 50px 3px rgba(0, 0, 0, 0.4) inset;
+    &:hover {
+        background: rgba(255, 255, 255, 0.2);
+    }
+`
+
+export const ShowStatisticsBtn = styled.div`
+    text-align: center;
+    font-size: 0.8rem;
+    display: flex;
+    line-height: 1.5vh;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    width: 6vw;
+    height: 4.5vh;
+    background: rgba(255, 255, 255, 0.8);
+    border: 2px solid black;
+    position: absolute;
+    border-radius: 5px;
+    left: 58.3%;
+    top 94.5%;
+    transition-duration: 1.15s;
+    transition-timing-function: easy-in;
+    -webkit-box-shadow: 0 0 50px 3px rgba(0, 0, 0, 0.4) inset;
+    -moz-box-shadow: 0 0 50px 3px rgba(0, 0, 0, 0.4) inset;
+    box-shadow: 0 0 50px 3px rgba(0, 0, 0, 0.4) inset;
+    &:hover {
+        background: rgba(255, 255, 255, 0.2);
+    }
 `

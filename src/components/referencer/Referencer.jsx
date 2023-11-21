@@ -15,22 +15,16 @@ const Referencer = ({show}) => {
                 <CellImg closeW={!show} openW={show} src={require('../../img/ref/3.jpg')} />
             </Cell>
             <Cell  hidden={!show}>
-                <CellImg closeW={!show} openW={show} src={require('../../img/ref/4.jpg')} />
-            </Cell>
-            <Cell  hidden={!show}>
-                <CellImg closeW={!show} openW={show} src={require('../../img/ref/5.jpg')} />
+                <CellImg closeW={!show} openW={show} src={require('../../img/ref/16.jpg')} />
             </Cell>
             <Cell  hidden={!show}>
                 <CellImg closeW={!show} openW={show} src={require('../../img/ref/10.jpg')} />
             </Cell>
-            {/* <Cell  hidden={!show}>
-                <CellImg closeW={!show} openW={show} src={require('../../img/ref/8.jpg')} />
-            </Cell> */}
             <Cell  hidden={!show}>
-                <CellImg closeW={!show} openW={show} src={require('../../img/ref/9.jpg')} />
+                <CellImg closeW={!show} openW={show} src={require('../../img/ref/11.jpg')} />
             </Cell>
             <Cell  hidden={!show}>
-                <CellImg closeW={!show} openW={show} src={require('../../img/ref/6.jpg')} />
+                <CellImg closeW={!show} openW={show} src={require('../../img/ref/12.jpg')} />
             </Cell>
         </Wrapper>
     );

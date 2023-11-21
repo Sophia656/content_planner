@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 export const Wrapper = styled.div`
+    z-index: 300;
     overflow: scroll;
     min-height: 87vh;
     max-height: 87vh;

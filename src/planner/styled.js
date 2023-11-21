@@ -69,25 +69,3 @@ export const LeftCloser = styled.div`
         left: 26.7%;
     `}
 `
-
-export const StatisticsCloser = styled.div`
-    transform: rotate(90deg);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 20px;
-    font-weight: bold;
-    cursor: pointer;
-    width: 1.2vw;
-    height: 4vh;
-    background: rgba(255, 255, 255, 0.8);
-    position: absolute;
-    top 1%;
-    z-index: 200;
-    transition-duration: 1.15s;
-    transition-timing-function: easy-in;
-    border: 2px solid black;
-    border-right: none;
-    border-radius: 5px 0px 0px 5px;
-    left: 82.3%;
-`
