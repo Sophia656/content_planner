@@ -139,6 +139,7 @@ const Planner = () => {
         // setOpenCard(card)
         // setOpenModal(true)
         setCurrCardForStatistic(card)
+        setShowCurrStatistics(false)
     }
 
     const handleShowCurrentStatistics = () => {

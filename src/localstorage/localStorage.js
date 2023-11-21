@@ -764,9 +764,10 @@ export const myCards = [
         src: require('../img/main/45.jpg'), 
         w: '', 
         h: '', 
-        text: '', tags: '', 
+        text: '', 
+        tags: '', 
         engagement: '27%  ср  6:15',
-        ccurrStatistic: {
+        currStatistic: {
             1: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             2: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             3: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
@@ -795,7 +796,9 @@ export const myCards = [
         }
     },
     {id: 143, 
-        src: require('../img/main/43.jpg'), w: '', h: '', 
+        src: require('../img/main/43.jpg'), 
+        w: '', 
+        h: '', 
         text: '', 
         tags: '', 
         engagement: '29%  вс  5:05',

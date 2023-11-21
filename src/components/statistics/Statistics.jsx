@@ -10,7 +10,7 @@ const Statistics = ({showStatistics}) => {
             {
             label: 'MONDAY',
             data: StatisticsData[0].time.map(i => i.coverage),
-            backgroundColor: 'rgba(0, 0, 0, 0.7)',
+            backgroundColor: 'rgba(0, 0, 0, 0.6)',
             borderRadius: 5
             },
         ],
@@ -25,7 +25,7 @@ const Statistics = ({showStatistics}) => {
             {
             label: 'TUESDAY',
             data: StatisticsData[1].time.map((i) => i.coverage),
-            backgroundColor: 'rgba(0, 0, 0, 0.7)',
+            backgroundColor: 'rgba(0, 0, 0, 0.6)',
             borderRadius: 5
             },
         ],
@@ -40,7 +40,7 @@ const Statistics = ({showStatistics}) => {
             {
             label: 'WEDNESDAY',
             data: StatisticsData[2].time.map((i) => i.coverage),
-            backgroundColor: 'rgba(0, 0, 0, 0.7)'
+            backgroundColor: 'rgba(0, 0, 0, 0.6)'
             },
         ],
         options: {
@@ -54,7 +54,7 @@ const Statistics = ({showStatistics}) => {
             {
             label: 'THURSDAY',
             data: StatisticsData[3].time.map((i) => i.coverage),
-            backgroundColor: 'rgba(0, 0, 0, 0.7)'
+            backgroundColor: 'rgba(0, 0, 0, 0.6)'
             },
         ],
         options: {
@@ -68,7 +68,7 @@ const Statistics = ({showStatistics}) => {
             {
             label: 'FRIDAY',
             data: StatisticsData[4].time.map((i) => i.coverage),
-            backgroundColor: 'rgba(0, 0, 0, 0.7)'
+            backgroundColor: 'rgba(0, 0, 0, 0.6)'
             },
         ],
         options: {
@@ -81,7 +81,7 @@ const Statistics = ({showStatistics}) => {
             {
             label: 'SATURDAY',
             data: StatisticsData[5].time.map((i) => i.coverage),
-            backgroundColor: 'rgba(0, 0, 0, 0.7)'
+            backgroundColor: 'rgba(0, 0, 0, 0.6)'
             },
         ]
     })
@@ -91,7 +91,7 @@ const Statistics = ({showStatistics}) => {
             {
             label: 'SUNDAY',
             data: StatisticsData[6].time.map((i) => i.coverage),
-            backgroundColor: 'rgba(0, 0, 0, 0.7)',
+            backgroundColor: 'rgba(0, 0, 0, 0.6)',
             borderRadius: 5
             },
         ],

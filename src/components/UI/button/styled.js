@@ -1,13 +1,8 @@
 import styled from 'styled-components';
 
 export const Button = styled.button`
-    position: absolute;
-    bottom: 0;
-    right: ${props => props.r || '48%'};
-    padding-top: 2px;
-    margin-bottom: 1.6vh;
-    width: 2.2vw;
-    height: 2.2vw;
+    width: 1vw;
+    height: 1vw;
     background: black;
     color: white;
     cursor: pointer;

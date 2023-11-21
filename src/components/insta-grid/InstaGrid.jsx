@@ -1,5 +1,5 @@
 import React from 'react';
-import { BtnsForShiftBack, BtnsForShiftForward, Cell, CellEngagement, CellImg, GridWrap, PlannerWrap, Plus, ShowCurrentStatisticsBtn, ShowStatisticsBtn } from './styled';
+import { BtnsForShiftBack, BtnsForShiftForward, BtnsWrap, Cell, CellEngagement, CellImg, GridWrap, PlannerWrap, Plus, ShowCurrentStatisticsBtn, ShowStatisticsBtn } from './styled';
 import BtnForChangingBack from '../UI/button/BtnForChangingBack';
 
 const InstaGrid = ({changeBack, 
@@ -39,16 +39,18 @@ const InstaGrid = ({changeBack,
                             draggable={true}>
                                 {card?.src === '' && <Plus>+</Plus>}
                                 <CellImg w={card?.w} h={card?.h} src={card?.src} />
-                                {showEngagement && <CellEngagement>{card?.id}</CellEngagement>}
+                                {!showCurrStatistics && <CellEngagement>{card?.id}</CellEngagement>}
                             </Cell>
                         )
                     }}
                 )}
                 </GridWrap>
             </PlannerWrap>
-            <ShowCurrentStatisticsBtn onClick={handleShowCurrentStatistics}>{showCurrStatistics ? 'show' : `don't show`} current statistics</ShowCurrentStatisticsBtn>
-            <BtnForChangingBack r='48%' changeBack={changeBack} setChangeBack={setChangeBack} />
-            <ShowStatisticsBtn onClick={() => handleShowStatistics()}>{showEngagement ? `don't show` : 'show'} all statistics</ShowStatisticsBtn>
+            <BtnsWrap>
+                <ShowCurrentStatisticsBtn onClick={handleShowCurrentStatistics}>S</ShowCurrentStatisticsBtn>
+                <BtnForChangingBack changeBack={changeBack} setChangeBack={setChangeBack} />
+                <ShowStatisticsBtn onClick={() => handleShowStatistics()}>A</ShowStatisticsBtn>
+            </BtnsWrap>
             <BtnsForShiftForward onClick={() => handlePressNext()}>{'>'}</BtnsForShiftForward>
         </div>
     );

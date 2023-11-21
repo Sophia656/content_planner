@@ -96,22 +96,30 @@ export const BtnsForShiftForward = styled.div`
     cursor: pointer;
 `
 
+export const BtnsWrap = styled.div`
+    position: fixed;
+    width: 32vw;
+    height: 8vh;
+    top: 93%;
+    left: 34.75%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+`
+
 export const ShowCurrentStatisticsBtn = styled.div`
     text-align: center;
     font-size: 0.8rem;
+    padding: 0.5vw;
     display: flex;
     line-height: 1.5vh;
     align-items: center;
     justify-content: center;
     cursor: pointer;
     width: 6vw;
-    height: 5.5vh;
-    background: rgba(255, 255, 255, 0.8);
-    border: 2px solid black;
-    position: absolute;
+    height: 4vh;
+    background: rgba(255, 255, 255, 0.4);
     border-radius: 5px;
-    left: 38%;
-    top 93.8%;
     transition-duration: 1.15s;
     transition-timing-function: easy-in;
     -webkit-box-shadow: 0 0 50px 3px rgba(0, 0, 0, 0.4) inset;
@@ -125,19 +133,16 @@ export const ShowCurrentStatisticsBtn = styled.div`
 export const ShowStatisticsBtn = styled.div`
     text-align: center;
     font-size: 0.8rem;
+    padding: 0.5vw;
     display: flex;
     line-height: 1.5vh;
     align-items: center;
     justify-content: center;
     cursor: pointer;
     width: 6vw;
-    height: 4.5vh;
-    background: rgba(255, 255, 255, 0.8);
-    border: 2px solid black;
-    position: absolute;
+    height: 4vh;
+    background: rgba(255, 255, 255, 0.4);
     border-radius: 5px;
-    left: 58.3%;
-    top 94.5%;
     transition-duration: 1.15s;
     transition-timing-function: easy-in;
     -webkit-box-shadow: 0 0 50px 3px rgba(0, 0, 0, 0.4) inset;
