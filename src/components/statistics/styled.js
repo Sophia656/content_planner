@@ -9,8 +9,7 @@ export const Wrapper = styled.div`
     width: 27.7vw;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    margin-top: 13.5vh;
+    margin-top: 12.5vh;
     top: 0;
     padding: 0.4vw;
     padding-top: 3vh;

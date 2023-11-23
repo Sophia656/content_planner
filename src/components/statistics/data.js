@@ -8,15 +8,15 @@ export const StatisticsData = [
             },
             {
                 time: '13-15',
-                coverage: 19
+                coverage: 0
             },
             {
                 time: '15-17',
-                coverage: 19
+                coverage: 0
             },
             {
                 time: '17-19',
-                coverage: 25
+                coverage: 0
             },
             {
                 time: '19-22',
@@ -29,23 +29,23 @@ export const StatisticsData = [
         time: [
             {
                 time: '11-13',
-                coverage: 15
+                coverage: 0
             },
             {
                 time: '13-15',
-                coverage: 18
+                coverage: 28
             },
             {
                 time: '15-17',
-                coverage: 22
+                coverage: 0
             },
             {
                 time: '17-19',
-                coverage: 21
+                coverage: 27
             },
             {
                 time: '19-22',
-                coverage: 23
+                coverage: 15
             },
         ]
     },
@@ -59,19 +59,19 @@ export const StatisticsData = [
             },
             {
                 time: '13-15',
-                coverage: 22
+                coverage: 21
             },
             {
                 time: '15-17',
-                coverage: 25
+                coverage: 0
             },
             {
                 time: '17-19',
-                coverage: 27
+                coverage: 0
             },
             {
                 time: '19-22',
-                coverage: 24
+                coverage: 29
             },
         ]
     },
@@ -81,23 +81,23 @@ export const StatisticsData = [
         time: [
             {
                 time: '11-13',
-                coverage: 16
+                coverage: 0
             },
             {
                 time: '13-15',
-                coverage: 22
+                coverage: 21
             },
             {
                 time: '15-17',
-                coverage: 29
+                coverage: 25
             },
             {
                 time: '17-19',
-                coverage: 13
+                coverage: 0
             },
             {
                 time: '19-22',
-                coverage: 20
+                coverage: 0
             },
         ]
     },
@@ -116,15 +116,15 @@ export const StatisticsData = [
             },
             {
                 time: '15-17',
-                coverage: 26
-            },
-            {
-                time: '17-19',
                 coverage: 0
             },
             {
+                time: '17-19',
+                coverage: 12
+            },
+            {
                 time: '19-22',
-                coverage: 19
+                coverage: 23
             },
         ]
     },
@@ -135,7 +135,7 @@ export const StatisticsData = [
         time: [
             {
                 time: '11-13',
-                coverage: 31
+                coverage: 0
             },
             {
                 time: '13-15',
@@ -143,7 +143,7 @@ export const StatisticsData = [
             },
             {
                 time: '15-17',
-                coverage: 29
+                coverage: 16
             },
             {
                 time: '17-19',
@@ -151,7 +151,7 @@ export const StatisticsData = [
             },
             {
                 time: '19-22',
-                coverage: 30
+                coverage: 0
             },
         ]
     },
@@ -161,23 +161,23 @@ export const StatisticsData = [
         time: [
             {
                 time: '11-13',
-                coverage: 0
+                coverage: 22
             },
             {
                 time: '13-15',
-                coverage: 26
+                coverage: 0
             },
             {
                 time: '15-17',
-                coverage: 25
+                coverage: 19
             },
             {
                 time: '17-19',
-                coverage: 29
+                coverage: 20
             },
             {
                 time: '19-22',
-                coverage: 24
+                coverage: 11
             },
         ]
     }

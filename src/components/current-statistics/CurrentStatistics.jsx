@@ -8,7 +8,7 @@ const CurrentStatistics = ({showCurrStatistics, card}) => {
     const handlePressPrev = () => {
         if (cardObjNum === 1) {
             setCardObjNum(8)
-        } else if (card?.currStatistic?.[cardObjNum - 1]?.subs === '-'){
+        } else if (card?.currStatistic?.[cardObjNum - 1]?.period === '-'){
             setCardObjNum(cardObjNum)
         } else {
             setCardObjNum(cardObjNum => --cardObjNum)
@@ -42,7 +42,7 @@ const CurrentStatistics = ({showCurrStatistics, card}) => {
         datasets: [
             {
             ladel: ['subs', 'nonsubs'],
-            data: [card?.currStatistic?.[8]?.subs, card?.currStatistic?.[8]?.nonsubs],
+            data: [card?.currStatistic?.[8]?.subs, card?.currStatistic?.[cardObjNum]?.nonsubs],
             backgroundColor: ['rgb(26, 109, 217)', 'rgb(5, 25, 51)'],
             borderColor: ['rgb(0, 0, 0, 0.1)']
             },
@@ -58,7 +58,7 @@ const CurrentStatistics = ({showCurrStatistics, card}) => {
             datasets: [
                 {
                 ladel: ['subs', 'nonsubs'],
-                data: [card?.currStatistic?.[8]?.subs, card?.currStatistic?.[8]?.nonsubs],
+                data: [card?.currStatistic?.[8]?.subs, card?.currStatistic?.[cardObjNum]?.nonsubs],
                 backgroundColor: ['rgb(26, 109, 217)', 'rgb(5, 25, 51)'],
                 borderColor: ['rgb(0, 0, 0, 0.1)']
                 },

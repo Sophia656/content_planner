@@ -47,9 +47,9 @@ const InstaGrid = ({changeBack,
                 </GridWrap>
             </PlannerWrap>
             <BtnsWrap>
-                <ShowCurrentStatisticsBtn onClick={handleShowCurrentStatistics}>S</ShowCurrentStatisticsBtn>
+                <ShowCurrentStatisticsBtn onClick={handleShowCurrentStatistics}>SELECTED</ShowCurrentStatisticsBtn>
                 <BtnForChangingBack changeBack={changeBack} setChangeBack={setChangeBack} />
-                <ShowStatisticsBtn onClick={() => handleShowStatistics()}>A</ShowStatisticsBtn>
+                <ShowStatisticsBtn onClick={() => handleShowStatistics()}>ALL</ShowStatisticsBtn>
             </BtnsWrap>
             <BtnsForShiftForward onClick={() => handlePressNext()}>{'>'}</BtnsForShiftForward>
         </div>

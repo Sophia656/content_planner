@@ -102,7 +102,7 @@ const Statistics = ({showStatistics}) => {
 
     return (
         <Wrapper hidden={showStatistics}>
-            <Desc hidden={showStatistics}><span>LAST UPDATE - </span>11.09.23</Desc>
+            <Desc hidden={showStatistics}><span>PERIOD - </span>22.09.23 - 23.11.23</Desc>
             <DataItemWrap>
                 <LineChart chartData={mondayData} dataOptions={mondayData.options} />
             </DataItemWrap>

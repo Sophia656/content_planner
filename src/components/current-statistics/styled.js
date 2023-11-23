@@ -8,10 +8,9 @@ export const Wrapper = styled.div`
     width: 27.7vw;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
     margin-top: 13.5vh;
     top: 0;
-    padding: 0.4vw;
+    padding: 0.6vw;
     padding-top: 3vh;
     transition-duration: 1.2s;
     transition-timing-function: easy-out;
@@ -92,10 +91,11 @@ export const Cell = styled.div`
     `}
 `
 export const MyCurcle = styled.div`
-    width: inherit;
+    width: 20vw;
     display: flex;
     flex-direction: column;
     align-items: center;
     justifu-content: center;
-    margin-top: 5vh;
+    margin-top: 6vh;
+    margin-left: 7vh;
 `
