@@ -176,6 +176,7 @@ const Planner = () => {
         }
     }, [])
 
+
     // useEffect(() => {
     //     if (openModal) {
     //         setText(JSON.parse(localStorage.getItem(String(openCard?.id)))?.text)
@@ -188,7 +189,6 @@ const Planner = () => {
     //     }
     // }, [openModal])
 
-    console.log('planner', currCardForStatistic)
     localStorage.clear()
     return (
         <Wrapper back={changeBack}>

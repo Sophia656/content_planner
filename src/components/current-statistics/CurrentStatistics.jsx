@@ -42,7 +42,7 @@ const CurrentStatistics = ({showCurrStatistics, card}) => {
         datasets: [
             {
             ladel: ['subs', 'nonsubs'],
-            data: [card?.currStatistic?.[8]?.subs, card?.currStatistic?.[cardObjNum]?.nonsubs],
+            data: [card?.currStatistic?.[cardObjNum]?.subs, card?.currStatistic?.[cardObjNum]?.nonsubs],
             backgroundColor: ['rgb(26, 109, 217)', 'rgb(5, 25, 51)'],
             borderColor: ['rgb(0, 0, 0, 0.1)']
             },
@@ -58,7 +58,7 @@ const CurrentStatistics = ({showCurrStatistics, card}) => {
             datasets: [
                 {
                 ladel: ['subs', 'nonsubs'],
-                data: [card?.currStatistic?.[8]?.subs, card?.currStatistic?.[cardObjNum]?.nonsubs],
+                data: [card?.currStatistic?.[cardObjNum]?.subs, card?.currStatistic?.[cardObjNum]?.nonsubs],
                 backgroundColor: ['rgb(26, 109, 217)', 'rgb(5, 25, 51)'],
                 borderColor: ['rgb(0, 0, 0, 0.1)']
                 },

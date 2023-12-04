@@ -1,14 +1,14 @@
 export const myCards = [
     // КРУПНЫЙ ПЛАН
-    {id: 1, src: require('../img/prev/close_up/6.jpg'), w: '', h: ''},
+    {id: 1, src: '', w: '', h: ''},
     {id: 2, src: '', w: 'auto', h: 'inherit'},
     {id: 3, src: '', w: 'auto', h: 'inherit'},
-    {id: 4, src: require('../img/prev/close_up/15.jpg'), w: '', h: ''},
+    {id: 4, src: '', w: '', h: ''},
     {id: 5, src: '', w: 'auto', h: 'inherit'},
     {id: 6, src: require('../img/prev/close_up/7.jpg'), w: '', h: ''},
     {id: 7, src: '', w: 'auto', h: 'inherit'},
     {id: 8, src: '', w: 'auto', h: 'inherit'},
-    {id: 9, src: '', w: '', h: ''},
+    {id: 9, src: require('../img/prev/close_up/1.jpg'), w: '', h: ''},
     {id: 10, src: '', w: '', h: ''},
     {id: 11, src: require('../img/prev/close_up/9.jpg'), w: 'auto', h: 'inherit'},
     {id: 12, src: require('../img/prev/close_up/11.jpg'), w: 'auto', h: 'inherit'},
@@ -17,17 +17,17 @@ export const myCards = [
     {id: 13, src: require('../img/prev/middle/1.jpg'), w: 'auto', h: 'inherit'},
     {id: 14, src: require('../img/prev/middle/5.jpg'), w: '', h: ''},
     {id: 15, src: require('../img/prev/middle/6.jpg'), w: 'auto', h: 'inherit'},
-    {id: 16, src: require('../img/prev/middle/31.jpg'), w: '', h: ''},
-    {id: 17, src: '', w: '', h: ''},
-    {id: 18, src: require('../img/prev/middle/32.jpg'), w: '', h: ''},
+    {id: 16, src: '', w: '', h: ''},
+    {id: 17, src: require('../img/prev/middle/3.jpg'), w: '', h: ''},
+    {id: 18, src: '', w: '', h: ''},
     {id: 19, src: require('../img/prev/middle/13.jpg'), w: '', h: ''},
-    {id: 20, src: require('../img/prev/middle/2.jpg'), w: 'auto', h: 'inherit'},
-    {id: 21, src: require('../img/prev/middle/3.jpg'), w: '', h: ''},
+    {id: 20, src: '', w: 'auto', h: 'inherit'},
+    {id: 21, src: require('../img/prev/middle/4.jpg'), w: '', h: ''},
     {id: 22, src: '', w: 'auto', h: 'inherit'},
     {id: 23, src: require('../img/prev/middle/7.jpg'), w: 'auto', h: 'inherit'},
-    {id: 24, src: require('../img/prev/middle/24.jpg'), w: '', h: ''},
+    {id: 24, src: '', w: '', h: ''},
     
-    {id: 25, src: require('../img/prev/middle/8.jpg'), w: 'auto', h: 'inherit'},
+    {id: 25, src: '', w: 'auto', h: 'inherit'},
     {id: 26, src: '', w: '', h: ''},
     {id: 27, src: '', w: 'auto', h: 'inherit'},
     {id: 28, src: require('../img/prev/middle/10.jpg'), w: '', h: ''},
@@ -98,8 +98,8 @@ export const myCards = [
             4: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             5: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             6: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            7: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            8: {period: '20.11', subs: '172', nonsubs: '142', profile: '361', main: '-', other: '3'}
+            7: {period: '02.12', subs: '72', nonsubs: '142', profile: '362', main: '-', other: '3'}, 
+            8: {period: '28.11', subs: '72', nonsubs: '142', profile: '361', main: '-', other: '3'}
         }
     },
     {id: 101, 
@@ -114,7 +114,7 @@ export const myCards = [
             3: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             4: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             5: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            6: {period: '20.11', subs: '62', nonsubs: '21', profile: '34', main: '60', other: '2'}, 
+            6: {period: '28.11-02.12', subs: '62', nonsubs: '22', profile: '35', main: '60', other: '2'}, 
             7: {period: '14.11', subs: '62', nonsubs: '20', profile: '33', main: '60', other: '2'}, 
             8: {period: '7.11', subs: '62', nonsubs: '20', profile: '32', main: '60', other: '2'}
         }
@@ -130,20 +130,21 @@ export const myCards = [
             2: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             3: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             4: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            5: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            6: {period: '20.11', subs: '119', nonsubs: '110', profile: '365', main: '88', other: '13'}, 
+            5: {period: '02.12', subs: '119', nonsubs: '111', profile: '369', main: '88', other: '13'},
+            6: {period: '28.11', subs: '119', nonsubs: '110', profile: '365', main: '88', other: '13'}, 
             7: {period: '14.11', subs: '119', nonsubs: '110', profile: '363', main: '88', other: '13'}, 
             8: {period: '7.11', subs: '119', nonsubs: '110', profile: '361', main: '88', other: '13'}
         }
     },
     {id: 103, src: '', w: '', h: ''},
 
-    {id: 104, 
-        src: require('../img/main/83.jpg'), 
-        w: 'auto', 
-        h: 'inherit', 
+
+    {id: 405, 
+        src: require('../img/main/216.jpg'), 
+        w: '', 
+        h: '', 
         tags: '', 
-        engagement: '20% чт 1:03', 
+        engagement: '-- -- --', 
         currStatistic: {
             1: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             2: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
@@ -152,10 +153,61 @@ export const myCards = [
             5: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             6: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             7: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            8: {period: '20.11', subs: '40', nonsubs: '2', profile: '2', main: '47', other: '4'}
+            8: {period: '04.12', subs: '26', nonsubs: '0', profile: '1', main: '25', other: '2'}
         }
     },
-    {id: 105, 
+    {id: 406, 
+        src: require('../img/main/215.jpg'), 
+        w: '', 
+        h: '', 
+        tags: '', 
+        engagement: '-- -- --', 
+        currStatistic: {
+            1: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
+            2: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
+            3: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
+            4: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
+            5: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
+            6: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
+            7: {period: '04.12', subs: '30', nonsubs: '22', profile: '4', main: '36', other: '21'}, 
+            8: {period: '02.12', subs: '23', nonsubs: '20', profile: '2', main: '26', other: '21'}
+        }
+    },
+    {id: 407, 
+        src: require('../img/main/214.jpg'), 
+        w: 'auto', 
+        h: 'inherit', 
+        tags: '', 
+        engagement: '-- -- --', 
+        currStatistic: {
+            1: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
+            2: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
+            3: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
+            4: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
+            5: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
+            6: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
+            7: {period: '04.12', subs: '48', nonsubs: '6', profile: '7', main: '49', other: '1'}, 
+            8: {period: '02.12', subs: '43', nonsubs: '4', profile: '4', main: '44', other: '1'}
+        }
+    },
+    {id: 408, 
+        src: require('../img/main/213.jpg'), 
+        w: '', 
+        h: '', 
+        tags: '', 
+        engagement: '-- -- --', 
+        currStatistic: {
+            1: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
+            2: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
+            3: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
+            4: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
+            5: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
+            6: {period: '04.12', subs: '51', nonsubs: '7', profile: '10', main: '55', other: '4'},
+            7: {period: '02.12', subs: '49', nonsubs: '5', profile: '7', main: '53', other: '4'}, 
+            8: {period: '28.11', subs: '28', nonsubs: '1', profile: '1', main: '28', other: '3'}
+        }
+    },
+    {id: 409, 
         src: require('../img/main/82.jpg'), 
         w: '', 
         h: '', 
@@ -167,13 +219,13 @@ export const myCards = [
             2: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             3: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             4: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            5: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            6: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            7: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
+            5: {period: '04.12', subs: '58', nonsubs: '8', profile: '9', main: '57', other: '1'},
+            6: {period: '02.12', subs: '58', nonsubs: '6', profile: '7', main: '57', other: '1'}, 
+            7: {period: '28.11', subs: '57', nonsubs: '3', profile: '3', main: '57', other: '1'}, 
             8: {period: '20.11', subs: '55', nonsubs: '2', profile: '2', main: '55', other: '1'}
         }
     },
-    {id: 106, 
+    {id: 410, 
         src: require('../img/main/81.jpg'), 
         w: '', 
         h: '', 
@@ -184,14 +236,14 @@ export const myCards = [
             1: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             2: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             3: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            4: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            5: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            6: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
+            4: {period: '04.12', subs: '40', nonsubs: '9', profile: '12', main: '36', other: '5'},
+            5: {period: '02.12', subs: '40', nonsubs: '7', profile: '10', main: '36', other: '5'},
+            6: {period: '28.11', subs: '39', nonsubs: '4', profile: '6', main: '36', other: '5'}, 
             7: {period: '20.11', subs: '39', nonsubs: '2', profile: '4', main: '36', other: '3'}, 
             8: {period: '14.11', subs: '33', nonsubs: '1', profile: '1', main: '30', other: '3'}
         }
     },
-    {id: 107, 
+    {id: 411, 
         src: require('../img/main/80.jpg'), 
         w: '', 
         h: '', 
@@ -202,14 +254,14 @@ export const myCards = [
             1: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             2: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             3: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            4: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            5: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            6: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
+            4: {period: '04.12', subs: '50', nonsubs: '8', profile: '12', main: '48', other: '3'},
+            5: {period: '02.12', subs: '49', nonsubs: '7', profile: '11', main: '47', other: '3'},
+            6: {period: '28.11', subs: '48', nonsubs: '5', profile: '8', main: '47', other: '3'}, 
             7: {period: '20.11', subs: '48', nonsubs: '2', profile: '5', main: '47', other: '3'}, 
             8: {period: '14.11', subs: '47', nonsubs: '1', profile: '2', main: '46', other: '2'}
         }
     },
-    {id: 108, 
+    {id: 412, 
         src: require('../img/main/79.jpg'), 
         w: 'auto', 
         h: 'inherit', 
@@ -219,15 +271,15 @@ export const myCards = [
         currStatistic: {
             1: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             2: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            3: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            4: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            5: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
+            3: {period: '04.12', subs: '42', nonsubs: '9', profile: '14', main: '40', other: '1'},
+            4: {period: '02.12', subs: '42', nonsubs: '7', profile: '11', main: '40', other: '1'},
+            5: {period: '28.11', subs: '41', nonsubs: '6', profile: '9', main: '40', other: '1'},
             6: {period: '20.11', subs: '41', nonsubs: '4', profile: '7', main: '40', other: '1'}, 
             7: {period: '14.11', subs: '41', nonsubs: '1', profile: '4', main: '40', other: '1'}, 
             8: {period: '7.11', subs: '41', nonsubs: '1', profile: '1', main: '30', other: '1'}
         }
     },
-    {id: 109, 
+    {id: 413, 
         src: require('../img/main/78.jpg'), 
         w: '', 
         h: '', 
@@ -237,15 +289,15 @@ export const myCards = [
         currStatistic: {
             1: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             2: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            3: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            4: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            5: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
+            3: {period: '04.12', subs: '69', nonsubs: '12', profile: '19', main: '75', other: '2'},
+            4: {period: '02.12', subs: '69', nonsubs: '10', profile: '16', main: '75', other: '2'},
+            5: {period: '28.11', subs: '68', nonsubs: '8', profile: '13', main: '75', other: '2'},
             6: {period: '20.11', subs: '68', nonsubs: '7', profile: '12', main: '75', other: '2'}, 
             7: {period: '14.11', subs: '68', nonsubs: '5', profile: '9', main: '74', other: '2'}, 
             8: {period: '7.11', subs: '68', nonsubs: '3', profile: '5', main: '71', other: '2'}
         }
     },
-    {id: 111, 
+    {id: 414, 
         src: require('../img/main/77.jpg'), 
         w: 'auto', 
         h: 'inherit', 
@@ -255,15 +307,15 @@ export const myCards = [
         currStatistic: {
             1: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             2: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            3: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            4: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            5: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
+            3: {period: '04.12', subs: '45', nonsubs: '12', profile: '21', main: '47', other: '2'},
+            4: {period: '02.12', subs: '45', nonsubs: '11', profile: '18', main: '47', other: '2'},
+            5: {period: '28.11', subs: '45', nonsubs: '10', profile: '16', main: '47', other: '2'},
             6: {period: '20.11', subs: '45', nonsubs: '9', profile: '15', main: '46', other: '2'}, 
             7: {period: '14.11', subs: '45', nonsubs: '7', profile: '12', main: '46', other: '2'}, 
             8: {period: '7.11', subs: '45', nonsubs: '5', profile: '9', main: '46', other: '2'}
         }
     },
-    {id: 112, 
+    {id: 415, 
         src: require('../img/main/76.jpg'), 
         w: 'auto', 
         h: 'inherit', 
@@ -276,12 +328,12 @@ export const myCards = [
             3: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             4: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             5: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            6: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            7: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            8: {period: '20.11', subs: '46', nonsubs: '5', profile: '9', main: '46', other: '2'}
+            6: {period: '04.12', subs: '46', nonsubs: '7', profile: '13', main: '46', other: '2'}, 
+            7: {period: '02.12', subs: '46', nonsubs: '5', profile: '10', main: '46', other: '2'}, 
+            8: {period: '20-28.11', subs: '46', nonsubs: '5', profile: '9', main: '46', other: '2'}
         }
     },
-    {id: 113, 
+    {id: 416, 
         src: require('../img/main/75.jpg'), 
         w: '', 
         h: '', 
@@ -294,12 +346,12 @@ export const myCards = [
             3: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             4: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             5: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            6: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            7: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            8: {period: '20.11', subs: '34', nonsubs: '7', profile: '13', main: '7', other: '1'}
+            6: {period: '04.12', subs: '34', nonsubs: '8', profile: '16', main: '38', other: '1'}, 
+            7: {period: '02.12', subs: '34', nonsubs: '7', profile: '14', main: '38', other: '1'}, 
+            8: {period: '20-28.11', subs: '34', nonsubs: '7', profile: '13', main: '38', other: '1'}
         }
     },
-    {id: 114, 
+    {id: 417, 
         src: require('../img/main/74.jpg'), 
         w: '', 
         h: '', 
@@ -312,30 +364,12 @@ export const myCards = [
             3: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             4: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             5: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            6: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            7: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
+            6: {period: '04.12', subs: '34', nonsubs: '11', profile: '20', main: '37', other: '4'}, 
+            7: {period: '28.11-02.12', subs: '34', nonsubs: '9', profile: '17', main: '37', other: '4'}, 
             8: {period: '20.11', subs: '34', nonsubs: '8', profile: '16', main: '37', other: '4'}
         }
     },
-    {id: 115, 
-        src: require('../img/main/73.jpg'), 
-        w: '', 
-        h: '', 
-        text: '', 
-        tags: '', 
-        engagement: '-- -- --',
-        currStatistic: {
-            1: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            2: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            3: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            4: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            5: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            6: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            7: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            8: {period: '20.11', subs: '42', nonsubs: '6', profile: '13', main: '45', other: '6'}
-        }
-    },
-    {id: 116, 
+    {id: 418, 
         src: require('../img/main/72.jpg'), 
         w: 'auto', 
         h: 'inherit', 
@@ -345,16 +379,16 @@ export const myCards = [
         currStatistic: {
             1: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             2: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            3: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            4: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            5: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
+            3: {period: '04.12', subs: '39', nonsubs: '10', profile: '19', main: '42', other: '3'},
+            4: {period: '02.12', subs: '39', nonsubs: '8', profile: '16', main: '42', other: '3'},
+            5: {period: '28.11', subs: '39', nonsubs: '7', profile: '15', main: '42', other: '3'},
             6: {period: '20.11', subs: '39', nonsubs: '6', profile: '14', main: '42', other: '3'}, 
             7: {period: '14.11', subs: '38', nonsubs: '5', profile: '12', main: '42', other: '3'}, 
             8: {period: '7.11', subs: '38', nonsubs: '4', profile: '11', main: '42', other: '3'}
         }
     },
 
-    {id: 117, 
+    {id: 419, 
         src: require('../img/main/71.jpg'), 
         w: '', 
         h: '', 
@@ -365,13 +399,13 @@ export const myCards = [
             2: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             3: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             4: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            5: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            6: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            7: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
+            5: {period: '04.12', subs: '57', nonsubs: '13', profile: '21', main: '64', other: '1'},
+            6: {period: '02.12', subs: '57', nonsubs: '12', profile: '19', main: '64', other: '1'}, 
+            7: {period: '28.11', subs: '57', nonsubs: '12', profile: '18', main: '64', other: '1'}, 
             8: {period: '20.11', subs: '57', nonsubs: '11', profile: '17', main: '64', other: '1'}
         }
     },
-    {id: 118, 
+    {id: 420, 
         src: require('../img/main/70.jpg'), 
         w: 'auto', 
         h: 'inherit', 
@@ -383,13 +417,13 @@ export const myCards = [
             2: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             3: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             4: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            5: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            6: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            7: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
+            5: {period: '04.12', subs: '57', nonsubs: '21', profile: '32', main: '59', other: '1'},
+            6: {period: '02.12', subs: '57', nonsubs: '19', profile: '29', main: '59', other: '1'}, 
+            7: {period: '28.11', subs: '57', nonsubs: '19', profile: '28', main: '59', other: '1'}, 
             8: {period: '20.11', subs: '57', nonsubs: '17', profile: '26', main: '59', other: '1'}
         }
     },
-    {id: 119, 
+    {id: 421, 
         src: require('../img/main/69.jpg'), 
         w: 'auto', 
         h: 'inherit', 
@@ -401,13 +435,13 @@ export const myCards = [
             2: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             3: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             4: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            5: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            6: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            7: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
+            5: {period: '04.12', subs: '51', nonsubs: '19', profile: '31', main: '53', other: '2'},
+            6: {period: '02.12', subs: '51', nonsubs: '17', profile: '28', main: '53', other: '2'}, 
+            7: {period: '28.11', subs: '51', nonsubs: '17', profile: '27', main: '53', other: '2'},
             8: {period: '20.11', subs: '51', nonsubs: '16', profile: '26', main: '53', other: '2'}
         }
     },
-    {id: 120, 
+    {id: 422, 
         src: require('../img/main/68.jpg'), 
         w: '', 
         h: '', 
@@ -419,12 +453,12 @@ export const myCards = [
             3: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             4: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             5: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            6: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            7: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            8: {period: '20.11', subs: '55', nonsubs: '13', profile: '23', main: '59', other: '5'}
+            6: {period: '04.12', subs: '55', nonsubs: '15', profile: '27', main: '59', other: '5'}, 
+            7: {period: '02.12', subs: '55', nonsubs: '13', profile: '24', main: '59', other: '5'}, 
+            8: {period: '20-28.11', subs: '55', nonsubs: '13', profile: '23', main: '59', other: '5'}
         }
     },
-    {id: 121, 
+    {id: 423, 
         src: require('../img/main/67.jpg'), 
         w: 'auto', 
         h: 'inherit', 
@@ -435,14 +469,14 @@ export const myCards = [
             1: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             2: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             3: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            4: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            5: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            6: {period: '20.11', subs: '108', nonsubs: '14', profile: '23', main: '117', other: '4'}, 
+            4: {period: '04.12', subs: '108', nonsubs: '15', profile: '25', main: '117', other: '4'},
+            5: {period: '02.12', subs: '108', nonsubs: '14', profile: '24', main: '117', other: '4'},
+            6: {period: '20-28.11', subs: '108', nonsubs: '14', profile: '23', main: '117', other: '4'}, 
             7: {period: '14.11', subs: '108', nonsubs: '12', profile: '21', main: '117', other: '4'}, 
             8: {period: '7.11', subs: '108', nonsubs: '12', profile: '21', main: '117', other: '4'}
         }
     },
-    {id: 122, 
+    {id: 424, 
         src: require('../img/main/66.jpg'), 
         w: '', 
         h: '', 
@@ -456,11 +490,11 @@ export const myCards = [
             4: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             5: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             6: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            7: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            8: {period: '20.11', subs: '43', nonsubs: '14', profile: '20', main: '42', other: '1'}
+            7: {period: '02.12-04.12', subs: '43', nonsubs: '14', profile: '21', main: '42', other: '1'}, 
+            8: {period: '20-28.11', subs: '43', nonsubs: '14', profile: '20', main: '42', other: '1'}
         }
     },
-    {id: 123, 
+    {id: 425, 
         src: require('../img/main/64.jpg'), 
         w: '', 
         h: '', 
@@ -474,11 +508,11 @@ export const myCards = [
             4: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             5: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             6: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            7: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            8: {period: '20.11', subs: '52', nonsubs: '13', profile: '24', main: '47', other: '3'}
+            7: {period: '02.12-04.12', subs: '52', nonsubs: '13', profile: '25', main: '47', other: '3'}, 
+            8: {period: '20-28.11', subs: '52', nonsubs: '13', profile: '24', main: '47', other: '3'}
         }
     },
-    {id: 125, 
+    {id: 426, 
         src: require('../img/main/62.jpg'), 
         w: '', 
         h: '', 
@@ -492,28 +526,11 @@ export const myCards = [
             4: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             5: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             6: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            7: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            8: {period: '20.11', subs: '59', nonsubs: '13', profile: '20', main: '60', other: '2'}
+            7: {period: '02.12-04.12', subs: '59', nonsubs: '13', profile: '21', main: '60', other: '2'}, 
+            8: {period: '20-28.11', subs: '59', nonsubs: '13', profile: '20', main: '60', other: '2'}
         }
     },
-    {id: 126, 
-        src: require('../img/main/61.jpg'), 
-        w: 'auto', 
-        h: 'inherit', 
-        tags: '', 
-        engagement: '17%  вс  4:30',
-        currStatistic: {
-            1: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            2: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            3: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            4: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            5: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            6: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            7: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            8: {period: '20.11', subs: '44', nonsubs: '13', profile: '20', main: '42', other: '2'}
-        }
-    },
-    {id: 127, 
+    {id: 427, 
         src: require('../img/main/60.jpg'), 
         w: 'auto', 
         h: 'inherit', 
@@ -525,12 +542,12 @@ export const myCards = [
             3: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             4: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             5: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            6: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            7: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
+            6: {period: '02.12-04.12', subs: '37', nonsubs: '13', profile: '21', main: '34', other: '1'}, 
+            7: {period: '28.11', subs: '37', nonsubs: '13', profile: '20', main: '34', other: '1'}, 
             8: {period: '20.11', subs: '37', nonsubs: '12', profile: '19', main: '34', other: '1'}
         }
     },
-    {id: 128, 
+    {id: 428, 
         src: require('../img/main/59.jpg'), 
         w: 'auto', 
         h: 'inherit', 
@@ -543,11 +560,11 @@ export const myCards = [
             4: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             5: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             6: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            7: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            8: {period: '20.11', subs: '66', nonsubs: '9', profile: '15', main: '65', other: '2'}
+            7: {period: '02.12-04.12', subs: '66', nonsubs: '9', profile: '16', main: '65', other: '2'}, 
+            8: {period: '20-28.11', subs: '66', nonsubs: '9', profile: '15', main: '65', other: '2'}
         }
     },
-    {id: 129, 
+    {id: 429, 
         src: require('../img/main/58.jpg'), 
         w: 'auto', 
         h: 'inherit', 
@@ -559,12 +576,12 @@ export const myCards = [
             3: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             4: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             5: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            6: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            7: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            8: {period: '20.11', subs: '53', nonsubs: '12', profile: '19', main: '53', other: '2'}
+            6: {period: '04.12', subs: '53', nonsubs: '13', profile: '21', main: '53', other: '2'}, 
+            7: {period: '02.12', subs: '53', nonsubs: '12', profile: '20', main: '53', other: '2'}, 
+            8: {period: '20-28.11', subs: '53', nonsubs: '12', profile: '19', main: '53', other: '2'}
         }
     },
-    {id: 130, 
+    {id: 430, 
         src: require('../img/main/57.jpg'), 
         w: '', 
         h: '', 
@@ -577,12 +594,12 @@ export const myCards = [
             3: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             4: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             5: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            6: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            7: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            8: {period: '20.11', subs: '54', nonsubs: '18', profile: '25', main: '54', other: '5'}
+            6: {period: '04.12', subs: '54', nonsubs: '20', profile: '28', main: '54', other: '5'}, 
+            7: {period: '02.12', subs: '54', nonsubs: '19', profile: '27', main: '54', other: '5'}, 
+            8: {period: '20-28.11', subs: '54', nonsubs: '18', profile: '25', main: '54', other: '5'}
         }
     },
-    {id: 131, 
+    {id: 431, 
         src: require('../img/main/55.jpg'), 
         w: '', 
         h: '', 
@@ -595,12 +612,12 @@ export const myCards = [
             3: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             4: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             5: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            6: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            7: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            8: {period: '20.11', subs: '55', nonsubs: '17', profile: '25', main: '54', other: '1'}
+            6: {period: '04.12', subs: '55', nonsubs: '18', profile: '28', main: '54', other: '1'}, 
+            7: {period: '02.12', subs: '55', nonsubs: '17', profile: '27', main: '54', other: '1'}, 
+            8: {period: '20-28.11', subs: '55', nonsubs: '17', profile: '25', main: '54', other: '1'}
         }
     },
-    {id: 132, 
+    {id: 432, 
         src: require('../img/main/54.jpg'), 
         w: '', 
         h: '', 
@@ -614,11 +631,11 @@ export const myCards = [
             4: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             5: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             6: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            7: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            8: {period: '20.11', subs: '48', nonsubs: '14', profile: '24', main: '45', other: '3'}
+            7: {period: '02.12-04.12', subs: '48', nonsubs: '14', profile: '25', main: '45', other: '3'}, 
+            8: {period: '20-28.11', subs: '48', nonsubs: '14', profile: '24', main: '45', other: '3'}
         }
     },
-    {id: 133, 
+    {id: 433, 
         src: require('../img/main/53.jpg'), 
         w: 'auto', 
         h: 'inherit', 
@@ -632,11 +649,11 @@ export const myCards = [
             4: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             5: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             6: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            7: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            8: {period: '20.11', subs: '60', nonsubs: '14', profile: '26', main: '57', other: '4'}
+            7: {period: '02.12-04.12', subs: '60', nonsubs: '14', profile: '27', main: '57', other: '4'}, 
+            8: {period: '20-28.11', subs: '60', nonsubs: '14', profile: '26', main: '57', other: '4'}
         }
     },
-    {id: 134, 
+    {id: 434, 
         src: require('../img/main/52.jpg'), 
         w: '', 
         h: '', 
@@ -648,12 +665,12 @@ export const myCards = [
             3: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             4: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             5: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            6: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            7: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            8: {period: '20.11', subs: '41', nonsubs: '23', profile: '33', main: '36', other: '1'}
+            6: {period: '04.12', subs: '41', nonsubs: '24', profile: '35', main: '36', other: '1'}, 
+            7: {period: '02.12', subs: '41', nonsubs: '23', profile: '34', main: '36', other: '1'}, 
+            8: {period: '20-28.11', subs: '41', nonsubs: '23', profile: '33', main: '36', other: '1'}
         }
     },
-    {id: 135, 
+    {id: 435, 
         src: require('../img/main/51.jpg'), 
         w: 'auto', 
         h: 'inherit', 
@@ -665,13 +682,13 @@ export const myCards = [
             2: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             3: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             4: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            5: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            6: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            7: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
+            5: {period: '04.12', subs: '121', nonsubs: '28', profile: '41', main: '128', other: '1'},
+            6: {period: '02.12', subs: '121', nonsubs: '27', profile: '40', main: '128', other: '1'}, 
+            7: {period: '28.11', subs: '121', nonsubs: '27', profile: '39', main: '128', other: '1'}, 
             8: {period: '20.11', subs: '121', nonsubs: '26', profile: '38', main: '128', other: '1'}
         }
     },
-    {id: 136, 
+    {id: 436, 
         src: require('../img/main/50.jpg'), 
         w: '', 
         h: '', 
@@ -683,13 +700,13 @@ export const myCards = [
             2: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             3: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             4: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            5: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            6: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            7: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
+            5: {period: '04.12', subs: '54', nonsubs: '30', profile: '46', main: '50', other: '3'},
+            6: {period: '02.12', subs: '54', nonsubs: '29', profile: '45', main: '50', other: '3'}, 
+            7: {period: '28.11', subs: '54', nonsubs: '29', profile: '44', main: '50', other: '3'}, 
             8: {period: '20.11', subs: '54', nonsubs: '28', profile: '42', main: '50', other: '3'}
         }
     },
-    {id: 137, 
+    {id: 437, 
         src: require('../img/main/49.jpg'), 
         w: '', 
         h: '', 
@@ -702,12 +719,12 @@ export const myCards = [
             3: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             4: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             5: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            6: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            7: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
+            6: {period: '02.12-04.12', subs: '48', nonsubs: '19', profile: '36', main: '44', other: '6'}, 
+            7: {period: '28.11', subs: '48', nonsubs: '19', profile: '35', main: '44', other: '6'}, 
             8: {period: '20.11', subs: '48', nonsubs: '19', profile: '34', main: '44', other: '6'}
         }
     },
-    {id: 138, 
+    {id: 438, 
         src: require('../img/main/48.jpg'), 
         w: '', 
         h: '', 
@@ -720,12 +737,12 @@ export const myCards = [
             3: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             4: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             5: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            6: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            7: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            8: {period: '20.11', subs: '51', nonsubs: '20', profile: '35', main: '51', other: '-'}
+            6: {period: '04.12', subs: '51', nonsubs: '21', profile: '37', main: '51', other: '-'}, 
+            7: {period: '02.12', subs: '51', nonsubs: '20', profile: '36', main: '51', other: '-'}, 
+            8: {period: '20-28.11', subs: '51', nonsubs: '20', profile: '35', main: '51', other: '-'}
         }
     },
-    {id: 139, 
+    {id: 439, 
         src: require('../img/main/47.jpg'), 
         w: '', 
         h: '', 
@@ -737,13 +754,13 @@ export const myCards = [
             2: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             3: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             4: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            5: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            6: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            7: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
+            5: {period: '04.12', subs: '51', nonsubs: '16', profile: '30', main: '52', other: '4'},
+            6: {period: '02.12', subs: '51', nonsubs: '15', profile: '28', main: '52', other: '4'}, 
+            7: {period: '28.11', subs: '51', nonsubs: '15', profile: '27', main: '52', other: '4'}, 
             8: {period: '20.11', subs: '51', nonsubs: '14', profile: '26', main: '52', other: '4'}
         }
     },
-    {id: 140, 
+    {id: 440, 
         src: require('../img/main/46.jpg'), 
         w: 'auto', 
         h: 'inherit', 
@@ -754,31 +771,13 @@ export const myCards = [
             2: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             3: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             4: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            5: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            6: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            7: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
+            5: {period: '04.12', subs: '51', nonsubs: '16', profile: '32', main: '51', other: '-'},
+            6: {period: '02.12', subs: '51', nonsubs: '15', profile: '31', main: '51', other: '-'}, 
+            7: {period: '28.11', subs: '51', nonsubs: '15', profile: '30', main: '51', other: '-'}, 
             8: {period: '20.11', subs: '51', nonsubs: '14', profile: '28', main: '51', other: '-'}
         }
     },
-    // {id: 141, 
-    //     src: require('../img/main/45.jpg'), 
-    //     w: '', 
-    //     h: '', 
-    //     text: '', 
-    //     tags: '', 
-    //     engagement: '27%  ср  6:15',
-    //     currStatistic: {
-    //         1: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-    //         2: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-    //         3: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-    //         4: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-    //         5: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-    //         6: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-    //         7: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-    //         8: {period: '20.11', subs: '46', nonsubs: '19', profile: '32', main: '46', other: '-'}
-    //     }
-    // },
-    {id: 142, 
+    {id: 441, 
         src: require('../img/main/44.jpg'), 
         w: '', 
         h: '', 
@@ -790,12 +789,12 @@ export const myCards = [
             3: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             4: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             5: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            6: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            7: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
+            6: {period: '02.12-04.12', subs: '44', nonsubs: '15', profile: '30', main: '45', other: '1'}, 
+            7: {period: '28.11', subs: '44', nonsubs: '15', profile: '29', main: '45', other: '1'}, 
             8: {period: '20.11', subs: '44', nonsubs: '14', profile: '27', main: '45', other: '1'}
         }
     },
-    {id: 143, 
+    {id: 442, 
         src: require('../img/main/43.jpg'), 
         w: '', 
         h: '', 
@@ -808,46 +807,12 @@ export const myCards = [
             3: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             4: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             5: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            6: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            7: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
+            6: {period: '04.12', subs: '37', nonsubs: '14', profile: '30', main: '33', other: '-'}, 
+            7: {period: '28.11-02.12', subs: '37', nonsubs: '13', profile: '28', main: '33', other: '-'}, 
             8: {period: '20.11', subs: '37', nonsubs: '13', profile: '27', main: '33', other: '-'}
         }
     },
-    {id: 145, 
-        src: require('../img/main/41.jpg'), 
-        w: 'auto', 
-        h: 'inherit', 
-        tags: '', 
-        engagement: '28%  чт  3:05',
-        currStatistic: {
-            1: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            2: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            3: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            4: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            5: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            6: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            7: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            8: {period: '20.11', subs: '53', nonsubs: '14', profile: '28', main: '49', other: '3'}
-        }
-    },
-    {id: 147, 
-        src: require('../img/main/36.jpg'), 
-        w: 'auto', 
-        h: 'inherit', 
-        tags: '', 
-        engagement: '13%  пн  4:35',
-        currStatistic: {
-            1: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            2: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            3: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            4: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            5: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            6: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            7: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            8: {period: '20.11', subs: '73', nonsubs: '13', profile: '31', main: '78', other: '3'}
-        }
-    },
-    {id: 148, 
+    {id: 443, 
         src: require('../img/main/34.jpg'), 
         w: '', 
         h: '', 
@@ -860,12 +825,12 @@ export const myCards = [
             3: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             4: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             5: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            6: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            7: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
+            6: {period: '04.12', subs: '63', nonsubs: '18', profile: '42', main: '84', other: '5'}, 
+            7: {period: '28.11-02.12', subs: '63', nonsubs: '17', profile: '39', main: '84', other: '5'}, 
             8: {period: '20.11', subs: '63', nonsubs: '16', profile: '38', main: '84', other: '5'}
         }
     },
-    {id: 149, 
+    {id: 444, 
         src: require('../img/main/35.jpg'), 
         w: '', 
         h: '', 
@@ -878,30 +843,12 @@ export const myCards = [
             3: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             4: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             5: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            6: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            7: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
+            6: {period: '04.12', subs: '82', nonsubs: '20', profile: '46', main: '93', other: '2'}, 
+            7: {period: '28.11-02.12', subs: '82', nonsubs: '18', profile: '43', main: '93', other: '2'}, 
             8: {period: '20.11', subs: '82', nonsubs: '17', profile: '42', main: '93', other: '2'}
         }
     },
-    {id: 150, 
-        src: require('../img/main/150.jpg'), 
-        w: '', 
-        h: '', 
-        text: '', 
-        tags: '', 
-        engagement: '-- -- --',
-        currStatistic: {
-            1: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            2: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            3: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            4: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            5: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            6: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            7: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            8: {period: '23.11', subs: '71', nonsubs: '16', profile: '39', main: '73', other: '6'}
-        }
-    },
-    {id: 151, 
+    {id: 445, 
         src: require('../img/main/33.jpg'), 
         w: '', 
         h: '', 
@@ -915,11 +862,11 @@ export const myCards = [
             4: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             5: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             6: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            7: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            8: {period: '20.11', subs: '71', nonsubs: '27', profile: '49', main: '75', other: '11'}
+            7: {period: '04.12', subs: '71', nonsubs: '27', profile: '52', main: '75', other: '11'}, 
+            8: {period: '20.11-02.12', subs: '71', nonsubs: '27', profile: '49', main: '75', other: '11'}
         }
     },
-    {id: 152, 
+    {id: 446, 
         src: require('../img/main/30.jpg'), 
         w: 'auto', 
         h: 'inherit', 
@@ -933,11 +880,11 @@ export const myCards = [
             4: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             5: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             6: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            7: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            8: {period: '20.11', subs: '72', nonsubs: '35', profile: '54', main: '70', other: '23'}
+            7: {period: '04.12', subs: '72', nonsubs: '35', profile: '57', main: '70', other: '23'}, 
+            8: {period: '20.11-02.12', subs: '72', nonsubs: '35', profile: '54', main: '70', other: '23'}
         }
     },
-    {id: 153, 
+    {id: 447, 
         src: require('../img/main/31.jpg'), 
         w: '', 
         h: '', 
@@ -951,11 +898,11 @@ export const myCards = [
             4: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             5: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             6: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            7: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            8: {period: '20.11', subs: '95', nonsubs: '43', profile: '67', main: '101', other: '25'}
+            7: {period: '04.12', subs: '95', nonsubs: '43', profile: '70', main: '101', other: '25'}, 
+            8: {period: '20.11-02.12', subs: '95', nonsubs: '43', profile: '67', main: '101', other: '25'}
         }
     },
-    {id: 154, 
+    {id: 448, 
         src: require('../img/main/27.jpg'), 
         w: '', 
         h: '', 
@@ -968,13 +915,13 @@ export const myCards = [
             3: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             4: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             5: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            6: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            7: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            8: {period: '20.11', subs: '55', nonsubs: '34', profile: '79', main: '38', other: '3'}
+            6: {period: '04.12', subs: '55', nonsubs: '35', profile: '84', main: '38', other: '3'}, 
+            7: {period: '02.12', subs: '55', nonsubs: '35', profile: '81', main: '38', other: '3'}, 
+            8: {period: '20-28.11', subs: '55', nonsubs: '34', profile: '79', main: '38', other: '3'}
         }
     },
 
-    {id: 156, 
+    {id: 449, 
         src: require('../img/main/29.jpg'), 
         w: '', 
         h: '', 
@@ -988,10 +935,10 @@ export const myCards = [
             5: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             6: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
             7: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            8: {period: '20.11', subs: '75', nonsubs: '29', profile: '68', main: '61', other: '2'}
+            8: {period: '20.11-04.12', subs: '75', nonsubs: '29', profile: '68', main: '61', other: '2'}
         }
     },
-    {id: 157, 
+    {id: 450, 
         src: require('../img/main/26.jpg'), 
         w: '', 
         h: '', 
@@ -1006,28 +953,10 @@ export const myCards = [
             5: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             6: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
             7: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            8: {period: '20.11', subs: '54', nonsubs: '26', profile: '60', main: '36', other: '1'}
+            8: {period: '20.11-04.12', subs: '54', nonsubs: '26', profile: '60', main: '36', other: '1'}
         }
     },
-    {id: 158, 
-        src: require('../img/main/24.jpg'), 
-        w: '', 
-        h: '', 
-        text: '', 
-        tags: '', 
-        engagement: '24%  ср  8:00',
-        currStatistic: {
-            1: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            2: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            3: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            4: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            5: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            6: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            7: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            8: {period: '20.11', subs: '55', nonsubs: '24', profile: '60', main: '43', other: '1'}
-        }
-    },
-    {id: 159, 
+    {id: 451, 
         src: require('../img/main/28.jpg'), 
         w: '', 
         h: '', 
@@ -1041,11 +970,11 @@ export const myCards = [
             4: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             5: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             6: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            7: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            8: {period: '20.11', subs: '54', nonsubs: '26', profile: '64', main: '36', other: '1'}
+            7: {period: '04.12', subs: '54', nonsubs: '27', profile: '66', main: '36', other: '1'}, 
+            8: {period: '20.11-02.12', subs: '54', nonsubs: '26', profile: '64', main: '36', other: '1'}
         }
     },
-    {id: 160, 
+    {id: 452, 
         src: require('../img/main/23.jpg'), 
         w: '', 
         h: '', 
@@ -1059,11 +988,11 @@ export const myCards = [
             4: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             5: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             6: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            7: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            8: {period: '20.11', subs: '64', nonsubs: '28', profile: '66', main: '63', other: '-'}
+            7: {period: '04.12', subs: '64', nonsubs: '29', profile: '68', main: '63', other: '-'}, 
+            8: {period: '20.11-02.12', subs: '64', nonsubs: '28', profile: '66', main: '63', other: '-'}
         }
     },
-    {id: 161, 
+    {id: 453, 
         src: require('../img/main/20.jpg'), 
         w: '', 
         h: '', 
@@ -1077,11 +1006,11 @@ export const myCards = [
             4: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             5: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             6: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            7: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            8: {period: '20.11', subs: '59', nonsubs: '30', profile: '75', main: '35', other: '5'}
+            7: {period: '04.12', subs: '59', nonsubs: '30', profile: '77', main: '35', other: '5'}, 
+            8: {period: '20.11-02.12', subs: '59', nonsubs: '30', profile: '75', main: '35', other: '5'}
         }
     },
-    {id: 162, 
+    {id: 454, 
         src: require('../img/main/21.jpg'), 
         w: '', 
         h: '', 
@@ -1096,28 +1025,10 @@ export const myCards = [
             5: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             6: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
             7: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            8: {period: '20.11', subs: '69', nonsubs: '23', profile: '60', main: '52', other: '1'}
+            8: {period: '20.11-04.12', subs: '69', nonsubs: '23', profile: '60', main: '52', other: '1'}
         }
     },
-    {id: 163, 
-        src: require('../img/main/19.jpg'), 
-        w: '', 
-        h: '', 
-        text: '', 
-        tags: '', 
-        engagement: '32%  вс  8:41',
-        currStatistic: {
-            1: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            2: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            3: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            4: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            5: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            6: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            7: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            8: {period: '20.11', subs: '88', nonsubs: '23', profile: '62', main: '81', other: '5'}
-        }
-    },
-    {id: 164, 
+    {id: 455, 
         src: require('../img/main/18.jpg'), 
         w: '', 
         h: '', 
@@ -1130,28 +1041,11 @@ export const myCards = [
             4: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             5: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             6: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            7: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            8: {period: '20.11', subs: '73', nonsubs: '20', profile: '59', main: '59', other: '5'}
+            7: {period: '04.12', subs: '73', nonsubs: '21', profile: '60', main: '59', other: '5'}, 
+            8: {period: '20.11-02.12', subs: '73', nonsubs: '20', profile: '59', main: '59', other: '5'}
         }
     },
-    {id: 165, 
-        src: require('../img/main/2.jpg'), 
-        w: 'auto', 
-        h: 'inherit', 
-        tags: '', 
-        engagement: '25%  вс  3:50',
-        currStatistic: {
-            1: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            2: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            3: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            4: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            5: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            6: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            7: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            8: {period: '20.11', subs: '103', nonsubs: '23', profile: '68', main: '94', other: '5'}
-        }
-    },
-    {id: 166, 
+    {id: 456, 
         src: require('../img/main/6.jpg'), 
         w: 'auto', 
         h: 'inherit', 
@@ -1162,13 +1056,13 @@ export const myCards = [
             2: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             3: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             4: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            5: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            6: {period: '20.11', subs: '115', nonsubs: '26', profile: '77', main: '123', other: '5'}, 
+            5: {period: '04.12', subs: '115', nonsubs: '28', profile: '79', main: '123', other: '5'},
+            6: {period: '20.11-02.12', subs: '115', nonsubs: '26', profile: '77', main: '123', other: '5'}, 
             7: {period: '14.11', subs: '115', nonsubs: '25', profile: '75', main: '123', other: '5'}, 
             8: {period: '7.11', subs: '115', nonsubs: '25', profile: '75', main: '123', other: '5'}
         }
     },
-    {id: 167, 
+    {id: 457, 
         src: require('../img/main/7.jpg'), 
         w: 'auto', 
         h: 'inherit', 
@@ -1180,12 +1074,12 @@ export const myCards = [
             3: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             4: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             5: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            6: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            7: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            8: {period: '20.11', subs: '90', nonsubs: '44', profile: '114', main: '88', other: '1'}
+            6: {period: '04.12', subs: '90', nonsubs: '47', profile: '118', main: '88', other: '1'}, 
+            7: {period: '02.12', subs: '90', nonsubs: '45', profile: '116', main: '88', other: '1'}, 
+            8: {period: '20-28.11', subs: '90', nonsubs: '44', profile: '114', main: '88', other: '1'}
         }
     },
-    {id: 168, 
+    {id: 458, 
         src: require('../img/main/8.jpg'), 
         w: '', 
         h: '', 
@@ -1197,13 +1091,13 @@ export const myCards = [
             2: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             3: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             4: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            5: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            6: {period: '20.11', subs: '75', nonsubs: '44', profile: '113', main: '59', other: '1'}, 
+            5: {period: '04.12', subs: '75', nonsubs: '44', profile: '114', main: '59', other: '1'},
+            6: {period: '20.11-02.12', subs: '75', nonsubs: '44', profile: '113', main: '59', other: '1'}, 
             7: {period: '14.11', subs: '75', nonsubs: '44', profile: '111', main: '59', other: '1'}, 
             8: {period: '7.11', subs: '75', nonsubs: '44', profile: '111', main: '59', other: '1'}
         }
     },
-    {id: 169, 
+    {id: 459, 
         src: require('../img/main/169.jpg'), 
         w: 'auto', 
         h: 'inherit', 
@@ -1216,11 +1110,11 @@ export const myCards = [
             4: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             5: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             6: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            7: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            8: {period: '23.11', subs: '53', nonsubs: '22', profile: '9', main: '52', other: '22'}
+            7: {period: '04.12', subs: '53', nonsubs: '22', profile: '10', main: '52', other: '22'}, 
+            8: {period: '23.11-02.12', subs: '53', nonsubs: '22', profile: '9', main: '52', other: '22'}
         }
     },
-    {id: 170, 
+    {id: 460, 
         src: require('../img/main/10.jpg'), 
         w: 'auto', 
         h: 'inherit', 
@@ -1232,12 +1126,12 @@ export const myCards = [
             3: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             4: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             5: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            6: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            7: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
+            6: {period: '04.12', subs: '74', nonsubs: '51', profile: '113', main: '68', other: '2'}, 
+            7: {period: '28.11-02.12', subs: '74', nonsubs: '50', profile: '110', main: '68', other: '2'}, 
             8: {period: '20.11', subs: '74', nonsubs: '50', profile: '109', main: '68', other: '2'}
         }
     },
-    {id: 171, 
+    {id: 461, 
         src: require('../img/main/5.jpg'), 
         w: '', 
         h: '', 
@@ -1248,14 +1142,14 @@ export const myCards = [
             1: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             2: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             3: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            4: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            5: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
+            4: {period: '04.12', subs: '86', nonsubs: '49', profile: '110', main: '81', other: '9'},
+            5: {period: '28.11-02.12', subs: '86', nonsubs: '48', profile: '108', main: '81', other: '9'},
             6: {period: '20.11', subs: '86', nonsubs: '48', profile: '107', main: '81', other: '9'}, 
             7: {period: '14.11', subs: '86', nonsubs: '48', profile: '106', main: '81', other: '9'}, 
             8: {period: '7.11', subs: '86', nonsubs: '48', profile: '106', main: '81', other: '9'}
         }
     },
-    {id: 172, 
+    {id: 462, 
         src: require('../img/main/11.jpg'), 
         w: '', 
         h: '', 
@@ -1268,12 +1162,12 @@ export const myCards = [
             3: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             4: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             5: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            6: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            7: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
+            6: {period: '04.12', subs: '88', nonsubs: '55', profile: '125', main: '75', other: '11'}, 
+            7: {period: '28.11-02.12', subs: '88', nonsubs: '54', profile: '123', main: '75', other: '11'}, 
             8: {period: '20.11', subs: '88', nonsubs: '54', profile: '122', main: '75', other: '11'}
         }
     },
-    {id: 173, 
+    {id: 463, 
         src: require('../img/main/173.jpg'), 
         w: 'auto', 
         h: 'inherit', 
@@ -1287,11 +1181,11 @@ export const myCards = [
             4: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             5: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             6: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            7: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            8: {period: '23.11', subs: '50', nonsubs: '22', profile: '46', main: '58', other: '2'}
+            7: {period: '04.12', subs: '50', nonsubs: '23', profile: '48', main: '58', other: '2'}, 
+            8: {period: '23.11-02.12', subs: '50', nonsubs: '22', profile: '46', main: '58', other: '2'}
         }
     },
-    {id: 174, 
+    {id: 464, 
         src: require('../img/main/174.jpg'), 
         w: 'auto', 
         h: 'inherit', 
@@ -1305,11 +1199,11 @@ export const myCards = [
             4: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             5: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             6: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            7: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            8: {period: '23.11', subs: '66', nonsubs: '22', profile: '43', main: '68', other: '1'}
+            7: {period: '04.12', subs: '66', nonsubs: '24', profile: '46', main: '68', other: '1'}, 
+            8: {period: '23.11-02.12', subs: '66', nonsubs: '22', profile: '43', main: '68', other: '1'}
         }
     },
-    {id: 175, 
+    {id: 465, 
         src: require('../img/main/12.jpg'), 
         w: '', 
         h: '', 
@@ -1321,13 +1215,13 @@ export const myCards = [
             2: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             3: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             4: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            5: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            6: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            7: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
+            5: {period: '04.12', subs: '103', nonsubs: '91', profile: '190', main: '95', other: '25'},
+            6: {period: '02.12', subs: '103', nonsubs: '90', profile: '186', main: '95', other: '25'}, 
+            7: {period: '28.11', subs: '103', nonsubs: '90', profile: '186', main: '95', other: '24'}, 
             8: {period: '20.11', subs: '103', nonsubs: '90', profile: '184', main: '95', other: '24'}
         }
     },
-    {id: 176, 
+    {id: 466, 
         src: require('../img/main/13.jpg'), 
         w: 'auto', 
         h: 'inherit', 
@@ -1339,12 +1233,12 @@ export const myCards = [
             3: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             4: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             5: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            6: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            7: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
+            6: {period: '04.12', subs: '106', nonsubs: '73', profile: '174', main: '88', other: '6'}, 
+            7: {period: '28.11-02.12', subs: '106', nonsubs: '73', profile: '172', main: '88', other: '6'}, 
             8: {period: '20.11', subs: '106', nonsubs: '73', profile: '171', main: '88', other: '6'}
         }
     },
-    {id: 177, 
+    {id: 467, 
         src: require('../img/main/177.jpg'), 
         w: '', 
         h: '', 
@@ -1356,29 +1250,12 @@ export const myCards = [
             3: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             4: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             5: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            6: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            7: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
+            6: {period: '04.12', subs: '89', nonsubs: '63', profile: '144', main: '72', other: '2'}, 
+            7: {period: '28.11-02.12', subs: '89', nonsubs: '62', profile: '142', main: '72', other: '2'}, 
             8: {period: '23.11', subs: '89', nonsubs: '61', profile: '141', main: '72', other: '2'}
         }
     },
-    {id: 178, 
-        src: require('../img/main/22.jpg'), 
-        w: 'auto', 
-        h: 'inherit', 
-        tags: '', 
-        engagement: '25%  ср  3:17',
-        currStatistic: {
-            1: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            2: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            3: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            4: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            5: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            6: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            7: {period: '20.11', subs: '89', nonsubs: '99', profile: '227', main: '37', other: '6'}, 
-            8: {period: '7.11', subs: '89', nonsubs: '99', profile: '226', main: '37', other: '6'}
-        }
-    },
-    {id: 179, 
+    {id: 468, 
         src: require('../img/main/15.jpg'), 
         w: '', 
         h: '', 
@@ -1391,29 +1268,12 @@ export const myCards = [
             3: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             4: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             5: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            6: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            7: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
+            6: {period: '04.12', subs: '93', nonsubs: '144', profile: '294', main: '47', other: '20'}, 
+            7: {period: '28.11-02.12', subs: '93', nonsubs: '143', profile: '292', main: '47', other: '20'}, 
             8: {period: '20.11', subs: '93', nonsubs: '142', profile: '291', main: '47', other: '20'}
         }
     },
-    {id: 180, 
-        src: require('../img/main/16.jpg'), 
-        w: '', 
-        h: '', 
-        text: '', 
-        tags: '', engagement: '21%  вс  9:39',
-        currStatistic: {
-            1: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            2: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            3: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            4: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            5: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            6: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            7: {period: '20.11', subs: '131', nonsubs: '156', profile: '312', main: '103', other: '3'}, 
-            8: {period: '7.11', subs: '131', nonsubs: '155', profile: '309', main: '103', other: '3'}
-        }
-    },
-    {id: 181, 
+    {id: 469, 
         src: require('../img/main/17.jpg'), 
         w: '', 
         h: '', 
@@ -1426,12 +1286,12 @@ export const myCards = [
             3: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             4: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             5: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            6: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            7: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
+            6: {period: '04.12', subs: '80', nonsubs: '138', profile: '305', main: '41', other: '10'}, 
+            7: {period: '28.11-02.12', subs: '80', nonsubs: '138', profile: '304', main: '41', other: '10'}, 
             8: {period: '20.11', subs: '80', nonsubs: '137', profile: '302', main: '41', other: '10'}
         }
     },
-    {id: 182, 
+    {id: 470, 
         src: require('../img/main/182.jpg'), 
         w: 'auto', 
         h: 'inherit', 
@@ -1444,12 +1304,12 @@ export const myCards = [
             3: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             4: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             5: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            6: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            7: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
+            6: {period: '04.12', subs: '70', nonsubs: '93', profile: '169', main: '59', other: '5'}, 
+            7: {period: '28.11-02.12', subs: '70', nonsubs: '92', profile: '167', main: '59', other: '5'}, 
             8: {period: '23.11', subs: '70', nonsubs: '92', profile: '166', main: '59', other: '5'}
         }
     },
-    {id: 183, 
+    {id: 471, 
         src: require('../img/main/183.jpg'), 
         w: 'auto', 
         h: 'inherit', 
@@ -1462,12 +1322,12 @@ export const myCards = [
             3: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             4: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             5: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            6: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            7: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
+            6: {period: '04.12', subs: '87', nonsubs: '115', profile: '220', main: '67', other: '4'}, 
+            7: {period: '28.11-02.12', subs: '87', nonsubs: '114', profile: '218', main: '67', other: '4'}, 
             8: {period: '23.11', subs: '87', nonsubs: '114', profile: '217', main: '67', other: '4'}
         }
     },
-    {id: 184, 
+    {id: 472, 
         src: require('../img/main/184.jpg'), 
         w: 'auto', 
         h: 'inherit', 
@@ -1480,12 +1340,12 @@ export const myCards = [
             3: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             4: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             5: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            6: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            7: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
+            6: {period: '04.12', subs: '102', nonsubs: '108', profile: '239', main: '99', other: '3'}, 
+            7: {period: '28.11-02.12', subs: '102', nonsubs: '107', profile: '237', main: '99', other: '3'}, 
             8: {period: '23.11', subs: '102', nonsubs: '107', profile: '236', main: '99', other: '3'}
         }
     },
-    {id: 185, 
+    {id: 473, 
         src: require('../img/main/185.jpg'), 
         w: 'auto', 
         h: 'inherit', 
@@ -1498,12 +1358,12 @@ export const myCards = [
             3: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             4: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             5: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            6: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            7: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
+            6: {period: '04.12', subs: '99', nonsubs: '121', profile: '283', main: '156', other: '2'}, 
+            7: {period: '28.11-02.12', subs: '99', nonsubs: '119', profile: '280', main: '156', other: '2'}, 
             8: {period: '23.11', subs: '99', nonsubs: '119', profile: '279', main: '156', other: '2'}
         }
     },
-    {id: 186, 
+    {id: 474, 
         src: require('../img/main/186.jpg'), 
         w: 'auto', 
         h: 'inherit', 
@@ -1516,12 +1376,12 @@ export const myCards = [
             3: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             4: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             5: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            6: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            7: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
+            6: {period: '04.12', subs: '94', nonsubs: '125', profile: '269', main: '98', other: '16'}, 
+            7: {period: '28.11-02.12', subs: '94', nonsubs: '124', profile: '266', main: '98', other: '16'}, 
             8: {period: '23.11', subs: '94', nonsubs: '123', profile: '264', main: '98', other: '16'}
         }
     },
-    {id: 187, 
+    {id: 475, 
         src: require('../img/main/187.jpg'), 
         w: 'auto', 
         h: 'inherit', 
@@ -1534,12 +1394,12 @@ export const myCards = [
             3: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             4: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             5: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            6: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            7: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
+            6: {period: '04.12', subs: '81', nonsubs: '234', profile: '247', main: '40', other: '9'}, 
+            7: {period: '28.11-02.12', subs: '81', nonsubs: '233', profile: '246', main: '40', other: '9'}, 
             8: {period: '23.11', subs: '81', nonsubs: '232', profile: '245', main: '40', other: '9'}
         }
     },
-    {id: 188, 
+    {id: 476, 
         src: require('../img/main/188.jpg'), 
         w: 'auto', 
         h: 'inherit', 
@@ -1552,12 +1412,12 @@ export const myCards = [
             3: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             4: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             5: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            6: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            7: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            8: {period: '23.11', subs: '81', nonsubs: '263', profile: '203', main: '43', other: '7'}
+            6: {period: '04.21', subs: '83', nonsubs: '264', profile: '205', main: '43', other: '7'}, 
+            7: {period: '02.12', subs: '82', nonsubs: '264', profile: '204', main: '43', other: '7'}, 
+            8: {period: '23-28.11', subs: '81', nonsubs: '263', profile: '203', main: '43', other: '7'}
         }
     },
-    {id: 189, 
+    {id: 477, 
         src: require('../img/main/189.jpg'), 
         w: '', 
         h: '', 
@@ -1571,11 +1431,11 @@ export const myCards = [
             4: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             5: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             6: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            7: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            8: {period: '23.11', subs: '116', nonsubs: '193', profile: '272', main: '64', other: '8'}
+            7: {period: '02.12', subs: '116', nonsubs: '194', profile: '273', main: '64', other: '8'}, 
+            8: {period: '23-28.11', subs: '116', nonsubs: '193', profile: '272', main: '64', other: '8'}
         }
     },
-    {id: 190, 
+    {id: 478, 
         src: require('../img/main/190.jpg'), 
         w: 'auto', 
         h: 'inherit', 
@@ -1590,10 +1450,10 @@ export const myCards = [
             5: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             6: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
             7: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            8: {period: '23.11', subs: '123', nonsubs: '94', profile: '183', main: '107', other: '9'}
+            8: {period: '23.11-02.12', subs: '123', nonsubs: '94', profile: '183', main: '107', other: '9'}
         }
     },
-    {id: 191, 
+    {id: 479, 
         src: require('../img/main/191.jpg'), 
         w: 'auto', 
         h: 'inherit', 
@@ -1608,10 +1468,10 @@ export const myCards = [
             5: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             6: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
             7: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            8: {period: '23.11', subs: '123', nonsubs: '167', profile: '181', main: '91', other: '3'}
+            8: {period: '23.11-02.12', subs: '123', nonsubs: '167', profile: '181', main: '91', other: '3'}
         }
     },
-    {id: 192, 
+    {id: 480, 
         src: require('../img/main/192.jpg'), 
         w: 'auto', 
         h: 'inherit', 
@@ -1626,10 +1486,10 @@ export const myCards = [
             5: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             6: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
             7: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            8: {period: '23.11', subs: '36', nonsubs: '62', profile: '126', main: '-', other: '-'}
+            8: {period: '23.11-02.12', subs: '36', nonsubs: '62', profile: '126', main: '-', other: '-'}
         }
     },
-    {id: 193, 
+    {id: 481, 
         src: require('../img/main/193.jpg'), 
         w: '', 
         h: '', 
@@ -1644,10 +1504,10 @@ export const myCards = [
             5: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             6: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
             7: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            8: {period: '23.11', subs: '45', nonsubs: '83', profile: '164', main: '-', other: '1'}
+            8: {period: '23.11-02.12', subs: '45', nonsubs: '83', profile: '164', main: '-', other: '1'}
         }
     },
-    {id: 194, 
+    {id: 482, 
         src: require('../img/main/194.jpg'), 
         w: '', 
         h: '', 
@@ -1662,10 +1522,10 @@ export const myCards = [
             5: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             6: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
             7: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            8: {period: '23.11', subs: '41', nonsubs: '99', profile: '174', main: '-', other: '6'}
+            8: {period: '23.11-02.12', subs: '41', nonsubs: '99', profile: '174', main: '-', other: '6'}
         }
     },
-    {id: 195, 
+    {id: 483, 
         src: require('../img/main/195.jpg'), 
         w: 'auto', 
         h: 'inherit', 
@@ -1679,11 +1539,11 @@ export const myCards = [
             4: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             5: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             6: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            7: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            8: {period: '23.11', subs: '35', nonsubs: '106', profile: '207', main: '-', other: '2'}
+            7: {period: '02.12', subs: '35', nonsubs: '106', profile: '208', main: '-', other: '2'}, 
+            8: {period: '23-28.11', subs: '35', nonsubs: '106', profile: '207', main: '-', other: '2'}
         }
     },
-    {id: 196, 
+    {id: 484, 
         src: require('../img/main/196.jpg'), 
         w: '', 
         h: '', 
@@ -1698,10 +1558,10 @@ export const myCards = [
             5: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             6: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
             7: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            8: {period: '23.11', subs: '47', nonsubs: '92', profile: '207', main: '-', other: '-'}
+            8: {period: '23.11-02.12', subs: '47', nonsubs: '92', profile: '207', main: '-', other: '-'}
         }
     },
-    {id: 197, 
+    {id: 485, 
         src: require('../img/main/197.jpg'), 
         w: '', 
         h: '', 
@@ -1716,10 +1576,10 @@ export const myCards = [
             5: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             6: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
             7: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            8: {period: '23.11', subs: '33', nonsubs: '43', profile: '93', main: '-', other: '2'}
+            8: {period: '23.11-02.12', subs: '33', nonsubs: '43', profile: '93', main: '-', other: '2'}
         }
     },
-    {id: 198, 
+    {id: 486, 
         src: require('../img/main/198.jpg'), 
         w: 'auto', 
         h: 'inherit', 
@@ -1734,10 +1594,10 @@ export const myCards = [
             5: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             6: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
             7: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            8: {period: '23.11', subs: '32', nonsubs: '36', profile: '86', main: '-', other: '-'}
+            8: {period: '23.11-02.12', subs: '32', nonsubs: '36', profile: '86', main: '-', other: '-'}
         }
     },
-    {id: 199, 
+    {id: 487, 
         src: require('../img/main/199.jpg'), 
         w: '', 
         h: '', 
@@ -1752,10 +1612,10 @@ export const myCards = [
             5: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             6: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
             7: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            8: {period: '23.11', subs: '30', nonsubs: '41', profile: '101', main: '-', other: '3'}
+            8: {period: '23.11-02.12', subs: '30', nonsubs: '41', profile: '101', main: '-', other: '3'}
         }
     },
-    {id: 200, 
+    {id: 488, 
         src: require('../img/main/200.jpg'), 
         w: '', 
         h: '', 
@@ -1770,10 +1630,10 @@ export const myCards = [
             5: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             6: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
             7: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            8: {period: '23.11', subs: '32', nonsubs: '28', profile: '83', main: '-', other: '4'}
+            8: {period: '23.11-02.12', subs: '32', nonsubs: '28', profile: '83', main: '-', other: '4'}
         }
     },
-    {id: 201, 
+    {id: 489, 
         src: require('../img/main/201.jpg'), 
         w: '', 
         h: '', 
@@ -1788,10 +1648,10 @@ export const myCards = [
             5: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             6: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
             7: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            8: {period: '23.11', subs: '33', nonsubs: '28', profile: '86', main: '-', other: '1'}
+            8: {period: '23.11-02.12', subs: '33', nonsubs: '28', profile: '86', main: '-', other: '1'}
         }
     },
-    {id: 202, 
+    {id: 490, 
         src: require('../img/main/202.jpg'), 
         w: 'auto', 
         h: 'inherit', 
@@ -1806,10 +1666,10 @@ export const myCards = [
             5: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             6: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
             7: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            8: {period: '23.11', subs: '29', nonsubs: '43', profile: '103', main: '-', other: '3'}
+            8: {period: '23.11-02.12', subs: '29', nonsubs: '43', profile: '103', main: '-', other: '3'}
         }
     },
-    {id: 203, 
+    {id: 491, 
         src: require('../img/main/203.jpg'), 
         w: 'auto', 
         h: 'inherit', 
@@ -1824,10 +1684,10 @@ export const myCards = [
             5: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             6: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
             7: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            8: {period: '23.11', subs: '32', nonsubs: '37', profile: '94', main: '-', other: '-'}
+            8: {period: '23.11-02.12', subs: '32', nonsubs: '37', profile: '94', main: '-', other: '-'}
         }
     },
-    {id: 204, 
+    {id: 492, 
         src: require('../img/main/204.jpg'), 
         w: '', 
         h: '', 
@@ -1842,10 +1702,10 @@ export const myCards = [
             5: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             6: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
             7: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            8: {period: '23.11', subs: '27', nonsubs: '37', profile: '85', main: '-', other: '-'}
+            8: {period: '23.11-02.12', subs: '27', nonsubs: '37', profile: '85', main: '-', other: '-'}
         }
     },
-    {id: 205, 
+    {id: 493, 
         src: require('../img/main/205.jpg'), 
         w: 'auto', 
         h: 'inherit', 
@@ -1860,10 +1720,10 @@ export const myCards = [
             5: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             6: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
             7: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            8: {period: '23.11', subs: '31', nonsubs: '34', profile: '86', main: '-', other: '1'}
+            8: {period: '23.11-02.12', subs: '31', nonsubs: '34', profile: '86', main: '-', other: '1'}
         }
     },
-    {id: 206, 
+    {id: 494, 
         src: require('../img/main/206.jpg'), 
         w: '', 
         h: '', 
@@ -1878,28 +1738,10 @@ export const myCards = [
             5: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             6: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
             7: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            8: {period: '23.11', subs: '23', nonsubs: '23', profile: '53', main: '-', other: '-'}
+            8: {period: '23.11-02.12', subs: '23', nonsubs: '23', profile: '53', main: '-', other: '-'}
         }
     },
-    {id: 207, 
-        src: require('../img/main/207.jpg'), 
-        w: '', 
-        h: '', 
-        text: '', 
-        tags: '', 
-        engagement: '-- -- --',
-        currStatistic: {
-            1: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            2: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            3: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            4: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            5: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
-            6: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            7: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            8: {period: '23.11', subs: '31', nonsubs: '31', profile: '77', main: '-', other: '3'}
-        }
-    },
-    {id: 208, 
+    {id: 495, 
         src: require('../img/main/208.jpg'), 
         w: 'auto', 
         h: 'inherit', 
@@ -1913,11 +1755,11 @@ export const myCards = [
             4: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             5: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             6: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            7: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
+            7: {period: '28.11-02.12', subs: '29', nonsubs: '43', profile: '88', main: '-', other: '2'}, 
             8: {period: '23.11', subs: '29', nonsubs: '43', profile: '87', main: '-', other: '2'}
         }
     },
-    {id: 209, 
+    {id: 496, 
         src: require('../img/main/209.jpg'), 
         w: 'auto', 
         h: 'inherit', 
@@ -1931,11 +1773,11 @@ export const myCards = [
             4: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             5: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             6: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            7: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
+            7: {period: '28.11-02.12', subs: '28', nonsubs: '40', profile: '95', main: '-', other: '1'}, 
             8: {period: '23.11', subs: '28', nonsubs: '40', profile: '94', main: '-', other: '1'}
         }
     },
-    {id: 210, 
+    {id: 497, 
         src: require('../img/main/210.jpg'), 
         w: 'auto', 
         h: 'inherit', 
@@ -1949,11 +1791,11 @@ export const myCards = [
             4: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             5: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             6: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            7: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
+            7: {period: '28.11-02.12', subs: '7', nonsubs: '10', profile: '18', main: '-', other: '-'}, 
             8: {period: '23.11', subs: '7', nonsubs: '10', profile: '17', main: '-', other: '-'}
         }
     },
-    {id: 211, 
+    {id: 498, 
         src: require('../img/main/211.jpg'), 
         w: 'auto', 
         h: 'inherit', 
@@ -1968,10 +1810,10 @@ export const myCards = [
             5: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             6: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
             7: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            8: {period: '23.11', subs: '3', nonsubs: '1', profile: '4', main: '-', other: '-'}
+            8: {period: '23.11-02.12', subs: '3', nonsubs: '1', profile: '4', main: '-', other: '-'}
         }
     },
-    {id: 212, 
+    {id: 499, 
         src: require('../img/main/212.jpg'), 
         w: 'auto', 
         h: 'inherit', 
@@ -1986,7 +1828,7 @@ export const myCards = [
             5: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
             6: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
             7: {period: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
-            8: {period: '23.11', subs: '-', nonsubs: '-', profile: '51', main: '-', other: '-'}
+            8: {period: '23.11-02.12', subs: '-', nonsubs: '-', profile: '51', main: '-', other: '-'}
         }
     },
 ]
