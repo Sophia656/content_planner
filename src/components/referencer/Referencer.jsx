@@ -6,9 +6,6 @@ const Referencer = ({show}) => {
     return (
         <Wrapper hidden={!show}>
             <Cell  hidden={!show}>
-                <CellImg closeW={!show} openW={show} src={require('../../img/ref/13.jpg')} />
-            </Cell>
-            <Cell  hidden={!show}>
                 <CellImg closeW={!show} openW={show} src={require('../../img/ref/8.jpg')} />
             </Cell>
             <Cell  hidden={!show}>

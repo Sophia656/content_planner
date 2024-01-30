@@ -11,12 +11,10 @@ const InstaGrid = ({changeBack,
     dragOverHandler, 
     dragEndHandler, 
     dropHandler, 
-    handleOpen, 
-    counterMaxGridCards,
+    handleOpen,
     handlePressNext,
     handleShowCurrentStatistics,
     showCurrStatistics,
-    showEngagement,
     handleShowStatistics,
     handlePressPrev }) => {
 

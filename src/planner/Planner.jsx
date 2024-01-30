@@ -24,6 +24,7 @@ const Planner = () => {
     const [currCardForStatistic, setCurrCardForStatistic] = useState(myCards.find((card) => card.id === 100))
 
     const [showEngagement, setShowEngagement] = useState(false)
+    const [cardObjNum, setCardObjNum] = useState(1)
         
     const handleShowStatistics = () => {
         if (showEngagement) {
@@ -140,6 +141,7 @@ const Planner = () => {
         // setOpenModal(true)
         setCurrCardForStatistic(card)
         setShowCurrStatistics(false)
+        setCardObjNum(1)
     }
 
     const handleShowCurrentStatistics = () => {
@@ -232,15 +234,13 @@ const Planner = () => {
                 handleOpen={handleOpen}
                 handlePressNext={handlePressNext}
                 handlePressPrev={handlePressPrev}
-                counterMaxGridCards={counterMaxGridCards}
                 handleShowCurrentStatistics={handleShowCurrentStatistics}
                 showCurrStatistics={showCurrStatistics}
                 handleShowStatistics={handleShowStatistics}
-                showEngagement={showEngagement}
                 />
                 <RightCloser click={!showRef} onClick={() => {setShowRef(!showRef); setShowEngagement(false)}}>{showRef ? `>` : `<`}</RightCloser>
                 <Statistics showStatistics={!showEngagement} />
-                <CurrentStatistics card={currCardForStatistic} showCurrStatistics={showCurrStatistics} />
+                <CurrentStatistics cardObjNum={cardObjNum} setCardObjNum={setCardObjNum} card={currCardForStatistic} showCurrStatistics={showCurrStatistics} />
                 <Referencer show={showRef} />
         </>
         }

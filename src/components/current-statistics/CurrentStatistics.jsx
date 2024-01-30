@@ -2,9 +2,8 @@ import React, { useEffect, useState } from 'react';
 import { Desc, DescItem, DescItemsWrap, MyCurcle, Wrapper } from './styled';
 import PieChart from '../UI/pie-chart/PieChart';
 
-const CurrentStatistics = ({showCurrStatistics, card}) => {
-    const [cardObjNum, setCardObjNum] = useState(8)
-
+const CurrentStatistics = ({showCurrStatistics, card, cardObjNum, setCardObjNum}) => {
+    
     const handlePressPrev = () => {
         if (cardObjNum === 1) {
             setCardObjNum(8)
