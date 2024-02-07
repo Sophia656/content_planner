@@ -6,19 +6,17 @@ const CurrentStatistics = ({showCurrStatistics, card, cardObjNum, setCardObjNum}
     
     const handlePressPrev = () => {
         if (cardObjNum === 1) {
-            setCardObjNum(8)
-        } else if (card?.currStatistic?.[cardObjNum - 1]?.period === '-'){
-            setCardObjNum(cardObjNum)
-        } else {
-            setCardObjNum(cardObjNum => --cardObjNum)
+            if (card?.currStatistic?.[2] === undefined) {
+                setCardObjNum(1)
+            } else {
+                setCardObjNum(2)
+            }
         }
     }
 
     const handlePressNext = () => {
-        if (cardObjNum === 8) {
-            setCardObjNum(8)
-        } else {
-            setCardObjNum(cardObjNum => ++cardObjNum)
+        if (cardObjNum === 2) {
+            setCardObjNum(1)
         }
     }
 
