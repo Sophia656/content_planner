@@ -11,7 +11,7 @@ const InstaGrid = ({changeBack,
     dragOverHandler, 
     dragEndHandler, 
     dropHandler, 
-    handleOpen,
+    handleOpenStatistic,
     handlePressNext,
     handleShowCurrentStatistics,
     showCurrStatistics,
@@ -32,7 +32,7 @@ const InstaGrid = ({changeBack,
                             onDragEnd={(e) => dragEndHandler(e)}
                             onDragOver={(e) => dragOverHandler(e)}
                             onDrop={(e) => dropHandler(e, card)}
-                            onClick={() => handleOpen(card)}
+                            onClick={() => handleOpenStatistic(card)}
                             key={card?.id}
                             draggable={true}>
                                 {card?.src === '' && <Plus>+</Plus>}

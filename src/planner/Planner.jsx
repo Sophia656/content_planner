@@ -3,21 +3,19 @@ import { LeftCloser, RightCloser, Wrapper } from './styled';
 import InstaGrid from '../components/insta-grid/InstaGrid';
 import PreViewer from '../components/pre-viewer/PreViewer';
 import Referencer from '../components/referencer/Referencer';
-import Modal from '../components/modal/Modal';
 import { myCards } from '../localstorage/localStorage';
 import Statistics from '../components/statistics/Statistics';
 import CurrentStatistics from '../components/current-statistics/CurrentStatistics';
+import PreModal from '../components/pre-viewer/pre-modal/PreModal';
 
 const Planner = () => {
     const [changeBack, setChangeBack] = useState(true)
-    const [openCard, setOpenCard] = useState(null)
-    const [openModal, setOpenModal] = useState(false)
+    const [cardForPrevModal, setCardForPrevModal] = useState(null)
+    const [openPrevModal, setOpenPrevModal] = useState(false)
     const [showPrev, setShowPrev] = useState(false)
     const [showRef, setShowRef] = useState(false)
     const [counterMaxGridCards, setCounterMaxGridCards] = useState(0)
     const defaultCard = {id: 103, src: '', w: '', h: '', text: '', tags: '', engagement: ''}
-    const [text, setText] = useState('')
-    const [tags, setTags] = useState('#')
     const [cards, setCards] = useState([])
     const [currentCard, setCurrentcard] = useState(null)
     const [showCurrStatistics, setShowCurrStatistics] = useState(true)
@@ -135,7 +133,7 @@ const Planner = () => {
         }
     }
 
-    const handleOpen = (card) => {
+    const handleOpenStatistic = (card) => {
         // setOpenCard(JSON.parse(localStorage.getItem(String(card.id))))
         // setOpenCard(card)
         // setOpenModal(true)
@@ -194,18 +192,11 @@ const Planner = () => {
     localStorage.clear()
     return (
         <Wrapper back={changeBack}>
-            {openModal
+            {openPrevModal
             ?
-            <Modal 
-            text={text}
-            setText={setText}
-            tags={tags}
-            setTags={setTags}
-            openCard={openCard} 
-            setOpenCard={setOpenCard}
-            setOpenModal={setOpenModal} 
-            cards={cards} 
-            setCards={setCards} 
+            <PreModal 
+            cardForPrevModal={cardForPrevModal}
+            setOpenPrevModal={setOpenPrevModal}
             />
         :
         <>
@@ -219,6 +210,8 @@ const Planner = () => {
                 dropHandler={dropHandler}
                 showPrev={showPrev}
                 changeBack={changeBack}
+                setCardForPrevModal={setCardForPrevModal}
+                setOpenPrevModal={setOpenPrevModal}
                 />
                 <LeftCloser close={!showPrev} open={showPrev} onClick={() => {setShowPrev(!showPrev); setShowCurrStatistics(true)}}>{showPrev ? `<` : `>`}</LeftCloser>
                 <InstaGrid
@@ -231,7 +224,7 @@ const Planner = () => {
                 dropHandler={dropHandler}
                 changeBack={changeBack}
                 setChangeBack={setChangeBack}
-                handleOpen={handleOpen}
+                handleOpenStatistic={handleOpenStatistic}
                 handlePressNext={handlePressNext}
                 handlePressPrev={handlePressPrev}
                 handleShowCurrentStatistics={handleShowCurrentStatistics}

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Cell, CellImg, DragAndDrop, Menu, MenuItem, Wrapper } from './styled';
 
-const PreViewer = ({cards, sortCards, dragStartHandler, dragLeaveHandler, dragOverHandler, dragEndHandler, dropHandler, showPrev}) => {
+const PreViewer = ({cards, sortCards, dragStartHandler, dragLeaveHandler, dragOverHandler, dragEndHandler, dropHandler, showPrev, setCardForPrevModal, setOpenPrevModal}) => {
     const [menuItems, setMenuItems] = useState([
         {id: 1, name: 'CLOSE-UP', active: true, hover: false, largestId: 13, smallestId: 0},
         {id: 2, name: 'MIDDLE', active: false, hover: false, largestId: 37, smallestId: 12},
@@ -90,6 +90,7 @@ const PreViewer = ({cards, sortCards, dragStartHandler, dragLeaveHandler, dragOv
                                 onDragOver={(e) => dragOverHandler(e)}
                                 onDrop={(e) => dropHandler(e, card)}
                                 key={card?.id}
+                                onClick={() => {setCardForPrevModal(card?.src); setOpenPrevModal(true)}}
                                 border={card?.src === '' && '1px solid rgba(255, 255, 255, 0.2)'}
                                 dragging={showPrev ? true : false}>
                                     {card?.src === '' && 
