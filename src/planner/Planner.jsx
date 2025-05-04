@@ -9,7 +9,7 @@ import CurrentStatistics from '../components/current-statistics/CurrentStatistic
 import PreModal from '../components/pre-viewer/pre-modal/PreModal';
 
 const Planner = () => {
-    const [changeBack, setChangeBack] = useState(true)
+    const [changeBack, setChangeBack] = useState(false) // white on start
     const [cardForPrevModal, setCardForPrevModal] = useState(null)
     const [openPrevModal, setOpenPrevModal] = useState(false)
     const [showPrev, setShowPrev] = useState(false)

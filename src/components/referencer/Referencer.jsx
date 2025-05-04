@@ -15,10 +15,13 @@ const Referencer = ({show}) => {
                 <CellImg closeW={!show} openW={show} src={require('../../img/ref/16.jpg')} />
             </Cell>
             <Cell  hidden={!show}>
-                <CellImg closeW={!show} openW={show} src={require('../../img/ref/2.jpg')} />
+                <CellImg closeW={!show} openW={show} src={require('../../img/ref/18.jpg')} />
             </Cell>
             <Cell  hidden={!show}>
-                <CellImg closeW={!show} openW={show} src={require('../../img/ref/8.jpg')} />
+                <CellImg closeW={!show} openW={show} src={require('../../img/ref/19.jpg')} />
+            </Cell>
+            <Cell  hidden={!show}>
+                <CellImg closeW={!show} openW={show} src={require('../../img/ref/20.jpg')} />
             </Cell>
         </Wrapper>
     );

@@ -34,7 +34,7 @@ export const GridWrap = styled.div`
 
 export const Cell = styled.div`
     width: 10.1vw;
-    height: 10.1vw;
+    height: 12.9vw;
     background: ${props => props.img || 'lightgrey'};
     background-size: cover;
     position: relative;

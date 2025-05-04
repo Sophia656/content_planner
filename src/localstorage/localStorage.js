@@ -1,31 +1,31 @@
 export const myCards = [
     // КРУПНЫЙ ПЛАН
-    {id: 1, src: require('../img/prev/close_up/7.jpg'), w: '', h: ''},
-    {id: 2, src: require('../img/prev/close_up/8.jpg'), w: '', h: ''},
-    {id: 3, src: require('../img/prev/close_up/10.jpg'), w: 'auto', h: 'inherit'},
-    {id: 4, src: require('../img/prev/close_up/11.jpg'), w: 'auto', h: 'inherit'},
-    {id: 5, src: require('../img/prev/close_up/1.jpg'), w: '', h: ''},
-    {id: 6, src: '', w: '', h: ''},
-    {id: 7, src: '', w: 'auto', h: 'inherit'},
+    {id: 1, src: require('../img/prev/close_up/1.jpg'), w: '', h: ''},
+    {id: 2, src: require('../img/prev/close_up/2.jpg'), w: 'auto', h: 'inherit'},
+    {id: 3, src: require('../img/prev/close_up/4.jpg'), w: 'auto', h: 'inherit'},
+    {id: 4, src: '', w: '', h: ''},
+    {id: 5, src: '', w: '', h: ''},
+    {id: 6, src: require('../img/prev/close_up/3.jpg'), w: 'auto', h: 'inherit'},
+    {id: 7, src: require('../img/prev/close_up/5.jpg'), w: 'auto', h: 'inherit'},
     {id: 8, src: '', w: 'auto', h: 'inherit'},
     {id: 9, src: '', w: '', h: ''},
     {id: 10, src: '', w: '', h: ''},
     {id: 11, src: '', w: 'auto', h: 'inherit'},
     {id: 12, src: '', w: 'auto', h: 'inherit'},
-    
+    // require('../img/prev/close_up/3.jpg')
     // СРЕДНИЙ ПЛАН
-    {id: 13, src: require('../img/prev/middle/13.jpg'), w: '', h: ''},
-    {id: 14, src: require('../img/prev/middle/5.jpg'), w: '', h: ''},
-    {id: 15, src: require('../img/prev/middle/11.jpg'), w: '', h: ''},
-    {id: 16, src: require('../img/prev/middle/2.jpg'), w: '', h: ''},
-    {id: 17, src: require('../img/prev/middle/3.jpg'), w: 'auto', h: 'inherit'},
-    {id: 18, src: require('../img/prev/middle/4.jpg'), w: 'auto', h: 'inherit'},
-    {id: 19, src: require('../img/prev/middle/1.jpg'), w: '', h: ''},
-    {id: 20, src: require('../img/prev/middle/6.jpg'), w: '', h: ''},
-    {id: 21, src: '', w: '', h: ''},
-    {id: 22, src: '', w: 'auto', h: 'inherit'},
-    {id: 23, src: '', w: 'auto', h: 'inherit'},
-    {id: 24, src: '', w: '', h: ''},
+    {id: 13, src: require('../img/prev/middle/13.jpg'), w: 'auto', h: 'inherit'},
+    {id: 14, src: require('../img/prev/middle/14.jpg'), w: 'auto', h: 'inherit'},
+    {id: 15, src: require('../img/prev/middle/8.jpg'), w: 'auto', h: 'inherit'},
+    {id: 16, src: require('../img/prev/middle/3.jpg'), w: 'auto', h: 'inherit'},
+    {id: 17, src: require('../img/prev/middle/9.jpg'), w: 'auto', h: 'inherit'},
+    {id: 18, src: require('../img/prev/middle/11.jpg'), w: 'auto', h: 'inherit'},
+    {id: 19, src: require('../img/prev/middle/4.jpg'), w: 'auto', h: 'inherit'},
+    {id: 20, src: require('../img/prev/middle/6.jpg'), w: 'auto', h: 'inherit'},
+    {id: 21, src: require('../img/prev/middle/7.jpg'), w: 'auto', h: 'inherit'},
+    {id: 22, src: require('../img/prev/middle/10.jpg'), w: '', h: ''},
+    {id: 23, src: require('../img/prev/middle/12.jpg'), w: 'auto', h: 'inherit'},
+    {id: 24, src: require('../img/prev/middle/5.jpg'), w: 'auto', h: 'inherit'},
     
     {id: 25, src: '', w: 'auto', h: 'inherit'},
     {id: 26, src: '', w: 'auto', h: 'inherit'},
@@ -41,7 +41,7 @@ export const myCards = [
     {id: 36, src: '', w: '', h: ''},
 
     // ДАЛЬНИЙ ПЛАН
-    {id: 37, src: require('../img/prev/wide/3.jpg'), w: '', h: ''},
+    {id: 37, src: '', w: '', h: ''},
     {id: 38, src: '', w: 'auto', h: 'inherit'},
     {id: 39, src: '', w: '', h: ''},
     {id: 40, src: '', w: '', h: ''},
@@ -53,7 +53,7 @@ export const myCards = [
     {id: 46, src: '', w: 'auto', h: 'inherit'},
     {id: 47, src: '', w: 'auto', h: 'inherit'},
     {id: 48, src: '', w: '', h: ''},
-
+// require('../img/prev/wide/3.jpg')
     // ПОРТРЕТЫ
     {id: 49, src: '', w: '', h: ''},
     {id: 50, src: '', w: '', h: ''},
@@ -69,22 +69,439 @@ export const myCards = [
     {id: 60, src: '', w: '', h: ''},
 
     // АБСТРАКТНОЕ - НЕ ЛЮДИ
-    {id: 61, src: require('../img/prev/abstract/1.jpg'), w: 'auto', h: 'inherit'},
-    {id: 62, src: require('../img/prev/abstract/2.jpg'), w: 'auto', h: 'inherit'},
-    {id: 63, src: require('../img/prev/abstract/4.jpg'), w: '', h: ''},
+    {id: 61, src: require('../img/prev/abstract/12.jpg'), w: '', h: ''},
+    {id: 62, src: '', w: 'auto', h: 'inherit'},
+    {id: 63, src: require('../img/prev/abstract/13.jpg'), w: '', h: ''},
     {id: 64, src: '', w: '', h: ''},
-    {id: 65, src: require('../img/prev/abstract/5.jpg'), w: 'auto', h: 'inherit'},
-    {id: 66, src: require('../img/prev/abstract/6.jpg'), w: 'auto', h: 'inherit'},
-    {id: 67, src: '', w: 'auto', h: 'inherit'},
-    {id: 68, src: '', w: 'auto', h: 'inherit'},
-    {id: 69, src: require('../img/prev/abstract/3.jpg'), w: '', h: ''},
+    {id: 65, src: '', w: '', h: ''},
+    {id: 66, src: '', w: '', h: ''},
+    {id: 67, src: '', w: '', h: ''},
+    {id: 68, src: '', w: '', h: ''},
+    {id: 69, src: '', w: '', h: ''},
     {id: 70, src: '', w: 'auto', h: 'inherit'},
-    {id: 71, src: '', w: 'auto', h: 'inherit'},
+    {id: 71, src: '', w: '', h: ''},
     {id: 72, src: '', w: 'auto', h: 'inherit'},
 
 
-    // СЕТКА 100
+    // dump2 - 44/44 (08.10)
+    // impr - 54/55 (08.10)
+    // dump - 24/28 (08.10)
+    // res - 16/19 (08.10)
+    // slow - 11/13 (08.10)
+    // me - 28/33 (08.10)
+    // exb - 31/36 (08.10)
+
+    // СЕТКА 500
     {id: 100, 
+        src: require('../img/main/274.jpg'), 
+        w: '', 
+        h: '', 
+        tags: '', 
+        engagement: '-- -- --', 
+        currStatistic: {
+            1: {period: '08.10', total: '47', totalViews: '101', subs: '93.1', nonsubs: '6.9', profile: '10', main: '62', other: '29'},
+            2: {period: '17.09', total: '46', totalViews: '99', subs: '94.9', nonsubs: '5.1', profile: '8', main: '62', other: '29'},
+        }
+    },
+    {id: 101, 
+        src: require('../img/main/283.jpg'), 
+        w: '', 
+        h: '', 
+        text: '', tags: '', 
+        engagement: '22%  пн  2:40',
+        currStatistic: {
+            1: {period: '08.10', total: '54', totalViews: '94', subs: '97.9', nonsubs: '2.1', profile: '2', main: '69', other: '23'},
+            2: {period: '28.08', total: '85', subs: '60.5', nonsubs: '39.5', profile: '67', main: '45', other: '1'},
+        }
+    },
+    // {id: 101, 
+    //     src: require('../img/main/44.jpg'), 
+    //     w: '', 
+    //     h: '', 
+    //     text: '', tags: '', 
+    //     engagement: '22%  пн  2:40',
+    //     currStatistic: {
+    //         1: {period: '28.08', total: '85', subs: '60.5', nonsubs: '39.5', profile: '67', main: '45', other: '1'},
+    //         2: {period: '24.06', total: '79', subs: '62.5', nonsubs: '37.5', profile: '58', main: '45', other: '1'},
+    //     }
+    // },
+    {id: 102, 
+        src: require('../img/main/269.jpg'), 
+        w: 'auto', 
+        h: 'inherit', 
+        tags: '', 
+        engagement: '-- -- --', 
+        currStatistic: {
+            1: {period: '08.10', total: '65', totalViews: '120', subs: '92.5', nonsubs: '7.5', profile: '17', main: '57', other: '46'},
+            2: {period: '17.09', total: '64', totalViews: '119', subs: '93.3', nonsubs: '6.7', profile: '16', main: '57', other: '46'},
+        }
+    },
+    {id: 103, src: '', w: '', h: ''},
+
+
+    {id: 365, 
+        src: require('../img/main/282.jpg'), 
+        w: 'auto', 
+        h: 'inherit', 
+        tags: '', 
+        engagement: '-- -- --', 
+        currStatistic: {
+            1: {period: '08.10', total: '66', totalViews: '105', subs: '97,1', nonsubs: '2,9', profile: '2', main: '77', other: '26'},
+        }
+    },
+    {id: 366, 
+        src: require('../img/main/281.jpg'), 
+        w: 'auto', 
+        h: 'inherit', 
+        tags: '', 
+        engagement: '-- -- --', 
+        currStatistic: {
+            1: {period: '08.10', total: '73', totalViews: '112', subs: '94,6', nonsubs: '5,4', profile: '5', main: '73', other: '34'},
+            2: {period: '17.09', total: '68', totalViews: '104', subs: '97,1', nonsubs: '2,9', profile: '2', main: '68', other: '34'},
+        }
+    },
+    {id: 367, 
+        src: require('../img/main/280.jpg'), 
+        w: 'auto', 
+        h: 'inherit', 
+        tags: '', 
+        engagement: '-- -- --', 
+        currStatistic: {
+            1: {period: '17.09', total: '64', totalViews: '197', subs: '98,5', nonsubs: '1,5', profile: '2', main: '104', other: '91'},
+        }
+    },
+    {id: 368, 
+        src: require('../img/main/279.jpg'), 
+        w: 'auto', 
+        h: 'inherit', 
+        tags: '', 
+        engagement: '-- -- --', 
+        currStatistic: {
+            1: {period: '17.09', total: '82', totalViews: '123', subs: '99,2', nonsubs: '0,8', profile: '1', main: '98', other: '24'},
+            2: {period: '07.09', total: '78', subs: '96,2', nonsubs: '3,8', profile: '4', main: '85', other: '27'},
+        }
+    },
+    {id: 369, 
+        src: require('../img/main/278.jpg'), 
+        w: 'auto', 
+        h: 'inherit', 
+        tags: '', 
+        engagement: '-- -- --', 
+        currStatistic: {
+            1: {period: '07.09', total: '78', subs: '96,2', nonsubs: '3,8', profile: '4', main: '85', other: '27'},
+            2: {period: '02.09', total: '51', subs: '100', nonsubs: '0', profile: '1', main: '47', other: '27'},
+        }
+    },
+    {id: 370, 
+        src: require('../img/main/277.jpg'), 
+        w: 'auto', 
+        h: 'inherit', 
+        tags: '', 
+        engagement: '-- -- --', 
+        currStatistic: {
+            1: {period: '07.09', total: '71', subs: '91.5', nonsubs: '8.5', profile: '7', main: '69', other: '61'},
+            2: {period: '28.08', total: '66', subs: '95.5', nonsubs: '4.5', profile: '1', main: '66', other: '61'},
+        }
+    },
+    {id: 371, 
+        src: require('../img/main/276.jpg'), 
+        w: '', 
+        h: '', 
+        tags: '', 
+        engagement: '-- -- --', 
+        currStatistic: {
+            1: {period: '07.09', total: '70', subs: '92.9', nonsubs: '7.1', profile: '10', main: '48', other: '30'},
+            2: {period: '28.08', total: '66', subs: '95.5', nonsubs: '4.5', profile: '5', main: '48', other: '30'},
+        }
+    },
+    {id: 372, 
+        src: require('../img/main/275.jpg'), 
+        w: 'auto', 
+        h: 'inherit', 
+        tags: '', 
+        engagement: '-- -- --', 
+        currStatistic: {
+            1: {period: '07.09', total: '58', subs: '91.4', nonsubs: '8.6', profile: '9', main: '51', other: '40'},
+            2: {period: '28.08', total: '57', subs: '93', nonsubs: '7', profile: '6', main: '50', other: '40'},
+        }
+    },
+    {id: 373, 
+        src: require('../img/main/273.jpg'), 
+        w: '', 
+        h: '', 
+        tags: '', 
+        engagement: '-- -- --', 
+        currStatistic: {
+            1: {period: '07.09', total: '58', subs: '89.7', nonsubs: '10.3', profile: '11', main: '39', other: '27'},
+            2: {period: '28.08', total: '56', subs: '92.9', nonsubs: '7.1', profile: '7', main: '39', other: '27'},
+        }
+    },
+    {id: 374, 
+        src: require('../img/main/272.jpg'), 
+        w: 'auto', 
+        h: 'inherit', 
+        tags: '', 
+        engagement: '-- -- --', 
+        currStatistic: {
+            1: {period: '07.09', total: '56', subs: '89.3', nonsubs: '10.7', profile: '9', main: '43', other: '23'},
+            1: {period: '28.08', total: '54', subs: '92.6', nonsubs: '7.4', profile: '6', main: '43', other: '23'},
+        }
+    },
+    {id: 375, 
+        src: require('../img/main/271.jpg'), 
+        w: '', 
+        h: '', 
+        tags: '', 
+        engagement: '-- -- --', 
+        currStatistic: {
+            1: {period: '07.09', total: '56', subs: '89.3', nonsubs: '10.7', profile: '8', main: '34', other: '27'},
+            2: {period: '28.08', total: '54', subs: '92.6', nonsubs: '7.4', profile: '6', main: '34', other: '27'},
+        }
+    },
+    {id: 376, 
+        src: require('../img/main/270.jpg'), 
+        w: '', 
+        h: '', 
+        tags: '', 
+        engagement: '-- -- --', 
+        currStatistic: {
+            1: {period: '07.09', total: '78', subs: '91', nonsubs: '9', profile: '9', main: '75', other: '41'},
+            2: {period: '28.08', total: '76', subs: '93.4', nonsubs: '6.6', profile: '7', main: '75', other: '41'},
+        }
+    },
+    {id: 377, 
+        src: require('../img/main/268.jpg'), 
+        w: 'auto', 
+        h: 'inherit', 
+        tags: '', 
+        engagement: '-- -- --', 
+        currStatistic: {
+            1: {period: '28.08', total: '52', subs: '94.2', nonsubs: '5.8', profile: '6', main: '47', other: '26'},
+        }
+    },
+    {id: 378, 
+        src: require('../img/main/267.jpg'), 
+        w: '', 
+        h: '', 
+        tags: '', 
+        engagement: '-- -- --', 
+        currStatistic: {
+            1: {period: '28.08', total: '60', subs: '77', nonsubs: '23', profile: '18', main: '27', other: '29'},
+            2: {period: '22.07', total: '52', subs: '83', nonsubs: '17', profile: '8', main: '27', other: '29'},
+        }
+    },
+    {id: 379, 
+        src: require('../img/main/264.jpg'), 
+        w: '', 
+        h: '', 
+        tags: '', 
+        engagement: '-- -- --', 
+        currStatistic: {
+            1: {period: '28.08', total: '85', subs: '77.9', nonsubs: '22.1', profile: '27', main: '59', other: '29'},
+            2: {period: '22.07', total: '75', subs: '82.9', nonsubs: '17.1', profile: '16', main: '59', other: '29'},
+        }
+    },
+    {id: 380, 
+        src: require('../img/main/263.jpg'), 
+        w: '', 
+        h: '', 
+        tags: '', 
+        engagement: '-- -- --', 
+        currStatistic: {
+            1: {period: '28.08', total: '116', subs: '82.8', nonsubs: '17.2', profile: '28', main: '79', other: '40'},
+            2: {period: '22.07', total: '106', subs: '87.7', nonsubs: '12.3', profile: '15', main: '79', other: '40'},
+        }
+    },
+    {id: 381, 
+        src: require('../img/main/262.jpg'), 
+        w: '', 
+        h: '', 
+        tags: '', 
+        engagement: '-- -- --', 
+        currStatistic: {
+            1: {period: '28.08', total: '96', subs: '81.4', nonsubs: '18.6', profile: '30', main: '74', other: '32'},
+            2: {period: '22.07', total: '88', subs: '85.4', nonsubs: '14.6', profile: '9', main: '74', other: '32'},
+        }
+    },
+    {id: 382, 
+        src: require('../img/main/261.jpg'), 
+        w: '', 
+        h: '', 
+        tags: '', 
+        engagement: '-- -- --', 
+        currStatistic: {
+            1: {period: '28.08', total: '83', subs: '85.5', nonsubs: '14.5', profile: '24', main: '49', other: '45'},
+            2: {period: '22.07', total: '77', subs: '88.3', nonsubs: '11.7', profile: '16', main: '49', other: '45'},
+        }
+    },
+    {id: 383, 
+        src: require('../img/main/260.jpg'), 
+        w: '', 
+        h: '', 
+        tags: '', 
+        engagement: '-- -- --', 
+        currStatistic: {
+            1: {period: '28.08', total: '89', subs: '88.9', nonsubs: '11.1', profile: '20', main: '57', other: '47'},
+            2: {period: '22.07', total: '78', subs: '92.3', nonsubs: '7.7', profile: '10', main: '52', other: '39'},
+        }
+    },
+    {id: 384, 
+        src: require('../img/main/259.jpg'), 
+        w: '', 
+        h: '', 
+        tags: '', 
+        engagement: '-- -- --', 
+        currStatistic: {
+            1: {period: '28.08', total: '75', subs: '86.7', nonsubs: '13.3', profile: '20', main: '40', other: '38'},
+            2: {period: '22.07', total: '70', subs: '91.4', nonsubs: '8.6', profile: '13', main: '40', other: '38'},
+        }
+    },
+    {id: 385, 
+        src: require('../img/main/258.jpg'), 
+        w: '', 
+        h: '', 
+        tags: '', 
+        engagement: '-- -- --', 
+        currStatistic: {
+            1: {period: '28.08', total: '74', subs: '86.5', nonsubs: '13.5', profile: '23', main: '50', other: '32'},
+            2: {period: '02.07', total: '68', subs: '92.6', nonsubs: '7.4', profile: '13', main: '50', other: '32'},
+        }
+    },
+    {id: 386, 
+        src: require('../img/main/257.jpg'), 
+        w: '', 
+        h: '', 
+        tags: '', 
+        engagement: '-- -- --', 
+        currStatistic: {
+            1: {period: '28.08', total: '79', subs: '89.9', nonsubs: '10.1', profile: '17', main: '68', other: '33'},
+            2: {period: '02.07', total: '76', subs: '93.4', nonsubs: '6.6', profile: '10', main: '68', other: '33'},
+        }
+    },
+    {id: 387, 
+        src: require('../img/main/256.jpg'), 
+        w: '', 
+        h: '', 
+        tags: '', 
+        engagement: '-- -- --', 
+        currStatistic: {
+            1: {period: '28.08', total: '70', subs: '84.3', nonsubs: '15.7', profile: '29', main: '46', other: '30'},
+            2: {period: '02.07', total: '64', subs: '89.1', nonsubs: '10.9', profile: '18', main: '46', other: '30'},
+        }
+    },
+    {id: 388, 
+        src: require('../img/main/254.jpg'), 
+        w: '', 
+        h: '', 
+        tags: '', 
+        engagement: '-- -- --', 
+        currStatistic: {
+            1: {period: '28.08', total: '63', subs: '81', nonsubs: '19', profile: '28', main: '42', other: '5'},
+            2: {period: '02.07', total: '59', subs: '84.7', nonsubs: '15.3', profile: '13', main: '42', other: '5'},
+        }
+    },
+    // --------------------- //
+    {id: 390, 
+        src: require('../img/main/252.jpg'), 
+        w: '', 
+        h: '', 
+        tags: '', 
+        engagement: '-- -- --', 
+        currStatistic: {
+            1: {period: '28.08', total: '63', subs: '82.8', nonsubs: '17.2', profile: '28', main: '44', other: '1'},
+            2: {period: '02.07', total: '56', subs: '86', nonsubs: '14', profile: '18', main: '44', other: '-'},
+        }
+    },
+    {id: 391, 
+        src: require('../img/main/240.jpg'), 
+        w: '', 
+        h: '', 
+        tags: '', 
+        engagement: '-- -- --', 
+        currStatistic: {
+            1: {period: '28.08', total: '73', subs: '87.7', nonsubs: '12.3', profile: '23', main: '67', other: '2'},
+            2: {period: '02.07', total: '70', subs: '90', nonsubs: '10', profile: '16', main: '67', other: '2'},
+        }
+    },
+    // -------------------------- //
+    {id: 394, 
+        src: require('../img/main/228.jpg'), 
+        w: '', 
+        h: '', 
+        tags: '', 
+        engagement: '-- -- --', 
+        currStatistic: {
+            1: {period: '28.08', total: '55', subs: '76.4', nonsubs: '23.6', profile: '31', main: '33', other: '3'},
+            2: {period: '02.07', total: '54', subs: '75.9', nonsubs: '24.1', profile: '25', main: '33', other: '3'},
+        }
+    },
+    {id: 395, 
+        src: require('../img/main/227.jpg'), 
+        w: '', 
+        h: '', 
+        tags: '', 
+        engagement: '-- -- --', 
+        currStatistic: {
+            1: {period: '28.08', total: '60', subs: '73.3', nonsubs: '26.7', profile: '29', main: '48', other: '4'},
+            2: {period: '02.07', total: '60', subs: '73.3', nonsubs: '26.7', profile: '25', main: '48', other: '4'},
+        }
+    },
+    {id: 397, 
+        src: require('../img/main/225.jpg'), 
+        w: '', 
+        h: '', 
+        tags: '', 
+        engagement: '-- -- --', 
+        currStatistic: {
+            1: {period: '28.08', total: '58', subs: '70.7', nonsubs: '29.3', profile: '31', main: '34', other: '3'},
+            2: {period: '02.07', total: '57', subs: '70.2', nonsubs: '29.8', profile: '26', main: '34', other: '3'},
+        }
+    },
+    {id: 398, 
+        src: require('../img/main/224.jpg'), 
+        w: 'auto', 
+        h: 'inherit', 
+        tags: '', 
+        engagement: '-- -- --', 
+        currStatistic: {
+            1: {period: '28.08', total: '74', subs: '81.1', nonsubs: '18.9', profile: '32', main: '61', other: '26'},
+            1: {period: '02.07', total: '64', subs: '78.1', nonsubs: '21.9', profile: '26', main: '51', other: '-'},
+        }
+    },
+    {id: 399, 
+        src: require('../img/main/223.jpg'), 
+        w: 'auto', 
+        h: 'inherit', 
+        tags: '', 
+        engagement: '-- -- --', 
+        currStatistic: {
+            1: {period: '28.08', total: '103', subs: '75.7', nonsubs: '24.3', profile: '33', main: '83', other: '17'},
+            2: {period: '02.07', total: '100', subs: '76', nonsubs: '24', profile: '25', main: '83', other: '17'},
+        }
+    },
+    {id: 400, 
+        src: require('../img/main/220.jpg'), 
+        w: '', 
+        h: '', 
+        tags: '', 
+        engagement: '-- -- --', 
+        currStatistic: {
+            1: {period: '28.08', total: '78', subs: '81', nonsubs: '19', profile: '41', main: '68', other: '1'},
+            2: {period: '02.07', total: '76', subs: '80.5', nonsubs: '19.5', profile: '34', main: '68', other: '1'},
+        }
+    },
+    {id: 401, 
+        src: require('../img/main/219.jpg'), 
+        w: '', 
+        h: '', 
+        tags: '', 
+        engagement: '-- -- --', 
+        currStatistic: {
+            1: {period: '28.08', total: '83', subs: '71.4', nonsubs: '28.6', profile: '61', main: '56', other: '4'},
+            2: {period: '22.07', total: '80', subs: '71.6', nonsubs: '28.4', profile: '54', main: '56', other: '4'},
+        }
+    },
+    {id: 402, 
         src: require('../img/main/218.jpg'), 
         w: '', 
         h: '', 
@@ -92,98 +509,19 @@ export const myCards = [
         tags: '',
         engagement: '41%  вт  3:40',
         currStatistic: {
-            1: {period: '05.02', subs: '67', nonsubs: '17', profile: '13', main: '67', other: '17'},
-            2: {period: '30.01', subs: '67', nonsubs: '15', profile: '9', main: '67', other: '17'},
-        }
-    },
-    {id: 101, 
-        src: require('../img/main/4.jpg'), 
-        w: '', 
-        h: '', 
-        text: '', 
-        tags: '',
-        engagement: '41%  вт  3:40',
-        currStatistic: {
-            1: {period: '30.01-05.02', subs: '78', nonsubs: '140', profile: '368', main: '-', other: '1'},
-            2: {period: '24.01', subs: '77', nonsubs: '141', profile: '367', main: '-', other: '1'},
-        }
-    },
-    {id: 102, 
-        src: require('../img/main/56.jpg'), 
-        w: '', 
-        h: '', 
-        tags: '', 
-        engagement: '21%  ср  2:50',
-        currStatistic: {
-            1: {period: '05.02', subs: '69', nonsubs: '32', profile: '65', main: '60', other: '2'},
-            2: {period: '30.01', subs: '67', nonsubs: '31', profile: '57', main: '60', other: '2'},
-        }
-    },
-    {id: 103, src: '', w: '', h: ''},
-
-
-    {id: 399, 
-        src: require('../img/main/224.jpg'), 
-        w: 'auto', 
-        h: 'inherit', 
-        tags: '', 
-        engagement: '-- -- --', 
-        currStatistic: {
-            1: {period: '06.02', subs: '23', nonsubs: '1', profile: '1', main: '24', other: '-'},
-        }
-    },
-    {id: 400, 
-        src: require('../img/main/223.jpg'), 
-        w: 'auto', 
-        h: 'inherit', 
-        tags: '', 
-        engagement: '-- -- --', 
-        currStatistic: {
-            1: {period: '05.02', subs: '58', nonsubs: '7', profile: '1', main: '63', other: '9'},
-        }
-    },
-    {id: 401, 
-        src: require('../img/main/222.jpg'), 
-        w: '', 
-        h: '', 
-        tags: '', 
-        engagement: '-- -- --', 
-        currStatistic: {
-            1: {period: '05.02', subs: '63', nonsubs: '2', profile: '6', main: '64', other: '1'},
-            2: {period: '30.01', subs: '26', nonsubs: '0', profile: '-', main: '26', other: '-'},
-        }
-    },
-    {id: 402, 
-        src: require('../img/main/220.jpg'), 
-        w: '', 
-        h: '', 
-        tags: '', 
-        engagement: '-- -- --', 
-        currStatistic: {
-            1: {period: '05.02', subs: '57', nonsubs: '3', profile: '11', main: '66', other: '1'},
-            2: {period: '30.01', subs: '56', nonsubs: '2', profile: '7', main: '66', other: '1'},
+            1: {period: '28.08', total: '100', subs: '70.3', nonsubs: '29.7', profile: '42', main: '67', other: '17'},
+            2: {period: '02.07', total: '98', subs: '70.7', nonsubs: '29.3', profile: '36', main: '67', other: '17'},
         }
     },
     {id: 403, 
-        src: require('../img/main/219.jpg'), 
-        w: '', 
-        h: '', 
-        tags: '', 
-        engagement: '-- -- --', 
-        currStatistic: {
-            1: {period: '05.02', subs: '51', nonsubs: '3', profile: '11', main: '55', other: '4'},
-            2: {period: '30.01', subs: '49', nonsubs: '3', profile: '8', main: '55', other: '4'},
-        }
-    },
-    {id: 404, 
         src: require('../img/main/217.jpg'), 
         w: 'auto', 
         h: 'inherit', 
         tags: '', 
         engagement: '-- -- --', 
         currStatistic: {
-            1: {period: '05.02', subs: '65', nonsubs: '33', profile: '21', main: '67', other: '27'},
-            2: {period: '30.01', subs: '65', nonsubs: '33', profile: '18', main: '67', other: '27'},
+            1: {period: '28.08', total: '113', subs: '62.9', nonsubs: '37.1', profile: '52', main: '67', other: '29'},
+            2: {period: '02.07', total: '112', subs: '62.6', nonsubs: '37.4', profile: '45', main: '67', other: '29'},
         }
     },
     {id: 405, 
@@ -193,8 +531,8 @@ export const myCards = [
         tags: '', 
         engagement: '-- -- --', 
         currStatistic: {
-            1: {period: '05.02', subs: '42', nonsubs: '17', profile: '29', main: '35', other: '2'},
-            2: {period: '30.01', subs: '41', nonsubs: '17', profile: '26', main: '35', other: '2'},
+            1: {period: '28.08', total: '72', subs: '65.3', nonsubs: '34.7', profile: '53', main: '35', other: '2'},
+            2: {period: '02.07', total: '71', subs: '64.8', nonsubs: '35.2', profile: '47', main: '35', other: '2'},
         }
     },
     {id: 407, 
@@ -204,8 +542,8 @@ export const myCards = [
         tags: '', 
         engagement: '-- -- --', 
         currStatistic: {
-            1: {period: '05.02', subs: '57', nonsubs: '20', profile: '32', main: '56', other: '1'},
-            2: {period: '30.01', subs: '56', nonsubs: '19', profile: '28', main: '56', other: '1'},
+            1: {period: '28.08', total: '91', subs: '72.5', nonsubs: '27.5', profile: '51', main: '59', other: '13'},
+            2: {period: '02.07', total: '86', subs: '70.9', nonsubs: '29.1', profile: '45', main: '56', other: '1'},
         }
     },
     {id: 411, 
@@ -216,10 +554,11 @@ export const myCards = [
         tags: '', 
         engagement: '-- -- --',
         currStatistic: {
-            1: {period: '05.02', subs: '51', nonsubs: '21', profile: '29', main: '48', other: '3'},
-            2: {period: '30.01', subs: '50', nonsubs: '20', profile: '25', main: '48', other: '3'},
+            1: {period: '28.08', total: '86', subs: '64', nonsubs: '36', profile: '52', main: '48', other: '3'},
+            2: {period: '02.07', total: '83', subs: '65.1', nonsubs: '34.9', profile: '45', main: '48', other: '3'},
         }
     },
+    // tyt v
     {id: 414, 
         src: require('../img/main/77.jpg'), 
         w: 'auto', 
@@ -228,23 +567,11 @@ export const myCards = [
         tags: '', 
         engagement: '-- -- --',
         currStatistic: {
-            1: {period: '05.02', subs: '49', nonsubs: '20', profile: '40', main: '47', other: '2'},
-            2: {period: '30.01', subs: '48', nonsubs: '20', profile: '37', main: '47', other: '2'},
+            1: {period: '28.08', total: '85', subs: '63.5', nonsubs: '36.5', profile: '64', main: '47', other: '2'},
+            2: {period: '24.06', total: '81', subs: '64.2', nonsubs: '35.8', profile: '56', main: '47', other: '2'},
         }
     },
-    {id: 417, 
-        src: require('../img/main/74.jpg'), 
-        w: '', 
-        h: '', 
-        text: '', 
-        tags: '', 
-        engagement: '-- -- --',
-        currStatistic: {
-            1: {period: '05.02', subs: '36', nonsubs: '18', profile: '38', main: '37', other: '4'},
-            2: {period: '30.01', subs: '35', nonsubs: '18', profile: '34', main: '37', other: '4'},
-        }
-    },
-    {id: 418, 
+    {id: 416, 
         src: require('../img/main/72.jpg'), 
         w: 'auto', 
         h: 'inherit', 
@@ -252,34 +579,44 @@ export const myCards = [
         tags: '', 
         engagement: '-- -- --',
         currStatistic: {
-            1: {period: '05.02', subs: '42', nonsubs: '17', profile: '33', main: '42', other: '3'},
-            2: {period: '15.01-30.01', subs: '40', nonsubs: '17', profile: '29', main: '42', other: '3'},
+            1: {period: '28.08', total: '74', subs: '63.5', nonsubs: '36.5', profile: '55', main: '42', other: '3'},
+            2: {period: '24.06', total: '70', subs: '64.3', nonsubs: '35.7', profile: '47', main: '42', other: '3'},
         }
     },
-
-    {id: 419, 
+    {id: 417, 
         src: require('../img/main/71.jpg'), 
         w: '', 
         h: '', 
         tags: '', 
         engagement: '-- -- --',
         currStatistic: {
-            1: {period: '05.02', subs: '60', nonsubs: '20', profile: '34', main: '64', other: '1'},
-            2: {period: '15.01-30.01', subs: '58', nonsubs: '20', profile: '30', main: '64', other: '1'},
+            1: {period: '28.08', total: '100', subs: '67.3', nonsubs: '32.7', profile: '64', main: '64', other: '1'},
+            2: {period: '24.06', total: '94', subs: '69.5', nonsubs: '30.5', profile: '54', main: '64', other: '1'},
         }
     },
-    {id: 422, 
+    {id: 418, 
+        src: require('../img/main/69.jpg'), 
+        w: 'auto', 
+        h: 'inherit', 
+        tags: '', 
+        engagement: '-- -- --',
+        currStatistic: {
+            1: {period: '28.08', total: '83', subs: '64.3', nonsubs: '35.7', profile: '53', main: '54', other: '2'},
+            2: {period: '24.06', total: '79', subs: '66.2', nonsubs: '33.8', profile: '44', main: '54', other: '2'},
+        }
+    },
+    {id: 419, 
         src: require('../img/main/68.jpg'), 
         w: '', 
         h: '', 
         tags: '', 
         engagement: '-- -- --',
         currStatistic: {
-            1: {period: '05.02', subs: '57', nonsubs: '23', profile: '41', main: '59', other: '5'},
-            2: {period: '24.01-30.01', subs: '56', nonsubs: '23', profile: '39', main: '59', other: '5'},
+            1: {period: '28.08', total: '95', subs: '63.2', nonsubs: '36.8', profile: '63', main: '59', other: '5'},
+            2: {period: '24.06', total: '92', subs: '64.1', nonsubs: '35.9', profile: '55', main: '59', other: '5'},
         }
     },
-    {id: 425, 
+    {id: 420, 
         src: require('../img/main/64.jpg'), 
         w: '', 
         h: '', 
@@ -287,22 +624,33 @@ export const myCards = [
         tags: '', 
         engagement: '28%  вс 7:01',
         currStatistic: {
-            1: {period: '30.01-05.02', subs: '53', nonsubs: '18', profile: '34', main: '47', other: '3'},
-            2: {period: '15.01-24.01', subs: '53', nonsubs: '18', profile: '33', main: '47', other: '3'},
+            1: {period: '28.08', total: '88', subs: '64.8', nonsubs: '35.2', profile: '60', main: '47', other: '3'},
+            2: {period: '24.06', total: '84', subs: '66.7', nonsubs: '33.3', profile: '50', main: '47', other: '3'},
         }
     },
-    {id: 429, 
+    {id: 421, 
         src: require('../img/main/58.jpg'), 
         w: 'auto', 
         h: 'inherit', 
         tags: '', 
         engagement: '19%  пн  3:40',
         currStatistic: {
-            1: {period: '05.02', subs: '56', nonsubs: '20', profile: '31', main: '53', other: '2'},
-            2: {period: '15.01-30.01', subs: '56', nonsubs: '19', profile: '30', main: '53', other: '2'},
+            1: {period: '28.08', total: '93', subs: '64.5', nonsubs: '35.5', profile: '57', main: '53', other: '2'},
+            2: {period: '24.06', total: '89', subs: '65.2', nonsubs: '34.8', profile: '49', main: '53', other: '2'},
         }
     },
-    {id: 432, 
+    {id: 422, 
+        src: require('../img/main/56.jpg'), 
+        w: '', 
+        h: '', 
+        tags: '', 
+        engagement: '21%  ср  2:50',
+        currStatistic: {
+            1: {period: '28.08', total: '120', subs: '65', nonsubs: '35', profile: '89', main: '65', other: '9'},
+            2: {period: '24.06', total: '112', subs: '64.3', nonsubs: '35.7', profile: '83', main: '60', other: '2'},
+        }
+    },
+    {id: 423, 
         src: require('../img/main/54.jpg'), 
         w: '', 
         h: '', 
@@ -310,11 +658,11 @@ export const myCards = [
         tags: '', 
         engagement: '13%  чт  5:25',
         currStatistic: {
-            1: {period: '05.02', subs: '49', nonsubs: '23', profile: '35', main: '45', other: '3'},
-            2: {period: '30.01', subs: '49', nonsubs: '22', profile: '34', main: '45', other: '3'},
+            1: {period: '28.08', total: '83', subs: '61.4', nonsubs: '38.6', profile: '53', main: '45', other: '3'},
+            2: {period: '24.06', total: '81', subs: '63', nonsubs: '37', profile: '48', main: '45', other: '3'},
         }
     },
-    {id: 436, 
+    {id: 424, 
         src: require('../img/main/50.jpg'), 
         w: '', 
         h: '', 
@@ -322,11 +670,11 @@ export const myCards = [
         tags: '', 
         engagement: '29%  сб  3:10',
         currStatistic: {
-            1: {period: '05.02', subs: '56', nonsubs: '36', profile: '59', main: '50', other: '3'},
-            2: {period: '30.01', subs: '56', nonsubs: '35', profile: '57', main: '50', other: '3'},
+            1: {period: '28.08', total: '101', subs: '58.4', nonsubs: '41.6', profile: '74', main: '50', other: '3'},
+            2: {period: '24.06', total: '98', subs: '58.2', nonsubs: '41.8', profile: '69', main: '50', other: '3'},
         }
     },
-    {id: 438,
+    {id: 425,
         src: require('../img/main/48.jpg'), 
         w: '', 
         h: '', 
@@ -334,11 +682,11 @@ export const myCards = [
         tags: '', 
         engagement: '27%  ср  6:31',
         currStatistic: {
-            1: {period: '05.02', subs: '51', nonsubs: '28', profile: '47', main: '51', other: '-'},
-            2: {period: '30.01', subs: '51', nonsubs: '27', profile: '45', main: '51', other: '-'},
+            1: {period: '28.08', total: '90', subs: '61.5', nonsubs: '38.5', profile: '64', main: '51', other: '-'},
+            2: {period: '24.06', total: '87', subs: '61.4', nonsubs: '38.6', profile: '58', main: '51', other: '-'},
         }
     },
-    {id: 439, 
+    {id: 426, 
         src: require('../img/main/47.jpg'), 
         w: '', 
         h: '', 
@@ -346,22 +694,24 @@ export const myCards = [
         tags: '', 
         engagement: '30%  сб  7:27',
         currStatistic: {
-            1: {period: '30.01-05.02', subs: '51', nonsubs: '25', profile: '42', main: '52', other: '7'},
-            2: {period: '24.01', subs: '51', nonsubs: '24', profile: '41', main: '52', other: '7'},
+            1: {period: '28.08', total: '86', subs: '63.2', nonsubs: '36.8', profile: '59', main: '52', other: '8'},
+            2: {period: '24.06', total: '84', subs: '63.5', nonsubs: '36.5', profile: '54', main: '52', other: '7'},
         }
     },
-    {id: 441, 
-        src: require('../img/main/44.jpg'), 
+    //-----------//
+    {id: 428, 
+        src: require('../img/main/43.jpg'), 
         w: '', 
         h: '', 
-        text: '', tags: '', 
-        engagement: '22%  пн  2:40',
+        text: '', 
+        tags: '', 
+        engagement: '29%  вт  5:26',
         currStatistic: {
-            1: {period: '30.01-05.02', subs: '45', nonsubs: '21', profile: '42', main: '45', other: '1'},
-            2: {period: '15.01-24.01', subs: '45', nonsubs: '21', profile: '41', main: '45', other: '1'},
+            1: {period: '28.08', total: '61', subs: '66.1', nonsubs: '33.9', profile: '48', main: '33', other: '-'},
+            2: {period: '24.06', total: '57', subs: '69', nonsubs: '31', profile: '43', main: '33', other: '-'},
         }
     },
-    {id: 445, 
+    {id: 429, 
         src: require('../img/main/33.jpg'), 
         w: '', 
         h: '', 
@@ -369,10 +719,23 @@ export const myCards = [
         tags: '', 
         engagement: '29%  вт  5:26',
         currStatistic: {
-            1: {period: '06.02', subs: '68', nonsubs: '6', profile: '12', main: '68', other: '1'},
+            1: {period: '28.08', total: '87', subs: '81.6', nonsubs: '18.4', profile: '31', main: '68', other: '1'},
+            2: {period: '24.06', total: '83', subs: '84.3', nonsubs: '15.7', profile: '26', main: '68', other: '1'},
         }
     },
-    {id: 446, 
+    {id: 430, 
+        src: require('../img/main/36.jpg'), 
+        w: 'auto', 
+        h: 'inherit', 
+        text: '', 
+        tags: '', 
+        engagement: '29%  вт  5:26',
+        currStatistic: {
+            1: {period: '28.08', total: '92', subs: '81.5', nonsubs: '18.5', profile: '40', main: '78', other: '4'},
+            2: {period: '24.06', total: '87', subs: '83.9', nonsubs: '16.1', profile: '35', main: '78', other: '3'},
+        }
+    },
+    {id: 431, 
         src: require('../img/main/30.jpg'), 
         w: 'auto', 
         h: 'inherit', 
@@ -380,11 +743,11 @@ export const myCards = [
         tags: '', 
         engagement: '--  --  --',
         currStatistic: {
-            1: {period: '15.01-05.02', subs: '72', nonsubs: '37', profile: '61', main: '70', other: '23'},
-            2: {period: '08.12-08.01', subs: '71', nonsubs: '37', profile: '60', main: '70', other: '23'}, 
+            1: {period: '28.08', total: '120', subs: '62', nonsubs: '38', profile: '77', main: '70', other: '23'},
+            2: {period: '24.06', total: '117', subs: '62.7', nonsubs: '37.3', profile: '73', main: '70', other: '23'},
         }
     },
-    {id: 448, 
+    {id: 432, 
         src: require('../img/main/27.jpg'), 
         w: '', 
         h: '', 
@@ -392,23 +755,23 @@ export const myCards = [
         tags: '', 
         engagement: '25%  пт  8:40',
         currStatistic: {
-            1: {period: '30.01-05.02', subs: '57', nonsubs: '37', profile: '93', main: '38', other: '4'},
-            2: {period: '24.01', subs: '57', nonsubs: '37', profile: '92', main: '38', other: '4'},
+            1: {period: '28.08', total: '106', subs: '57', nonsubs: '43', profile: '111', main: '38', other: '4'},
+            2: {period: '24.06', total: '102', subs: '58.3', nonsubs: '41.7', profile: '106', main: '38', other: '4'},
         }
     },
 
-    {id: 449, 
+    {id: 433, 
         src: require('../img/main/29.jpg'), 
         w: '', 
         h: '', 
         tags: '', 
         engagement: '20%  чт  8:40',
         currStatistic: {
-            1: {period: '30.01-05.02', subs: '77', nonsubs: '32', profile: '77', main: '61', other: '2'},
-            2: {period: '15.01-24.01', subs: '77', nonsubs: '32', profile: '76', main: '61', other: '2'},
+            1: {period: '28.08', total: '121', subs: '64.5', nonsubs: '35.5', profile: '96', main: '61', other: '2'},
+            2: {period: '24.06', total: '117', subs: '66.7', nonsubs: '33.3', profile: '90', main: '61', other: '2'},
         }
     },
-    {id: 450, 
+    {id: 434, 
         src: require('../img/main/26.jpg'), 
         w: '', 
         h: '', 
@@ -416,11 +779,11 @@ export const myCards = [
         tags: '', 
         engagement: '22%  чт  1:15',
         currStatistic: {
-            1: {period: '15.01-05.02', subs: '54', nonsubs: '29', profile: '64', main: '36', other: '1'}, 
-            2: {period: '08.12-08.01', subs: '54', nonsubs: '27', profile: '62', main: '36', other: '1'}, 
+            1: {period: '28.08', total: '95', subs: '58.9', nonsubs: '41.1', profile: '82', main: '36', other: '1'},
+            2: {period: '24.06', total: '92', subs: '60.9', nonsubs: '39.1', profile: '77', main: '36', other: '1'},
         }
     },
-    {id: 451, 
+    {id: 435, 
         src: require('../img/main/28.jpg'), 
         w: '', 
         h: '', 
@@ -428,11 +791,11 @@ export const myCards = [
         tags: '', 
         engagement: '22%  ср  2:50',
         currStatistic: {
-            1: {period: '24.01-05.02', subs: '55', nonsubs: '30', profile: '72', main: '36', other: '1'},
-            2: {period: '15.01', subs: '55', nonsubs: '30', profile: '71', main: '36', other: '1'},
+            1: {period: '28.08', total: '98', subs: '59.2', nonsubs: '40.8', profile: '88', main: '36', other: '1'},
+            2: {period: '24.06', total: '94', subs: '60.6', nonsubs: '39.4', profile: '83', main: '36', other: '1'},
         }
     },
-    {id: 452, 
+    {id: 436, 
         src: require('../img/main/23.jpg'), 
         w: '', 
         h: '', 
@@ -440,11 +803,11 @@ export const myCards = [
         tags: '', 
         engagement: '20%  вт  3:15',
         currStatistic: {
-            1: {period: '24.01-05.02', subs: '65', nonsubs: '31', profile: '73', main: '63', other: '-'},
-            2: {period: '15.01', subs: '65', nonsubs: '31', profile: '72', main: '63', other: '-'},
+            1: {period: '28.08', total: '109', subs: '62.4', nonsubs: '37.6', profile: '90', main: '63', other: '-'},
+            2: {period: '24.06', total: '105', subs: '63.8', nonsubs: '36.2', profile: '85', main: '63', other: '-'},
         }
     },
-    {id: 453, 
+    {id: 437, 
         src: require('../img/main/20.jpg'), 
         w: '', 
         h: '', 
@@ -452,11 +815,11 @@ export const myCards = [
         tags: '', 
         engagement: '--  --  --',
         currStatistic: {
-            1: {period: '24.01-05.02', subs: '60', nonsubs: '32', profile: '82', main: '35', other: '5'},
-            2: {period: '15.01', subs: '60', nonsubs: '32', profile: '81', main: '35', other: '5'},
+            1: {period: '28.08', total: '113', subs: '55.8', nonsubs: '44.2', profile: '112', main: '35', other: '5'},
+            2: {period: '24.06', total: '109', subs: '56.8', nonsubs: '43.1', profile: '107', main: '35', other: '5'},
         }
     },
-    {id: 454, 
+    {id: 438, 
         src: require('../img/main/21.jpg'), 
         w: '', 
         h: '', 
@@ -464,33 +827,33 @@ export const myCards = [
         tags: '', 
         engagement: '25%  пн  3:20',
         currStatistic: {
-            1: {period: '15.01-05.02', subs: '70', nonsubs: '25', profile: '64', main: '52', other: '1'}, 
-            2: {period: '08.12-08.01', subs: '69', nonsubs: '25', profile: '63', main: '52', other: '1'},
+            1: {period: '28.08', total: '108', subs: '67.6', nonsubs: '32.4', profile: '79', main: '52', other: '1'},
+            2: {period: '24.06', total: '104', subs: '69.2', nonsubs: '30.8', profile: '75', main: '52', other: '1'},
         }
     },
-    {id: 455, 
+    {id: 439, 
         src: require('../img/main/18.jpg'), 
         w: '', 
         h: '', 
         tags: '', 
         engagement: '31%  сб  11:19',
         currStatistic: {
-            1: {period: '30.01-05.02', subs: '74', nonsubs: '24', profile: '68', main: '59', other: '5'},
-            2: {period: '15.01-24.01', subs: '74', nonsubs: '23', profile: '67', main: '59', other: '5'},
+            1: {period: '28.08', total: '111', subs: '68.5', nonsubs: '31.5', profile: '84', main: '59', other: '5'},
+            2: {period: '24.06', total: '107', subs: '70.1', nonsubs: '29.9', profile: '80', main: '59', other: '5'},
         }
     },
-    {id: 457, 
+    {id: 440, 
         src: require('../img/main/7.jpg'), 
         w: 'auto', 
         h: 'inherit', 
         tags: '', 
         engagement: '--  --  --',
         currStatistic: {
-            1: {period: '30.01-05.02', subs: '91', nonsubs: '49', profile: '127', main: '88', other: '3'},
-            2: {period: '15.01-24.01', subs: '91', nonsubs: '49', profile: '126', main: '88', other: '3'},
+            1: {period: '28.08', total: '151', subs: '60.9', nonsubs: '39.1', profile: '141', main: '88', other: '3'},
+            2: {period: '24.06', total: '147', subs: '62.6', nonsubs: '37.4', profile: '137', main: '88', other: '3'},
         }
     },
-    {id: 458, 
+    {id: 441, 
         src: require('../img/main/8.jpg'), 
         w: '', 
         h: '', 
@@ -498,11 +861,23 @@ export const myCards = [
         tags: '', 
         engagement: '25%  вт  4:10',
         currStatistic: {
-            1: {period: '05.02', subs: '77', nonsubs: '47', profile: '125', main: '59', other: '1'},
-            2: {period: '30.01', subs: '77', nonsubs: '46', profile: '124', main: '59', other: '1'},
+            1: {period: '28.08', total: '136', subs: '57.4', nonsubs: '42.6', profile: '140', main: '59', other: '1'},
+            2: {period: '24.06', total: '131', subs: '58.8', nonsubs: '41.2', profile: '135', main: '59', other: '1'},
         }
     },
-    {id: 461, 
+    {id: 442, 
+        src: require('../img/main/235.jpg'), 
+        w: 'auto', 
+        h: 'inherit', 
+        text: '', 
+        tags: '', 
+        engagement: '-- -- --',
+        currStatistic: {
+            1: {period: '28.08', total: '83', subs: '72.3', nonsubs: '27.7', profile: '46', main: '74', other: '2'},
+            2: {period: '28.05', total: '80', subs: '75', nonsubs: '25', profile: '39', main: '74', other: '2'},
+        }
+    },
+    {id: 443, 
         src: require('../img/main/5.jpg'), 
         w: '', 
         h: '', 
@@ -510,11 +885,11 @@ export const myCards = [
         tags: '', 
         engagement: '--  --  --',
         currStatistic: {
-            1: {period: '05.02', subs: '87', nonsubs: '54', profile: '117', main: '81', other: '9'},
-            2: {period: '15.01-30.01', subs: '87', nonsubs: '53', profile: '116', main: '81', other: '9'},
+            1: {period: '28.08', total: '154', subs: '57.8', nonsubs: '42.2', profile: '138', main: '81', other: '10'},
+            2: {period: '28.05', total: '149', subs: '58.4', nonsubs: '41.6', profile: '129', main: '81', other: '9'},
         }
     },
-    {id: 462, 
+    {id: 444, 
         src: require('../img/main/11.jpg'), 
         w: '', 
         h: '', 
@@ -522,11 +897,11 @@ export const myCards = [
         tags: '', 
         engagement: '--  --  --',
         currStatistic: {
-            1: {period: '05.02', subs: '89', nonsubs: '59', profile: '131', main: '75', other: '12'},
-            2: {period: '15.01-30.01', subs: '89', nonsubs: '58', profile: '130', main: '75', other: '11'},
+            1: {period: '28.08', total: '162', subs: '55.6', nonsubs: '44.4', profile: '155', main: '75', other: '12'},
+            2: {period: '28.05', total: '158', subs: '56.3', nonsubs: '43.7', profile: '145', main: '75', other: '12'},
         }
     },
-    {id: 465, 
+    {id: 445, 
         src: require('../img/main/12.jpg'), 
         w: '', 
         h: '', 
@@ -534,33 +909,70 @@ export const myCards = [
         tags: '', 
         engagement: '24%  чт  8:10',
         currStatistic: {
-            1: {period: '15.01-05.02', subs: '104', nonsubs: '94', profile: '199', main: '95', other: '25'},
-            2: {period: '02.01-08.01', subs: '103', nonsubs: '94', profile: '198', main: '95', other: '25'},
+            1: {period: '28.08', total: '221', subs: '48.6', nonsubs: '51.4', profile: '240', main: '95', other: '25'},
+            2: {period: '23.05-28.05', total: '213', subs: '49.1', nonsubs: '50.9', profile: '223', main: '95', other: '25'},
         }
     },
-    {id: 466, 
+    {id: 446, 
         src: require('../img/main/13.jpg'), 
         w: 'auto', 
         h: 'inherit', 
         tags: '', 
         engagement: '25%  ср  3:17',
         currStatistic: {
-            1: {period: '30.01-05.02', subs: '108', nonsubs: '78', profile: '184', main: '88', other: '6'},
-            2: {period: '15.01-24.01', subs: '108', nonsubs: '77', profile: '183', main: '88', other: '6'},
+            1: {period: '28.08', total: '205', subs: '55.3', nonsubs: '44.7', profile: '215', main: '91', other: '18'},
+            2: {period: '23.05-28.05', total: '197', subs: '55.5', nonsubs: '44.5', profile: '202', main: '88', other: '6'},
         }
     },
-    {id: 467, 
+    {id: 447, 
         src: require('../img/main/3.jpg'), 
         w: 'auto', 
         h: 'inherit', 
         tags: '', 
         engagement: '-- -- --',
         currStatistic: {
-            1: {period: '30.01-05.02', subs: '121', nonsubs: '122', profile: '393', main: '88', other: '13'},
-            2: {period: '15.01-24.01', subs: '121', nonsubs: '121', profile: '392', main: '88', other: '13'},
+            1: {period: '28.08', total: '260', subs: '46.9', nonsubs: '53.1', profile: '420', main: '88', other: '13'},
+            2: {period: '23.05-28.05', total: '256', subs: '47.7', nonsubs: '52.3', profile: '409', main: '88', other: '13'},
         }
     },
-    {id: 468, 
+    //----------------28.08-----------------//
+    {id: 448, 
+        src: require('../img/main/234.jpg'), 
+        w: 'auto', 
+        h: 'inherit', 
+        text: '', 
+        tags: '', 
+        engagement: '-- -- --',
+        currStatistic: {
+            1: {period: '23.05-28.05', total: '100', subs: '63', nonsubs: '37', profile: '65', main: '58', other: '1'},
+        }
+    },
+    {id: 449, 
+        src: require('../img/main/177.jpg'), 
+        w: '', 
+        h: '', 
+        text: '', 
+        tags: '', 
+        engagement: '-- -- --',
+        currStatistic: {
+            1: {period: '23.05-28.05', total: '154', subs: '58.3', nonsubs: '41.7', profile: '148', main: '72', other: '2'},
+            2: {period: '23.04', total: '154', subs: '58.3', nonsubs: '41.7', profile: '146', main: '72', other: '2'},
+        }
+    },
+    {id: 450, 
+        src: require('../img/main/22.jpg'), 
+        w: 'auto', 
+        h: 'inherit', 
+        tags: '', 
+        engagement: '-- -- --',
+        currStatistic: {
+            1: {period: '23.05-28.05', total: '190', subs: '47.4', nonsubs: '52.6', profile: '235', main: '37', other: '6'},
+            2: {period: '17.04', total: '190', subs: '47.4', nonsubs: '52.6', profile: '233', main: '37', other: '6'},
+            // 2: {period: '23.03', total: '188', subs: '89', nonsubs: '99', profile: '228', main: '37', other: '6'},
+            // 2: {period: '13.03-19.03', subs: '89', nonsubs: '99', profile: '227', main: '37', other: '6'},
+        }
+    },
+    {id: 451, 
         src: require('../img/main/15.jpg'), 
         w: '', 
         h: '', 
@@ -568,11 +980,13 @@ export const myCards = [
         tags: '', 
         engagement: '15%  вт  11:26',
         currStatistic: {
-            1: {period: '30.01-05.02', subs: '94', nonsubs: '149', profile: '305', main: '47', other: '20'},
-            2: {period: '15.01-24.01', subs: '94', nonsubs: '148', profile: '304', main: '47', other: '20'},
+            1: {period: '23.05-28.05', total: '248', subs: '38.4', nonsubs: '61.6', profile: '318', main: '47', other: '20'},
+            2: {period: '17.04', total: '248', subs: '38.4', nonsubs: '61.6', profile: '316', main: '47', other: '20'},
+            // 2: {period: '23.03', total: '246', subs: '94', nonsubs: '152', profile: '310', main: '47', other: '20'},
+            // 2: {period: '27.02-19.03', subs: '94', nonsubs: '152', profile: '309', main: '47', other: '20'},
         }
     },
-    {id: 469, 
+    {id: 452, 
         src: require('../img/main/17.jpg'), 
         w: '', 
         h: '', 
@@ -580,12 +994,13 @@ export const myCards = [
         tags: '', 
         engagement: '16%  чт  12:01',
         currStatistic: {
-            1: {period: '15.01-05.02', subs: '82', nonsubs: '140', profile: '315', main: '41', other: '10'},
-            2: {period: '02.01-08.01', subs: '81', nonsubs: '140', profile: '313', main: '41', other: '10'},
+            1: {period: '23.05-28.05', total: '230', subs: '37.2', nonsubs: '62.8', profile: '336', main: '41', other: '11'},
+            2: {period: '17.04', total: '230', subs: '37.2', nonsubs: '62.8', profile: '334', main: '41', other: '11'},
+            // 2: {period: '19.03-23.03', total: '229', subs: '83', nonsubs: '146', profile: '330', main: '41', other: '11'},
+            // 2: {period: '13.03', subs: '83', nonsubs: '145', profile: '327', main: '41', other: '11'},
         }
     },
-
-    {id: 470, 
+    {id: 453, 
         src: require('../img/main/221.jpg'), 
         w: '', 
         h: '', 
@@ -593,13 +1008,13 @@ export const myCards = [
         tags: '', 
         engagement: '-- -- --',
         currStatistic: {
-            1: {period: '15.01-05.02', subs: '83', nonsubs: '96', profile: '194', main: '74', other: '4'}, 
-            2: {period: '02.01-08.01', subs: '82', nonsubs: '96', profile: '192', main: '74', other: '4'},
+            1: {period: '23.05-28.05', total: '185', subs: '46.3', nonsubs: '53.7', profile: '205', main: '74', other: '4'},
+            2: {period: '17.04', total: '184', subs: '46.8', nonsubs: '53.2', profile: '202', main: '74', other: '4'},
+            // 2: {period: '27.02-23.03', total: '181', subs: '83', nonsubs: '98', profile: '197', main: '74', other: '4'},
+            // 2: {period: '20.02', subs: '83', nonsubs: '97', profile: '196', main: '74', other: '4'},
         }
     },
-
-
-    {id: 471, 
+    {id: 454, 
         src: require('../img/main/182.jpg'), 
         w: 'auto', 
         h: 'inherit', 
@@ -607,11 +1022,13 @@ export const myCards = [
         tags: '', 
         engagement: '-- -- --',
         currStatistic: {
-            1: {period: '15.01-05.02', subs: '71', nonsubs: '97', profile: '178', main: '59', other: '5'},
-            2: {period: '02.01-08.01', subs: '70', nonsubs: '97', profile: '177', main: '59', other: '5'},
+            1: {period: '23.05-28.05', total: '174', subs: '42.1', nonsubs: '57.9', profile: '189', main: '59', other: '5'},
+            2: {period: '17.04', total: '173', subs: '42.6', nonsubs: '57.4', profile: '186', main: '59', other: '5'},
+            // 2: {period: '19.03-23.03', total: '170', subs: '71', nonsubs: '99', profile: '181', main: '59', other: '5'},
+            // 2: {period: '27.02-13.03', subs: '71', nonsubs: '99', profile: '180', main: '59', other: '5'},
         }
     },
-    {id: 472, 
+    {id: 455, 
         src: require('../img/main/183.jpg'), 
         w: 'auto', 
         h: 'inherit', 
@@ -619,11 +1036,27 @@ export const myCards = [
         tags: '', 
         engagement: '-- -- --',
         currStatistic: {
-            1: {period: '15.01-05.02', subs: '89', nonsubs: '120', profile: '231', main: '67', other: '4'},
-            2: {period: '02.01-08.01', subs: '87', nonsubs: '120', profile: '229', main: '67', other: '4'},
+            1: {period: '23.05-28.05', total: '214', subs: '42.7', nonsubs: '57.3', profile: '242', main: '67', other: '4'},
+            2: {period: '17.04', total: '214', subs: '42.7', nonsubs: '57.3', profile: '240', main: '67', other: '4'},
+            // 2: {period: '19.03-23.03', total: '211', subs: '89', nonsubs: '122', profile: '234', main: '67', other: '4'},
+            // 2: {period: '27.02-13.03', subs: '89', nonsubs: '122', profile: '233', main: '67', other: '4'},
         }
     },
-    {id: 473, 
+    {id: 456, 
+        src: require('../img/main/233.jpg'), 
+        w: 'auto', 
+        h: 'inherit', 
+        text: '', 
+        tags: '', 
+        engagement: '-- -- --',
+        currStatistic: {
+            1: {period: '23.05-28.05', total: '165', subs: '43.2', nonsubs: '56.8', profile: '193', main: '48', other: '4'},
+            2: {period: '17.04', total: '164', subs: '43.5', nonsubs: '56.4', profile: '192', main: '48', other: '4'},
+            // 2: {period: '19.03-23.03', total: '161', subs: '69', nonsubs: '92', profile: '185', main: '48', other: '1'},
+            // 2: {period: '14.03', subs: '69', nonsubs: '92', profile: '183', main: '48', other: '1'},
+        }
+    },
+    {id: 457, 
         src: require('../img/main/184.jpg'), 
         w: 'auto', 
         h: 'inherit', 
@@ -631,12 +1064,39 @@ export const myCards = [
         tags: '', 
         engagement: '-- -- --',
         currStatistic: {
-            1: {period: '15.01-05.02', subs: '103', nonsubs: '113', profile: '251', main: '99', other: '3'},
-            2: {period: '02.01-08.01', subs: '102', nonsubs: '113', profile: '249', main: '99', other: '3'},
+            1: {period: '23.05-28.05', total: '220', subs: '47.5', nonsubs: '52.5', profile: '260', main: '99', other: '3'},
+            2: {period: '17.04', total: '219', subs: '47.7', nonsubs: '52.3', profile: '258', main: '99', other: '3'},
+            // 2: {period: '19.03-23.03', total: '218', subs: '103', nonsubs: '115', profile: '254', main: '99', other: '3'},
+            // 2: {period: '27.02-13.03', subs: '103', nonsubs: '115', profile: '253', main: '99', other: '3'},
         }
     },
-    ///////
-    {id: 474, 
+    {id: 458, 
+        src: require('../img/main/251.jpg'), 
+        w: 'auto', 
+        h: 'inherit', 
+        text: '', 
+        tags: '', 
+        engagement: '-- -- --',
+        currStatistic: {
+            1: {period: '23.05-28.05', total: '191', subs: '47.2', nonsubs: '52.8', profile: '207', main: '74', other: '16'},
+            2: {period: '23.04', total: '190', subs: '47.4', nonsubs: '52.6', profile: '205', main: '74', other: '16'},
+        }
+    },
+    {id: 458, 
+        src: require('../img/main/236.jpg'), 
+        w: 'auto', 
+        h: 'inherit', 
+        text: '', 
+        tags: '', 
+        engagement: '-- -- --',
+        currStatistic: {
+            1: {period: '23.05-28.05', total: '189', subs: '44', nonsubs: '56', profile: '235', main: '123', other: '6'},
+            2: {period: '17.04', total: '188', subs: '44.2', nonsubs: '55.8', profile: '233', main: '123', other: '6'},
+            // 2: {period: '19.03-23.03', total: '187', subs: '82', nonsubs: '105', profile: '230', main: '123', other: '6'},
+            // 2: {period: '14.03', subs: '82', nonsubs: '105', profile: '229', main: '123', other: '6'},
+        }
+    },
+    {id: 459, 
         src: require('../img/main/185.jpg'), 
         w: 'auto', 
         h: 'inherit', 
@@ -644,11 +1104,13 @@ export const myCards = [
         tags: '', 
         engagement: '-- -- --',
         currStatistic: {
-            1: {period: '15.01-05.02', subs: '100', nonsubs: '124', profile: '292', main: '156', other: '2'},
-            2: {period: '02.01-08.01', subs: '99', nonsubs: '124', profile: '291', main: '156', other: '2'},
+            1: {period: '23.05-28.05', total: '229', subs: '44.8', nonsubs: '55.2', profile: '301', main: '156', other: '2'},
+            2: {period: '17.04', total: '228', subs: '45', nonsubs: '55', profile: '299', main: '156', other: '2'},
+            // 2: {period: '19.03-23.03', total: '226', subs: '100', nonsubs: '126', profile: '295', main: '156', other: '2'},
+            // 2: {period: '27.02-13.03', subs: '100', nonsubs: '126', profile: '294', main: '156', other: '2'},
         }
     },
-    {id: 475, 
+    {id: 460, 
         src: require('../img/main/186.jpg'), 
         w: 'auto', 
         h: 'inherit', 
@@ -656,23 +1118,27 @@ export const myCards = [
         tags: '', 
         engagement: '-- -- --',
         currStatistic: {
-            1: {period: '24.01-05.02', subs: '96', nonsubs: '129', profile: '279', main: '98', other: '16'},
-            2: {period: '15.01', subs: '95', nonsubs: '128', profile: '277', main: '98', other: '16'},
+            1: {period: '23.05-28.05', total: '230', subs: '43.2', nonsubs: '56.8', profile: '287', main: '98', other: '16'},
+            2: {period: '17.04', total: '229', subs: '43.3', nonsubs: '56.7', profile: '285', main: '98', other: '16'},
+            // 2: {period: '19.03-23.03', total: '227', subs: '96', nonsubs: '131', profile: '282', main: '98', other: '16'},
+            // 2: {period: '27.02-13.03', subs: '96', nonsubs: '131', profile: '281', main: '98', other: '16'},
         }
     },
-    {id: 476, 
-        src: require('../img/main/187.jpg'), 
-        w: 'auto', 
-        h: 'inherit', 
-        text: '', 
-        tags: '', 
-        engagement: '-- -- --',
-        currStatistic: {
-            1: {period: '24.01-05.02', subs: '83', nonsubs: '238', profile: '257', main: '40', other: '9'},
-            2: {period: '15.01', subs: '82', nonsubs: '237', profile: '255', main: '40', other: '9'},
-        }
-    },
-    {id: 477, 
+    // {id: 462, 
+    //     src: require('../img/main/187.jpg'), 
+    //     w: 'auto', 
+    //     h: 'inherit', 
+    //     text: '', 
+    //     tags: '', 
+    //     engagement: '-- -- --',
+    //     currStatistic: {
+    //         1: {period: '23.05', total: '327', subs: '24.1', nonsubs: '75.9', profile: '265', main: '40', other: '9'},
+    //         2: {period: '17.04', total: '326', subs: '24.1', nonsubs: '75.9', profile: '263', main: '40', other: '9'},
+    //         // 2: {period: '27.02-23.03', total: '323', subs: '83', nonsubs: '240', profile: '259', main: '40', other: '9'},
+    //         // 2: {period: '20.02', subs: '83', nonsubs: '239', profile: '258', main: '40', other: '9'},
+    //     }
+    // },
+    {id: 461, 
         src: require('../img/main/188.jpg'), 
         w: 'auto', 
         h: 'inherit', 
@@ -680,11 +1146,13 @@ export const myCards = [
         tags: '', 
         engagement: '-- -- --',
         currStatistic: {
-            1: {period: '15.01-05.02', subs: '83', nonsubs: '267', profile: '210', main: '43', other: '7'},
-            2: {period: '02.01-08.01', subs: '82', nonsubs: '267', profile: '209', main: '43', other: '7'},
+            1: {period: '23.05-28.05', total: '357', subs: '23', nonsubs: '77', profile: '218', main: '43', other: '7'},
+            2: {period: '17.04', total: '355', subs: '23', nonsubs: '77', profile: '216', main: '43', other: '7'},
+            // 2: {period: '27.02-23.03', total: '353', subs: '84', nonsubs: '269', profile: '212', main: '43', other: '7'},
+            // 2: {period: '20.02', subs: '84', nonsubs: '268', profile: '211', main: '43', other: '7'},
         }
     },
-    {id: 478, 
+    {id: 462, 
         src: require('../img/main/189.jpg'), 
         w: '', 
         h: '', 
@@ -692,11 +1160,13 @@ export const myCards = [
         tags: '', 
         engagement: '-- -- --',
         currStatistic: {
-            1: {period: '05.02', subs: '63', nonsubs: '117', profile: '260', main: '-', other: '2'},
-            2: {period: '15.01-30.01', subs: '66', nonsubs: '118', profile: '266', main: '-', other: '2'},
+            1: {period: '23.05-28.05', total: '179', subs: '36.5', nonsubs: '63.5', profile: '258', main: '-', other: '2'},
+            // 1: {period: '17.04', total: '181', subs: '35.5', nonsubs: '64.5', profile: '261', main: '-', other: '1'},
+            // 2: {period: '27.02-23.03', total: '180', subs: '63', nonsubs: '117', profile: '259', main: '-', other: '1'},
         }
     },
-    {id: 479, 
+    // ----------------------NO DATA-------------------------------- //
+    {id: 463, 
         src: require('../img/main/190.jpg'), 
         w: 'auto', 
         h: 'inherit', 
@@ -704,11 +1174,11 @@ export const myCards = [
         tags: '', 
         engagement: '-- -- --',
         currStatistic: {
-            1: {period: '15.01-30.01', subs: '56', nonsubs: '82', profile: '174', main: '-', other: '3'},
-            2: {period: '08.01', subs: '55', nonsubs: '82', profile: '174', main: '-', other: '3'}, 
+            1: {period: '17.04', total: '138', subs: '41', nonsubs: '59', profile: '176', main: '-', other: '3'},
+            2: {period: '27.02-23.03', total: '138', subs: '56', nonsubs: '82', profile: '174', main: '-', other: '3'},
         }
     },
-    {id: 480, 
+    {id: 464, 
         src: require('../img/main/191.jpg'), 
         w: 'auto', 
         h: 'inherit', 
@@ -716,11 +1186,43 @@ export const myCards = [
         tags: '', 
         engagement: '-- -- --',
         currStatistic: {
-            1: {period: '15.01-30.01', subs: '55', nonsubs: '77', profile: '166', main: '-', other: '1'},
-            2: {period: '08.01', subs: '54', nonsubs: '77', profile: '166', main: '-', other: '1'},
+            1: {period: '17.04', total: '129', subs: '41.1', nonsubs: '58.9', profile: '164', main: '-', other: '1'},
         }
     },
-    {id: 481, 
+    {id: 465, 
+        src: require('../img/main/229.jpg'), 
+        w: 'auto', 
+        h: 'inherit', 
+        text: '', 
+        tags: '', 
+        engagement: '-- -- --',
+        currStatistic: {
+            1: {period: '17.04', total: '59', subs: '49.2', nonsubs: '50.8', profile: '66', main: '-', other: '-'},
+        }
+    },
+    {id: 466, 
+        src: require('../img/main/232.jpg'), 
+        w: 'auto', 
+        h: 'inherit', 
+        text: '', 
+        tags: '', 
+        engagement: '-- -- --',
+        currStatistic: {
+            1: {period: '17.04', total: '61', subs: '49.2', nonsubs: '50.8', profile: '78', main: '-', other: '-'},
+        }
+    },
+    {id: 467, 
+        src: require('../img/main/250.jpg'), 
+        w: 'auto', 
+        h: 'inherit', 
+        text: '', 
+        tags: '', 
+        engagement: '-- -- --',
+        currStatistic: {
+            1: {period: '23.04', total: '79', subs: '38.8', nonsubs: '61.2', profile: '110', main: '-', other: '-'},
+        }
+    },
+    {id: 468, 
         src: require('../img/main/192.jpg'), 
         w: 'auto', 
         h: 'inherit', 
@@ -728,11 +1230,33 @@ export const myCards = [
         tags: '', 
         engagement: '-- -- --',
         currStatistic: {
-            1: {period: '05.02', subs: '29', nonsubs: '52', profile: '102', main: '-', other: '-'},
-            2: {period: '15.01-30.01', subs: '30', nonsubs: '53', profile: '108', main: '-', other: '-'},
+            1: {period: '17.04', total: '83', subs: '35.7', nonsubs: '64.3', profile: '101', main: '-', other: '-'},
         }
     },
-    {id: 482, 
+    {id: 469, 
+        src: require('../img/main/231.jpg'), 
+        w: '', 
+        h: '', 
+        text: '', 
+        tags: '', 
+        engagement: '-- -- --',
+        currStatistic: {
+            1: {period: '17.04', total: '98', subs: '32.3', nonsubs: '67.7', profile: '144', main: '-', other: '1'},
+        }
+    },
+    {id: 470, 
+        src: require('../img/main/242.jpg'), 
+        w: 'auto', 
+        h: 'inherit', 
+        text: '', 
+        tags: '', 
+        engagement: '-- -- --',
+        currStatistic: {
+            1: {period: '22.07', total: '61', subs: '41', nonsubs: '59', profile: '73', main: '0', other: '0'},
+            2: {period: '02.07', total: '59', subs: '42.4', nonsubs: '57.6', profile: '70', main: '0', other: '0'},
+        }
+    },
+    {id: 471, 
         src: require('../img/main/193.jpg'), 
         w: '', 
         h: '', 
@@ -740,11 +1264,32 @@ export const myCards = [
         tags: '', 
         engagement: '-- -- --',
         currStatistic: {
-            1: {period: '15.01-05.02', subs: '42', nonsubs: '71', profile: '143', main: '-', other: '1'},
-            2: {period: '08.01', subs: '41', nonsubs: '73', profile: '145', main: '-', other: '1'}, 
+            1: {period: '17.04', total: '113', subs: '37.4', nonsubs: '62.6', profile: '141', main: '-', other: '1'},
         }
     },
-    {id: 483, 
+    {id: 472, 
+        src: require('../img/main/241.jpg'), 
+        w: 'auto', 
+        h: 'inherit', 
+        text: '', 
+        tags: '', 
+        engagement: '-- -- --',
+        currStatistic: {
+            1: {period: '23.04', total: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
+        }
+    },
+    {id: 473, 
+        src: require('../img/main/245.jpg'), 
+        w: '', 
+        h: '', 
+        text: '', 
+        tags: '', 
+        engagement: '-- -- --',
+        currStatistic: {
+            1: {period: '23.04', total: '78', subs: '39.2', nonsubs: '60.8', profile: '98', main: '-', other: '-'},
+        }
+    },
+    {id: 474, 
         src: require('../img/main/194.jpg'), 
         w: '', 
         h: '', 
@@ -752,11 +1297,10 @@ export const myCards = [
         tags: '', 
         engagement: '-- -- --',
         currStatistic: {
-            1: {period: '30.01-05.02', subs: '41', nonsubs: '87', profile: '156', main: '-', other: '5'},
-            2: {period: '15.01-24.01', subs: '41', nonsubs: '89', profile: '158', main: '-', other: '5'},
+            1: {period: '17.04', tottal: '124', subs: '32.3', nonsubs: '67.7', profile: '152', main: '-', other: '5'},
         }
     },
-    {id: 484, 
+    {id: 475, 
         src: require('../img/main/195.jpg'), 
         w: 'auto', 
         h: 'inherit', 
@@ -764,11 +1308,10 @@ export const myCards = [
         tags: '', 
         engagement: '-- -- --',
         currStatistic: {
-            1: {period: '30.01-05.02', subs: '32', nonsubs: '90', profile: '180', main: '-', other: '2'},
-            2: {period: '15.01-24.01', subs: '33', nonsubs: '94', profile: '188', main: '-', other: '2'},
+            1: {period: '17.04', total: '117', subs: '27.3', nonsubs: '72.6', profile: '169', main: '-', other: '2'},
         }
     },
-    {id: 485, 
+    {id: 476, 
         src: require('../img/main/196.jpg'), 
         w: '', 
         h: '', 
@@ -776,11 +1319,10 @@ export const myCards = [
         tags: '', 
         engagement: '-- -- --',
         currStatistic: {
-            1: {period: '30.01-05.02', subs: '47', nonsubs: '86', profile: '197', main: '-', other: '-'},
-            2: {period: '15.01-24.01', subs: '47', nonsubs: '87', profile: '200', main: '-', other: '-'},
+            1: {period: '17.04', total: '134', subs: '35.6', nonsubs: '64.4', profile: '198', main: '-', other: '-'},
         }
     },
-    {id: 486, 
+    {id: 477, 
         src: require('../img/main/197.jpg'), 
         w: '', 
         h: '', 
@@ -788,11 +1330,10 @@ export const myCards = [
         tags: '', 
         engagement: '-- -- --',
         currStatistic: {
-            1: {period: '15.01-05.02', subs: '33', nonsubs: '34', profile: '81', main: '-', other: '2'}, 
-            2: {period: '08.01', subs: '32', nonsubs: '37', profile: '83', main: '-', other: '2'},
+            1: {period: '17.04', total: '69', subs: '47.8', nonsubs: '52.2', profile: '81', main: '-', other: '1'}, 
         }
     },
-    {id: 487, 
+    {id: 478, 
         src: require('../img/main/198.jpg'), 
         w: 'auto', 
         h: 'inherit', 
@@ -800,11 +1341,32 @@ export const myCards = [
         tags: '', 
         engagement: '-- -- --',
         currStatistic: {
-            1: {period: '15.01-05.02', subs: '32', nonsubs: '29', profile: '76', main: '-', other: '-'}, 
-            2: {period: '08.01', subs: '31', nonsubs: '32', profile: '78', main: '-', other: '-'},
+            1: {period: '17.04', total: '63', subs: '50.8', nonsubs: '49.2', profile: '77', main: '-', other: '-'}, 
         }
     },
-    {id: 488, 
+    {id: 479, 
+        src: require('../img/main/4.jpg'), 
+        w: '', 
+        h: '', 
+        text: '', 
+        tags: '',
+        engagement: '41%  вт  3:40',
+        currStatistic: {
+            1: {period: '03.06', total: '220', subs: '37.2', nonsubs: '62.8', profile: '377', main: '-', other: '2'},     
+        }
+    },
+    {id: 480, 
+        src: require('../img/main/249.jpg'), 
+        w: 'auto', 
+        h: 'inherit', 
+        text: '', 
+        tags: '', 
+        engagement: '-- -- --',
+        currStatistic: {
+            1: {period: '23.04', total: '58', subs: '43.1', nonsubs: '56.8', profile: '73', main: '-', other: '-'}, 
+        }
+    },
+    {id: 481, 
         src: require('../img/main/199.jpg'), 
         w: '', 
         h: '', 
@@ -812,11 +1374,10 @@ export const myCards = [
         tags: '', 
         engagement: '-- -- --',
         currStatistic: {
-            1: {period: '15.01-05.02', subs: '30', nonsubs: '35', profile: '87', main: '-', other: '3'}, 
-            2: {period: '08.01', subs: '29', nonsubs: '36', profile: '89', main: '-', other: '3'},
+            1: {period: '03.06', total: '68', subs: '45.6', nonsubs: '54.4', profile: '92', main: '-', other: '4'},
         }
     },
-    {id: 489, 
+    {id: 482, 
         src: require('../img/main/200.jpg'), 
         w: '', 
         h: '', 
@@ -824,11 +1385,10 @@ export const myCards = [
         tags: '', 
         engagement: '-- -- --',
         currStatistic: {
-            1: {period: '15.01-05.02', subs: '29', nonsubs: '25', profile: '74', main: '-', other: '-'}, 
-            2: {period: '08.01', subs: '28', nonsubs: '26', profile: '76', main: '-', other: '-'},
+            1: {period: '17.04', total: '56', subs: '51.8', nonsubs: '48.2', profile: '75', main: '-', other: '-'}, 
         }
     },
-    {id: 490, 
+    {id: 483, 
         src: require('../img/main/201.jpg'), 
         w: '', 
         h: '', 
@@ -836,11 +1396,21 @@ export const myCards = [
         tags: '', 
         engagement: '-- -- --',
         currStatistic: {
-            1: {period: '15.01-05.02', subs: '32', nonsubs: '26', profile: '77', main: '-', other: '1'}, 
-            2: {period: '08.01', subs: '31', nonsubs: '27', profile: '79', main: '-', other: '1'},
+            1: {period: '17.04', total: '59', subs: '54.2', nonsubs: '45.8', profile: '77', main: '-', other: '1'}, 
         }
     },
-    {id: 491, 
+    {id: 484, 
+        src: require('../img/main/243.jpg'), 
+        w: '', 
+        h: '', 
+        text: '', 
+        tags: '', 
+        engagement: '-- -- --',
+        currStatistic: {
+            1: {period: '23.04', total: '41', subs: '61', nonsubs: '39', profile: '59', main: '-', other: '-'}, 
+        }
+    },
+    {id: 485, 
         src: require('../img/main/202.jpg'), 
         w: 'auto', 
         h: 'inherit', 
@@ -848,11 +1418,10 @@ export const myCards = [
         tags: '', 
         engagement: '-- -- --',
         currStatistic: {
-            1: {period: '15.01-05.02', subs: '28', nonsubs: '39', profile: '92', main: '-', other: '1'}, 
-            2: {period: '08.01', subs: '28', nonsubs: '39', profile: '95', main: '-', other: '1'},
+            1: {period: '17.04', total: '69', subs: '40.6', nonsubs: '59.4', profile: '93', main: '-', other: '1'},
         }
     },
-    {id: 492, 
+    {id: 486, 
         src: require('../img/main/203.jpg'), 
         w: 'auto', 
         h: 'inherit', 
@@ -860,11 +1429,10 @@ export const myCards = [
         tags: '', 
         engagement: '-- -- --',
         currStatistic: {
-            1: {period: '15.01-05.02', subs: '32', nonsubs: '35', profile: '86', main: '-', other: '-'}, 
-            2: {period: '08.01', subs: '31', nonsubs: '35', profile: '88', main: '-', other: '-'},
+            1: {period: '17.04', total: '70', subs: '45.7', nonsubs: '54.2', profile: '88', main: '-', other: '-'},
         }
     },
-    {id: 493, 
+    {id: 487, 
         src: require('../img/main/204.jpg'), 
         w: '', 
         h: '', 
@@ -872,12 +1440,21 @@ export const myCards = [
         tags: '', 
         engagement: '-- -- --',
         currStatistic: {
-            1: {period: '15.01-05.02', subs: '27', nonsubs: '34', profile: '76', main: '-', other: '-'}, 
-            2: {period: '08.01', subs: '26', nonsubs: '35', profile: '78', main: '-', other: '-'},
+            1: {period: '17.04', total: '62', subs: '41.9', nonsubs: '58.1', profile: '76', main: '-', other: '-'}, 
         }
     },
-    ////////
-    {id: 494, 
+    {id: 488, 
+        src: require('../img/main/237.jpg'), 
+        w: '', 
+        h: '', 
+        text: '', 
+        tags: '', 
+        engagement: '-- -- --',
+        currStatistic: {
+            1: {period: '17.04', total: '4', subs: '0', nonsubs: '100', profile: '4', main: '-', other: '-'},
+        }
+    },
+    {id: 489, 
         src: require('../img/main/205.jpg'), 
         w: 'auto', 
         h: 'inherit', 
@@ -885,11 +1462,21 @@ export const myCards = [
         tags: '', 
         engagement: '-- -- --',
         currStatistic: {
-            1: {period: '15.01-05.02', subs: '29', nonsubs: '28', profile: '72', main: '-', other: '1'}, 
-            2: {period: '08.01', subs: '29', nonsubs: '29', profile: '74', main: '-', other: '1'},
+            1: {period: '17.04', total: '58', subs: '48.3', nonsubs: '51.7', profile: '72', main: '-', other: '1'}, 
         }
     },
-    {id: 495, 
+    {id: 490, 
+        src: require('../img/main/230.jpg'), 
+        w: 'auto', 
+        h: 'inherit', 
+        text: '', 
+        tags: '', 
+        engagement: '-- -- --',
+        currStatistic: {
+            1: {period: '17.04', total: '28', subs: '57.1', nonsubs: '42.9', profile: '34', main: '-', other: '-'},
+        }
+    },
+    {id: 491, 
         src: require('../img/main/206.jpg'), 
         w: '', 
         h: '', 
@@ -897,11 +1484,32 @@ export const myCards = [
         tags: '', 
         engagement: '-- -- --',
         currStatistic: {
-            1: {period: '15.01-05.02', subs: '23', nonsubs: '17', profile: '46', main: '-', other: '-'}, 
-            2: {period: '08.01', subs: '22', nonsubs: '19', profile: '47', main: '-', other: '-'},
+            1: {period: '17.04', total: '42', subs: '54.7', nonsubs: '45.2', profile: '47', main: '-', other: '-'}, 
         }
     },
-    {id: 496, 
+    {id: 492, 
+        src: require('../img/main/246.jpg'), 
+        w: 'auto', 
+        h: 'inherit', 
+        text: '', 
+        tags: '', 
+        engagement: '-- -- --',
+        currStatistic: {
+            1: {period: '23.04', total: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'}, 
+        }
+    },
+    {id: 493, 
+        src: require('../img/main/247.jpg'), 
+        w: 'auto', 
+        h: 'inherit', 
+        text: '', 
+        tags: '', 
+        engagement: '-- -- --',
+        currStatistic: {
+            1: {period: '23.04', total: '25', subs: '44', nonsubs: '56', profile: '32', main: '-', other: '-'}, 
+        }
+    },
+    {id: 494, 
         src: require('../img/main/208.jpg'), 
         w: 'auto', 
         h: 'inherit', 
@@ -909,11 +1517,10 @@ export const myCards = [
         tags: '', 
         engagement: '-- -- --',
         currStatistic: {
-            1: {period: '15.01-05.02', subs: '27', nonsubs: '36', profile: '78', main: '-', other: '1'}, 
-            2: {period: '08.01', subs: '27', nonsubs: '36', profile: '79', main: '-', other: '1'},
+            1: {period: '17.04', total: '71', subs: '38.9', nonsubs: '61.1', profile: '86', main: '-', other: '1'},
         }
     },
-    {id: 497, 
+    {id: 495, 
         src: require('../img/main/209.jpg'), 
         w: 'auto', 
         h: 'inherit', 
@@ -921,8 +1528,29 @@ export const myCards = [
         tags: '', 
         engagement: '-- -- --',
         currStatistic: {
-            1: {period: '15.01-05.02', subs: '27', nonsubs: '37', profile: '90', main: '-', other: '1'},
-            2: {period: '08.01', subs: '26', nonsubs: '37', profile: '88', main: '-', other: '1'},
+            1: {period: '17.04', total: '65', subs: '42.4', nonsubs: '57.6', profile: '92', main: '-', other: '1'},
+        }
+    },
+    {id: 496, 
+        src: require('../img/main/248.jpg'), 
+        w: 'auto', 
+        h: 'inherit', 
+        text: '', 
+        tags: '', 
+        engagement: '-- -- --',
+        currStatistic: {
+            1: {period: '23.04', total: '33', subs: '51.5', nonsubs: '48.5', profile: '38', main: '-', other: '-'},
+        }
+    },
+    {id: 497, 
+        src: require('../img/main/244.jpg'), 
+        w: '', 
+        h: '', 
+        text: '', 
+        tags: '', 
+        engagement: '-- -- --',
+        currStatistic: {
+            1: {period: '23.04', total: '-', subs: '-', nonsubs: '-', profile: '-', main: '-', other: '-'},
         }
     },
     {id: 498, 
@@ -933,8 +1561,7 @@ export const myCards = [
         tags: '', 
         engagement: '-- -- --',
         currStatistic: {
-            1: {period: '30.01-05.02', subs: '9', nonsubs: '12', profile: '22', main: '-', other: '-'},
-            2: {period: '15.01-24.01', subs: '8', nonsubs: '12', profile: '21', main: '-', other: '-'},
+            1: {period: '17.04', total: '22', subs: '40.9', nonsubs: '59.1', profile: '23', main: '-', other: '-'},
         }
     },
     {id: 499, 
@@ -945,8 +1572,7 @@ export const myCards = [
         tags: '', 
         engagement: '-- -- --',
         currStatistic: {
-            1: {period: '30.01', subs: '-', nonsubs: '-', profile: '-', main: '51', other: '-'},
-            2: {period: '15.01-24.01', subs: '-', nonsubs: '-', profile: '-', main: '52', other: '-'},
+            1: {period: '17.04', total: '51', subs: '-', nonsubs: '-', profile: '-', main: '51', other: '-'},
         }
     },
 ]

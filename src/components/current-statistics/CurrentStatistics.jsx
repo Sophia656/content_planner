@@ -39,7 +39,8 @@ const CurrentStatistics = ({showCurrStatistics, card, cardObjNum, setCardObjNum}
         datasets: [
             {
             ladel: ['subs', 'nonsubs'],
-            data: [card?.currStatistic?.[cardObjNum]?.subs, card?.currStatistic?.[cardObjNum]?.nonsubs],
+            data: [String(Math.round((parseInt(card?.currStatistic?.[cardObjNum]?.subs) * parseInt(card?.currStatistic?.[cardObjNum]?.totalViews)) / 100)), 
+            String(Math.round((parseInt(card?.currStatistic?.[cardObjNum]?.nonsubs) * parseInt(card?.currStatistic?.[cardObjNum]?.totalViews)) / 100))],
             backgroundColor: ['rgb(26, 109, 217)', 'rgb(5, 25, 51)'],
             borderColor: ['rgb(0, 0, 0, 0.1)']
             },
@@ -55,7 +56,8 @@ const CurrentStatistics = ({showCurrStatistics, card, cardObjNum, setCardObjNum}
             datasets: [
                 {
                 ladel: ['subs', 'nonsubs'],
-                data: [card?.currStatistic?.[cardObjNum]?.subs, card?.currStatistic?.[cardObjNum]?.nonsubs],
+                data: [String(Math.round((parseInt(card?.currStatistic?.[cardObjNum]?.subs) * parseInt(card?.currStatistic?.[cardObjNum]?.totalViews)) / 100)), 
+                String(Math.round((parseInt(card?.currStatistic?.[cardObjNum]?.nonsubs) * parseInt(card?.currStatistic?.[cardObjNum]?.totalViews)) / 100))],
                 backgroundColor: ['rgb(26, 109, 217)', 'rgb(5, 25, 51)'],
                 borderColor: ['rgb(0, 0, 0, 0.1)']
                 },
@@ -68,7 +70,7 @@ const CurrentStatistics = ({showCurrStatistics, card, cardObjNum, setCardObjNum}
 
     return (
         <Wrapper hidden={showCurrStatistics}>
-            <Desc hidden={showCurrStatistics}><span>CURRENT CARD ID - </span>{card?.id} <br/><span> DATE OF UPDATE - </span>{card?.currStatistic?.[cardObjNum]?.period}</Desc>
+            <Desc hidden={showCurrStatistics}>{card?.id} <br/>{card?.currStatistic?.[cardObjNum]?.period} <br/>acc: {card?.currStatistic?.[cardObjNum]?.total} view: {card?.currStatistic?.[cardObjNum]?.totalViews}</Desc>
             <MyCurcle>
                 <PieChart chartData={cardData} dataOptions={cardData.options} />
             </MyCurcle>
